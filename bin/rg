@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "rg",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 1869959,
+      "hash": "blake3",
+      "digest": "9120a2b1432db71750e78fc5659825db1c45e9f179645709f968dca774e59075",
+      "format": "tar.gz",
+      "path": "ripgrep-15.1.0-aarch64-unknown-linux-gnu/rg",
+      "providers": [
+        {
+          "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/BurntSushi/ripgrep",
+          "tag": "15.1.0",
+          "name": "ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 2263077,
+      "hash": "blake3",
+      "digest": "3380cd934e8ba7c4afaccfe4559c205d39b1f4d41e53fec22c9fc8484167da91",
+      "format": "tar.gz",
+      "path": "ripgrep-15.1.0-x86_64-unknown-linux-musl/rg",
+      "providers": [
+        {
+          "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/BurntSushi/ripgrep",
+          "tag": "15.1.0",
+          "name": "ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cloud-hypervisor",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 3440680,
+      "hash": "blake3",
+      "digest": "12814b34ad5a04f4573ff18a31a07a88c06a31374053f87a2ba981074cfa2ebd",
+      "path": "cloud-hypervisor",
+      "providers": [
+        {
+          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v49.0/cloud-hypervisor-static-aarch64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+          "tag": "v49.0",
+          "name": "cloud-hypervisor-static-aarch64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 4682400,
+      "hash": "blake3",
+      "digest": "e1f2282329fb317c9a4628113ffeaa123f13a363be6d3d01497e8b91e43af1bf",
+      "path": "cloud-hypervisor",
+      "providers": [
+        {
+          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v49.0/cloud-hypervisor-static"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+          "tag": "v49.0",
+          "name": "cloud-hypervisor-static"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cloudflared",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 19380182,
+      "hash": "blake3",
+      "digest": "f9eb7847df15175cd56b0a949f8c3b6598b766b49edd58330bb49314fe9d386c",
+      "format": "tar.gz",
+      "path": "cloudflared",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-darwin-arm64.tgz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cloudflared",
+          "tag": "2025.9.1",
+          "name": "cloudflared-darwin-arm64.tgz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 21081942,
+      "hash": "blake3",
+      "digest": "a7a696c7fb36d07eb539459f93420c9086618b7e09098d0509f4a1fefbafa80d",
+      "format": "tar.gz",
+      "path": "cloudflared",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-darwin-amd64.tgz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cloudflared",
+          "tag": "2025.9.1",
+          "name": "cloudflared-darwin-amd64.tgz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 41192406,
+      "hash": "blake3",
+      "digest": "e6e107a5c266a4b5feae4c73c3d83d5da8df462318b3aa8db6f35ac8b36d3b8c",
+      "path": "cloudflared-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cloudflared",
+          "tag": "2025.9.1",
+          "name": "cloudflared-linux-amd64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 39251401,
+      "hash": "blake3",
+      "digest": "b96d26f7ac5cd20efb665c328de8ab20903986d7c2dfa866be8b5bbdf80144e4",
+      "path": "cloudflare-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cloudflared",
+          "tag": "2025.9.1",
+          "name": "cloudflared-linux-arm64"
+        }
+      ]
+    }
+  }
+}

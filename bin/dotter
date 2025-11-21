@@ -1,0 +1,41 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "dotter",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 4242976,
+      "hash": "blake3",
+      "digest": "ebab947cd65dc94e09f0c83d23fab5a28de98df84610afdfbc7fbdcb26043272",
+      "path": "dotter-linux-arm64-musl",
+      "providers": [
+        {
+          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-linux-arm64-musl"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/SuperCuber/dotter",
+          "tag": "v0.13.4",
+          "name": "dotter-linux-arm64-musl"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 5607584,
+      "hash": "blake3",
+      "digest": "d787ecf4d5feeaf5674c11dd0f6bb028f6434b70ee897f2f15bbef38702dd848",
+      "path": "dotter-linux-x64-musl",
+      "providers": [
+        {
+          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-linux-x64-musl"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/SuperCuber/dotter",
+          "tag": "v0.13.4",
+          "name": "dotter-linux-x64-musl"
+        }
+      ]
+    }
+  }
+}

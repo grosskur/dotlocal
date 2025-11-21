@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "protoc",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 3518331,
+      "hash": "blake3",
+      "digest": "046342518ccd66eb358afabcbfb0a119c5028ca77b0e5619e486cf65a3e64bcb",
+      "format": "zip",
+      "path": "bin/protoc",
+      "providers": [
+        {
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-aarch_64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/protocolbuffers/protobuf",
+          "tag": "v33.1",
+          "name": "protoc-33.1-linux-aarch_64.zip"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 3560842,
+      "hash": "blake3",
+      "digest": "5a0d0b90fc3d73e53338e797b6ac3053c9b0332f3a71b41bef30db46cabf2699",
+      "format": "zip",
+      "path": "bin/protoc",
+      "providers": [
+        {
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-x86_64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/protocolbuffers/protobuf",
+          "tag": "v33.1",
+          "name": "protoc-33.1-linux-x86_64.zip"
+        }
+      ]
+    }
+  }
+}

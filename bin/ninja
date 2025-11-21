@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "ninja",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 126282,
+      "hash": "blake3",
+      "digest": "25ef1b62b7fcd279e1594ec4c5156b73ba1c665ab3bb4cf8d46e8ccffbd7bf3e",
+      "format": "zip",
+      "path": "ninja",
+      "providers": [
+        {
+          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux-aarch64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ninja-build/ninja",
+          "tag": "v1.13.1",
+          "name": "ninja-linux-aarch64.zip"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 134048,
+      "hash": "blake3",
+      "digest": "053f5d28e835217145a40b2e43780ce5aacb0ad05d9ef7c091bbeee231f45c9a",
+      "format": "zip",
+      "path": "ninja",
+      "providers": [
+        {
+          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ninja-build/ninja",
+          "tag": "v1.13.1",
+          "name": "ninja-linux.zip"
+        }
+      ]
+    }
+  }
+}
