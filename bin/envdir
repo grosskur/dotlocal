@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "envdir",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 610613,
+      "hash": "blake3",
+      "digest": "8473d6667700fd1a538260a0554eb08eac8b3b9089d494a43f20bb09e8a7e882",
+      "format": "tar.gz",
+      "path": "envdir",
+      "providers": [
+        {
+          "url": "https://github.com/kevinburke/envdir/releases/download/v0.7/envdir_0.7_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kevinburke/envdir",
+          "tag": "v0.7",
+          "name": "envdir_0.7_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 649745,
+      "hash": "blake3",
+      "digest": "fe5bcf3f5917b8f6728fe6e26947edbd6858488fc684dcdf91dfaacfe1643f94",
+      "format": "tar.gz",
+      "path": "envdir",
+      "providers": [
+        {
+          "url": "https://github.com/kevinburke/envdir/releases/download/v0.7/envdir_0.7_linux_x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kevinburke/envdir",
+          "tag": "v0.7",
+          "name": "envdir_0.7_linux_x86_64.tar.gz"
+        }
+      ]
+    }
+  }
+}
