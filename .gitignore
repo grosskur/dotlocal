@@ -1,3 +1,4 @@
-llvm
-share
-tmp
+.envdir/
+llvm/
+share/
+tmp/
