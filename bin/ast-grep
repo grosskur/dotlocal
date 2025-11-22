@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "ast-grep",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 7244924,
+      "hash": "blake3",
+      "digest": "d0b01f5978aba1d157fbe6c88edae102ce688e69f3cba343571b57f81bebdec0",
+      "format": "zip",
+      "path": "ast-grep",
+      "providers": [
+        {
+          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.40.0/app-aarch64-unknown-linux-gnu.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ast-grep/ast-grep",
+          "tag": "0.40.0",
+          "name": "app-aarch64-unknown-linux-gnu.zip"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 7521511,
+      "hash": "blake3",
+      "digest": "f2adfcb442a8fd7ca4f84034ca9da546360362382c0b77ee80197d151d61a104",
+      "format": "zip",
+      "path": "ast-grep",
+      "providers": [
+        {
+          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.40.0/app-x86_64-unknown-linux-gnu.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ast-grep/ast-grep",
+          "tag": "0.40.0",
+          "name": "app-x86_64-unknown-linux-gnu.zip"
+        }
+      ]
+    }
+  }
+}
