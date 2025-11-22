@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "zellij",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 14501271,
+      "hash": "blake3",
+      "digest": "b8878bc666132b2bf17d7209a3f156cd7e3791cc1065b9ede2100810812a5634",
+      "format": "tar.gz",
+      "path": "zellij",
+      "providers": [
+        {
+          "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-aarch64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zellij-org/zellij",
+          "tag": "v0.43.1",
+          "name": "zellij-no-web-aarch64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 15669695,
+      "hash": "blake3",
+      "digest": "74f973deb14c81786a261a34cd626946b49cd52e43e6437caf26027a0290b2e5",
+      "format": "tar.gz",
+      "path": "zellij",
+      "providers": [
+        {
+          "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-x86_64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zellij-org/zellij",
+          "tag": "v0.43.1",
+          "name": "zellij-no-web-x86_64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    }
+  }
+}
