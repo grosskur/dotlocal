@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "kubeconform",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 6982794,
+      "hash": "blake3",
+      "digest": "3b36f0300de1df07b02a45be3f764c832369b181517e93c6655a0ce23b471c6e",
+      "format": "tar.gz",
+      "path": "kubeconform",
+      "providers": [
+        {
+          "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-linux-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/yannh/kubeconform",
+          "tag": "v0.7.0",
+          "name": "kubeconform-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 7491807,
+      "hash": "blake3",
+      "digest": "bd76b2460597ba3c6babd636caab7214899e40b17e6f839acf3e2fe2a857ffe1",
+      "format": "tar.gz",
+      "path": "kubeconform",
+      "providers": [
+        {
+          "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-linux-amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/yannh/kubeconform",
+          "tag": "v0.7.0",
+          "name": "kubeconform-linux-amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
