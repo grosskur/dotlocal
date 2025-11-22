@@ -1,0 +1,2 @@
+#!/bin/bash
+exec envdir "$(dirname $0)/../.envdir" npx --yes @google/gemini-cli@latest "$@"
