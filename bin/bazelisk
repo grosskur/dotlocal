@@ -1,0 +1,41 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "bazelisk",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 6160568,
+      "hash": "blake3",
+      "digest": "dd32fd0ff6e6d869922e22915d4c0d6a894f82ed456d42c14ed0fd9337f32490",
+      "path": "bazelisk-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/bazelbuild/bazelisk",
+          "tag": "v1.27.0",
+          "name": "bazelisk-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 6545592,
+      "hash": "blake3",
+      "digest": "d8d4e75dfa02755672f878c63cba3d21c2eabd1660d279e6204b85eecc6a831a",
+      "path": "bazelisk-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/bazelbuild/bazelisk",
+          "tag": "v1.27.0",
+          "name": "bazelisk-linux-amd64"
+        }
+      ]
+    }
+  }
+}
