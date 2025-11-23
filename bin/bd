@@ -1,0 +1,25 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "bd",
+  "platforms": {
+    "linux-x86_64": {
+      "size": 7484589,
+      "hash": "blake3",
+      "digest": "01a0f49642cf25fcb19fd95fc4344c6937a60be0949dc87c54aba387cd56d85f",
+      "format": "tar.gz",
+      "path": "bd",
+      "providers": [
+        {
+          "url": "https://github.com/steveyegge/beads/releases/download/v0.24.2/beads_0.24.2_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/steveyegge/beads",
+          "tag": "v0.24.2",
+          "name": "beads_0.24.2_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
