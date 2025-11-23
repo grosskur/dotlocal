@@ -1,0 +1,41 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "jq",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 1797872,
+      "hash": "blake3",
+      "digest": "4786647126a7ae8f1125c915e5e9460f5ce16c55c3b42100794e7971084fd805",
+      "path": "jq-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/jqlang/jq",
+          "tag": "jq-1.8.1",
+          "name": "jq-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 2255816,
+      "hash": "blake3",
+      "digest": "b0419e57743765a9682d7924816269862890716d7bd3c1b78b2a3dd1f311a7f9",
+      "path": "jq-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/jqlang/jq",
+          "tag": "jq-1.8.1",
+          "name": "jq-linux-amd64"
+        }
+      ]
+    }
+  }
+}
