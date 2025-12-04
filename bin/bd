@@ -3,21 +3,39 @@
 {
   "name": "bd",
   "platforms": {
-    "linux-x86_64": {
-      "size": 7484589,
+    "linux-aarch64": {
+      "size": 7054886,
       "hash": "blake3",
-      "digest": "01a0f49642cf25fcb19fd95fc4344c6937a60be0949dc87c54aba387cd56d85f",
+      "digest": "d1c704724de3b5a59cac2e535ac9c79bec789081782dc8fc1a963d3dd4b4d8a9",
       "format": "tar.gz",
       "path": "bd",
       "providers": [
         {
-          "url": "https://github.com/steveyegge/beads/releases/download/v0.24.2/beads_0.24.2_linux_amd64.tar.gz"
+          "url": "https://github.com/steveyegge/beads/releases/download/v0.29.0/beads_0.29.0_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/steveyegge/beads",
-          "tag": "v0.24.2",
-          "name": "beads_0.24.2_linux_amd64.tar.gz"
+          "tag": "v0.29.0",
+          "name": "beads_0.29.0_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 7648237,
+      "hash": "blake3",
+      "digest": "28b1766a530448c0ae302784c28108284ba2768e824ee5b1e00b1033fa24675c",
+      "format": "tar.gz",
+      "path": "bd",
+      "providers": [
+        {
+          "url": "https://github.com/steveyegge/beads/releases/download/v0.29.0/beads_0.29.0_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/steveyegge/beads",
+          "tag": "v0.29.0",
+          "name": "beads_0.29.0_linux_amd64.tar.gz"
         }
       ]
     }
