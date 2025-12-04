@@ -1,0 +1,29 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "claude",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 204068194,
+      "hash": "blake3",
+      "digest": "f148eb6cb900ec0d494ce9a57d7390f30ad718154889a0f4c5f37826b7566e88",
+      "path": "claude",
+      "providers": [
+        {
+          "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/linux-arm64/claude"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 211547692,
+      "hash": "blake3",
+      "digest": "6b8d1ce259b5dc78f060511ec4bf44b145530d36ae48ee9dfc6c8075fc3a8b49",
+      "path": "claude",
+      "providers": [
+        {
+          "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/linux-x64/claude"
+        }
+      ]
+    }
+  }
+}
