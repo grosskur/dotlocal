@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "bun",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 37737441,
+      "hash": "blake3",
+      "digest": "c2631d04f2452a6944244e1d7bc03ac6d2ae45c2251e57461a7eadc2cc055ab5",
+      "format": "zip",
+      "path": "bun-linux-aarch64/bun",
+      "providers": [
+        {
+          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.3/bun-linux-aarch64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/oven-sh/bun",
+          "tag": "v1.3.3",
+          "name": "bun-linux-aarch64.zip"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 39373706,
+      "hash": "blake3",
+      "digest": "2a039fe76a1bc9d414536fdf979210360b8f9082a8708a741f480badd25deaa0",
+      "format": "zip",
+      "path": "bun-linux-x64/bun",
+      "providers": [
+        {
+          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.3/bun-linux-x64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/oven-sh/bun",
+          "tag": "v1.3.3",
+          "name": "bun-linux-x64.zip"
+        }
+      ]
+    }
+  }
+}
