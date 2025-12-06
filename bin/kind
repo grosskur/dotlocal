@@ -1,0 +1,29 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "kind",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 10453204,
+      "hash": "blake3",
+      "digest": "87fb85e8264998d28cba4c9e4031c092e642a60f3a447d3fd3f19350fbd77319",
+      "path": "kind-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 11055553,
+      "hash": "blake3",
+      "digest": "af832bdeb51387897fb96655befff09a55410729e2a050c6ec2e437636d17eab",
+      "path": "kind-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64"
+        }
+      ]
+    }
+  }
+}
