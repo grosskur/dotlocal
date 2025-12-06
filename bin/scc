@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "scc",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 1649040,
+      "hash": "blake3",
+      "digest": "96336b78d277bb0185d4ea37fd2a9119694bf9a33cac823ac7d76ee416e3153d",
+      "format": "tar.gz",
+      "path": "scc",
+      "providers": [
+        {
+          "url": "https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/boyter/scc",
+          "tag": "v3.6.0",
+          "name": "scc_Linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 1819741,
+      "hash": "blake3",
+      "digest": "6b56afc9f25f59b9f0e652878d956540b41925b2b38ae91c2161655f92bc2703",
+      "format": "tar.gz",
+      "path": "scc",
+      "providers": [
+        {
+          "url": "https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/boyter/scc",
+          "tag": "v3.6.0",
+          "name": "scc_Linux_x86_64.tar.gz"
+        }
+      ]
+    }
+  }
+}
