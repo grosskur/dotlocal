@@ -1,4 +1,5 @@
-.envdir/
-opt/
-share/
-tmp/
+/.envdir/
+/bin/claude
+/opt/
+/share/
+/tmp/
