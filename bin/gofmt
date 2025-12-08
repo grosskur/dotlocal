@@ -8,7 +8,7 @@
       "hash": "blake3",
       "digest": "db9418327180e4733cf104b0fe2e30d8c010c45dfda652a72a494f6aeba675b2",
       "format": "tar.gz",
-      "path": "go/bin/go",
+      "path": "go/bin/gofmt",
       "providers": [
         {
           "url": "https://go.dev/dl/go1.25.4.linux-arm64.tar.gz"
@@ -20,7 +20,7 @@
       "hash": "blake3",
       "digest": "6a8bafff37eb9e42def1dd5b899843addd86d4bfd5c88bb80ec5b4e42673d683",
       "format": "tar.gz",
-      "path": "go/bin/go",
+      "path": "go/bin/gofmt",
       "providers": [
         {
           "url": "https://go.dev/dl/go1.25.4.linux-amd64.tar.gz"
