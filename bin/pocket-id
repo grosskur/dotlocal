@@ -1,0 +1,41 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "pocket-id",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 55181496,
+      "hash": "blake3",
+      "digest": "e815eab88b27cdd5720fab2d63208173f364c7ce8c175c503f8b406ecbf02335",
+      "path": "pocket-id-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v1.16.0/pocket-id-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pocket-id/pocket-id",
+          "tag": "v1.16.0",
+          "name": "pocket-id-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 58900664,
+      "hash": "blake3",
+      "digest": "2ff3e94861d8907f079d5ff9acf6bbade8c08eab0404f3d0b769bc4875d50d48",
+      "path": "pocket-id-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v1.16.0/pocket-id-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pocket-id/pocket-id",
+          "tag": "v1.16.0",
+          "name": "pocket-id-linux-amd64"
+        }
+      ]
+    }
+  }
+}
