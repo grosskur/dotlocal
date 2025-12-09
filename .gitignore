@@ -1,5 +1,7 @@
 /.envdir/
 /bin/claude
+/bin/opencode
 /opt/
 /share/
+/state/
 /tmp/
