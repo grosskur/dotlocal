@@ -11,6 +11,12 @@
       "providers": [
         {
           "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kind",
+          "tag": "v0.30.0",
+          "name": "kind-linux-arm64"
         }
       ]
     },
@@ -22,6 +28,12 @@
       "providers": [
         {
           "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kind",
+          "tag": "v0.30.0",
+          "name": "kind-linux-amd64"
         }
       ]
     }
