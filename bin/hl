@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "hl",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 3088554,
+      "hash": "blake3",
+      "digest": "97ff560b2b6a0a332f9270127e05b6eec74b376ff9c2d041802376cd53f6dd14",
+      "format": "tar.gz",
+      "path": "hl",
+      "providers": [
+        {
+          "url": "https://github.com/pamburus/hl/releases/download/v0.32.3/hl-linux-arm64-gnu.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pamburus/hl",
+          "tag": "v0.32.3",
+          "name": "hl-linux-arm64-gnu.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 3319381,
+      "hash": "blake3",
+      "digest": "54752bd6d5775be00a215f2f859c0996149adbea090ec0595eeb6bd349dd95c6",
+      "format": "tar.gz",
+      "path": "hl",
+      "providers": [
+        {
+          "url": "https://github.com/pamburus/hl/releases/download/v0.32.3/hl-linux-x86_64-gnu.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pamburus/hl",
+          "tag": "v0.32.3",
+          "name": "hl-linux-x86_64-gnu.tar.gz"
+        }
+      ]
+    }
+  }
+}
