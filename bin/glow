@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "glow",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 5789499,
+      "hash": "blake3",
+      "digest": "bd482903d0c9db5cf9733d638bd6990f8397c26f3eb0f15eb008ab6c899245a9",
+      "format": "tar.gz",
+      "path": "glow_2.1.1_Linux_arm64/glow",
+      "providers": [
+        {
+          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.1/glow_2.1.1_Linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/charmbracelet/glow",
+          "tag": "v2.1.1",
+          "name": "glow_2.1.1_Linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 6321230,
+      "hash": "blake3",
+      "digest": "4da2800621774a9367f39f9ee3ffa1f62864cd5e7331004ca6ecf7028b0932d4",
+      "format": "tar.gz",
+      "path": "glow_2.1.1_Linux_x86_64/glow",
+      "providers": [
+        {
+          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.1/glow_2.1.1_Linux_x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/charmbracelet",
+          "tag": "v2.1.1",
+          "name": "glow_2.1.1_Linux_x86_64.tar.gz"
+        }
+      ]
+    }
+  }
+}
