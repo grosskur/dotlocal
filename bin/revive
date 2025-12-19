@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "revive",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 3673502,
+      "hash": "blake3",
+      "digest": "94d8067ca6e093262853c0663b554c2b7d9b27d6385778cbb705f539452479c9",
+      "format": "tar.gz",
+      "path": "revive",
+      "providers": [
+        {
+          "url": "https://github.com/mgechev/revive/releases/download/v1.13.0/revive_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/mgechev/revive",
+          "tag": "v1.13.0",
+          "name": "revive_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 4047586,
+      "hash": "blake3",
+      "digest": "346a69b1ab814a881854b15004f65b8ece287c4c96910e823753f15e62ac7b6c",
+      "format": "tar.gz",
+      "path": "revive",
+      "providers": [
+        {
+          "url": "https://github.com/mgechev/revive/releases/download/v1.13.0/revive_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/mgechev/revive",
+          "tag": "v1.13.0",
+          "name": "revive_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
