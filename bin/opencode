@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "opencode",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 49067821,
+      "hash": "blake3",
+      "digest": "4dd09b70c1fdcba17315f0513338eccea765e08897510ed1f84ece8f2d4dcaa0",
+      "format": "tar.gz",
+      "path": "opencode",
+      "providers": [
+        {
+          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.1/opencode-linux-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/anomalyco/opencode",
+          "tag": "v1.1.1",
+          "name": "opencode-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 50617216,
+      "hash": "blake3",
+      "digest": "095cec8437d0818e45ad2fe30f1cee3817ff40f47357abb0bb385b078f278a38",
+      "format": "tar.gz",
+      "path": "opencode",
+      "providers": [
+        {
+          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.1/opencode-linux-x64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/anomalyco/opencode",
+          "tag": "v1.1.1",
+          "name": "opencode-linux-x64.tar.gz"
+        }
+      ]
+    }
+  }
+}
