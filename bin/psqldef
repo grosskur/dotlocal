@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "psqldef",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 4966720,
+      "hash": "blake3",
+      "digest": "e272d7c7a6ee4502668051b2325371bd6cc4ddbc1628c8b7009003a3eb35d76a",
+      "format": "tar.gz",
+      "path": "psqldef",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.9.4/psqldef_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.9.4",
+          "name": "psqldef_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 5474411,
+      "hash": "blake3",
+      "digest": "ec7ec8e2332cef7e90bd1c1a42f5cceb409b70f17e2872fd643a4b15414eb5dd",
+      "format": "tar.gz",
+      "path": "psqldef",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.9.4/psqldef_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.9.4",
+          "name": "psqldef_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
