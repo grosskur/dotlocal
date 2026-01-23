@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "templ",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 4952455,
+      "hash": "blake3",
+      "digest": "a485071dbb48c145276ed38ce0208407a9d76e17f776cabb97b16ae418687263",
+      "format": "tar.gz",
+      "path": "templ",
+      "providers": [
+        {
+          "url": "https://github.com/a-h/templ/releases/download/v0.3.977/templ_Linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/a-h/templ",
+          "tag": "v0.3.977",
+          "name": "templ_Linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 5342127,
+      "hash": "blake3",
+      "digest": "78b1beccbfd3e35fae0d8e4f187e5f9fb314056808ada8801168c18c6f260621",
+      "format": "tar.gz",
+      "path": "templ",
+      "providers": [
+        {
+          "url": "https://github.com/a-h/templ/releases/download/v0.3.977/templ_Linux_x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/a-h/templ",
+          "tag": "v0.3.977",
+          "name": "templ_Linux_x86_64.tar.gz"
+        }
+      ]
+    }
+  }
+}
