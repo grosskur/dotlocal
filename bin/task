@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "task",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 9567683,
+      "hash": "blake3",
+      "digest": "d94da9b168925b0169418d8e617c7700f85b1d760f12cdefb04e7941837d542a",
+      "format": "tar.gz",
+      "path": "task",
+      "providers": [
+        {
+          "url": "https://github.com/go-task/task/releases/download/v3.46.4/task_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/go-task/task",
+          "tag": "v3.46.4",
+          "name": "task_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 10537373,
+      "hash": "blake3",
+      "digest": "e6e4de29bdfad92b6383b45774c2bb724cc35ae79b218051af3af8daf16dd020",
+      "format": "tar.gz",
+      "path": "task",
+      "providers": [
+        {
+          "url": "https://github.com/go-task/task/releases/download/v3.46.4/task_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/go-task/task",
+          "tag": "v3.46.4",
+          "name": "task_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
