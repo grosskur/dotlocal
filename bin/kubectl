@@ -3,6 +3,17 @@
 {
   "name": "kubectl",
   "platforms": {
+    "macos-aarch64": {
+      "size": 59775266,
+      "hash": "blake3",
+      "digest": "cc44dd9c9fef29467fa2e0c890b08aadc81e2c89b21ecd083cf59e373c741fff",
+      "path": "kubectl",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.34.2/bin/darwin/arm64/kubectl"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 58130616,
       "hash": "blake3",

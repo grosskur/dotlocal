@@ -3,6 +3,24 @@
 {
   "name": "fd",
   "platforms": {
+    "macos-aarch64": {
+      "size": 1337349,
+      "hash": "blake3",
+      "digest": "e7a554aed4fea189f2aa297e82087ceaebb844eac55a2503e5321cce88fbb636",
+      "format": "tar.gz",
+      "path": "fd-v10.3.0-aarch64-apple-darwin/fd",
+      "providers": [
+        {
+          "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sharkdp/fd",
+          "tag": "v10.3.0",
+          "name": "fd-v10.3.0-aarch64-apple-darwin.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 1575492,
       "hash": "blake3",

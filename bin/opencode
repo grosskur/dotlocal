@@ -3,6 +3,24 @@
 {
   "name": "opencode",
   "platforms": {
+    "macos-aarch64": {
+      "size": 32615821,
+      "hash": "blake3",
+      "digest": "8c6504a6fdc3cf988d60b7320bc055b5d0ca382d698f6dbec288804de068e219",
+      "format": "zip",
+      "path": "opencode",
+      "providers": [
+        {
+          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.1/opencode-darwin-arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/anomalyco/opencode",
+          "tag": "v1.1.1",
+          "name": "opencode-darwin-arm64.zip"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 49067821,
       "hash": "blake3",

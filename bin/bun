@@ -3,6 +3,24 @@
 {
   "name": "bun",
   "platforms": {
+    "macos-aarch64": {
+      "size": 22063538,
+      "hash": "blake3",
+      "digest": "2b8fa453577fa737c9eaf42730791360c8a133397db28684c93e49f9dd5d501a",
+      "format": "zip",
+      "path": "bun-darwin-aarch64/bun",
+      "providers": [
+        {
+          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.3/bun-darwin-aarch64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/oven-sh/bun",
+          "tag": "v1.3.3",
+          "name": "bun-darwin-aarch64.zip"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 37737441,
       "hash": "blake3",

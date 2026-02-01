@@ -3,6 +3,24 @@
 {
   "name": "ast-grep",
   "platforms": {
+    "macos-aarch64": {
+      "size": 7350093,
+      "hash": "blake3",
+      "digest": "514d56b22744eba10e62ae44332d93caec7aa75790a8e784f81f90804caafc00",
+      "format": "zip",
+      "path": "ast-grep",
+      "providers": [
+        {
+          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.40.0/app-aarch64-apple-darwin.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ast-grep/ast-grep",
+          "tag": "0.40.0",
+          "name": "app-aarch64-apple-darwin.zip"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 7244924,
       "hash": "blake3",

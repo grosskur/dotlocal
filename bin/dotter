@@ -3,6 +3,23 @@
 {
   "name": "dotter",
   "platforms": {
+    "macos-aarch64": {
+      "size": 3513552,
+      "hash": "blake3",
+      "digest": "7484387e8283e7503593ae9667d97898f3167eb82b87f87de5936b93c3378472",
+      "path": "dotter-macos-arm64.arm",
+      "providers": [
+        {
+          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-macos-arm64.arm"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/SuperCuber/dotter",
+          "tag": "v0.13.4",
+          "name": "dotter-macos-arm64.arm"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 4242976,
       "hash": "blake3",

@@ -3,6 +3,23 @@
 {
   "name": "tailwindcss",
   "platforms": {
+    "macos-aarch64": {
+      "size": 75389328,
+      "hash": "blake3",
+      "digest": "ac0e8c2581059e6bf1b0d1b02946a25f0520e6383ca3e9950b23033fdc455afc",
+      "path": "tailwindcss-macos-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.1.18/tailwindcss-macos-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/tailwindlabs/tailwindcss",
+          "tag": "v4.1.18",
+          "name": "tailwindcss-macos-arm64"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 111693069,
       "hash": "blake3",

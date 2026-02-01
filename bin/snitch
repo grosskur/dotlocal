@@ -3,6 +3,24 @@
 {
   "name": "snitch",
   "platforms": {
+    "macos-aarch64": {
+      "size": 3431072,
+      "hash": "blake3",
+      "digest": "d3b45d4478399a703de9ef69cf2af6c3e037ba32270ddaba12aef8925f381f05",
+      "format": "tar.gz",
+      "path": "snitch",
+      "providers": [
+        {
+          "url": "https://github.com/karol-broda/snitch/releases/download/v0.1.8/snitch_0.1.8_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/karol-broda/snitch",
+          "tag": "v0.1.8",
+          "name": "snitch_0.1.8_darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 3361697,
       "hash": "blake3",

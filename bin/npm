@@ -3,6 +3,18 @@
 {
   "name": "npm",
   "platforms": {
+    "macos-aarch64": {
+      "size": 26191752,
+      "hash": "blake3",
+      "digest": "5c5909c61ed1748b291492b695ea64f2c64bfde1d134a7e2378e69a172bf7730",
+      "format": "tar.xz",
+      "path": "node-v24.11.1-darwin-arm64/lib/node_modules/npm/bin/npm",
+      "providers": [
+        {
+          "url": "https://nodejs.org/dist/v24.11.1/node-v24.11.1-darwin-arm64.tar.xz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 29707360,
       "hash": "blake3",

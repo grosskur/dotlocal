@@ -3,6 +3,23 @@
 {
   "name": "kind",
   "platforms": {
+    "macos-aarch64": {
+      "size": 10624850,
+      "hash": "blake3",
+      "digest": "d5f71fe49ef1fb4b2d0ecb83b51bc2f7272a5e993e8d8143ff9c06f329afcd3d",
+      "path": "kind-darwin-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kind",
+          "tag": "v0.30.0",
+          "name": "kind-darwin-arm64"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 10453204,
       "hash": "blake3",

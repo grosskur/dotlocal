@@ -3,6 +3,23 @@
 {
   "name": "pocket-id",
   "platforms": {
+    "macos-aarch64": {
+      "size": 56907058,
+      "hash": "blake3",
+      "digest": "ae4f31345ca8f6cdcccc03f2792bb501abe78ee181b3c2d1f1cac0f953505ad5",
+      "path": "pocket-id-macos-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v1.16.0/pocket-id-macos-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pocket-id/pocket-id",
+          "tag": "v1.16.0",
+          "name": "pocket-id-macos-arm64"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 55181496,
       "hash": "blake3",

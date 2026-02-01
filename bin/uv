@@ -3,6 +3,24 @@
 {
   "name": "uv",
   "platforms": {
+    "macos-aarch64": {
+      "size": 18409829,
+      "hash": "blake3",
+      "digest": "7996e5569c1275732b9fe691f238f50d85e1780ac4b450245c77ead2dc0159b7",
+      "format": "tar.gz",
+      "path": "uv-aarch64-apple-darwin/uv",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.9.11/uv-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/astral-sh/uv",
+          "tag": "0.9.11",
+          "name": "uv-aarch64-apple-darwin.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 20479219,
       "hash": "blake3",

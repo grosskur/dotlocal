@@ -3,6 +3,24 @@
 {
   "name": "kubeconform",
   "platforms": {
+    "macos-aarch64": {
+      "size": 7031569,
+      "hash": "blake3",
+      "digest": "01b77521742f74bde028dc834b76e246ce8f3effcfe7cf82d3bc873e39345e17",
+      "format": "tar.gz",
+      "path": "kubeconform",
+      "providers": [
+        {
+          "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-darwin-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/yannh/kubeconform",
+          "tag": "v0.7.0",
+          "name": "kubeconform-darwin-arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 6982794,
       "hash": "blake3",

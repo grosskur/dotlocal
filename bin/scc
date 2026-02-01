@@ -3,6 +3,24 @@
 {
   "name": "scc",
   "platforms": {
+    "macos-aarch64": {
+      "size": 1709021,
+      "hash": "blake3",
+      "digest": "ac021d0f2848274c35b97c35e78901aa523d74010746cbf787e05c6ae9a71733",
+      "format": "tar.gz",
+      "path": "scc",
+      "providers": [
+        {
+          "url": "https://github.com/boyter/scc/releases/download/v3.6.0/scc_Darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/boyter/scc",
+          "tag": "v3.6.0",
+          "name": "scc_Darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 1649040,
       "hash": "blake3",

@@ -3,6 +3,24 @@
 {
   "name": "protoc",
   "platforms": {
+    "macos-aarch64": {
+      "size": 2532995,
+      "hash": "blake3",
+      "digest": "b98249373bb4997c8d18345e5ffb203e99ded3253c882b5bb9dcc0ca2a8debf1",
+      "format": "zip",
+      "path": "bin/protoc",
+      "providers": [
+        {
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-osx-aarch_64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/protocolbuffers/protobuf",
+          "tag": "v33.1",
+          "name": "protoc-33.1-osx-aarch_64.zip"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 3518331,
       "hash": "blake3",

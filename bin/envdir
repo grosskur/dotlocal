@@ -3,6 +3,24 @@
 {
   "name": "envdir",
   "platforms": {
+    "macos-aarch64": {
+      "size": 658548,
+      "hash": "blake3",
+      "digest": "cfe0ec63adac277d09abc66675c57f939d6551700c9d8573032caee5166daa03",
+      "format": "tar.gz",
+      "path": "envdir",
+      "providers": [
+        {
+          "url": "https://github.com/kevinburke/envdir/releases/download/v0.7/envdir_0.7_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kevinburke/envdir",
+          "tag": "v0.7",
+          "name": "envdir_0.7_darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 610613,
       "hash": "blake3",

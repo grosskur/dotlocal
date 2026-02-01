@@ -3,6 +3,24 @@
 {
   "name": "ninja",
   "platforms": {
+    "macos-aarch64": {
+      "size": 314009,
+      "hash": "blake3",
+      "digest": "31719eacb643ad5a5a5c0b4f3d323b841eaefd694c6095196360abd82fbb45ad",
+      "format": "zip",
+      "path": "ninja",
+      "providers": [
+        {
+          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-mac.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ninja-build/ninja",
+          "tag": "v1.13.1",
+          "name": "ninja-mac.zip"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 126282,
       "hash": "blake3",

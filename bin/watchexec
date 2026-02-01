@@ -3,6 +3,24 @@
 {
   "name": "watchexec",
   "platforms": {
+    "macos-aarch64": {
+      "size": 2009068,
+      "hash": "blake3",
+      "digest": "31d8c3c5f9b287ef145b22e2cfa58569099a93e0794e824daeef4231969f7e45",
+      "format": "tar.xz",
+      "path": "watchexec-2.3.2-aarch64-apple-darwin/watchexec",
+      "providers": [
+        {
+          "url": "https://github.com/watchexec/watchexec/releases/download/v2.3.2/watchexec-2.3.2-aarch64-apple-darwin.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/watchexec/watchexec",
+          "tag": "v2.3.2",
+          "name": "watchexec-2.3.2-aarch64-apple-darwin.tar.xz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 2511576,
       "hash": "blake3",

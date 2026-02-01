@@ -3,6 +3,24 @@
 {
   "name": "templ",
   "platforms": {
+    "macos-aarch64": {
+      "size": 5191728,
+      "hash": "blake3",
+      "digest": "b91da17a547b191b57d71a050b1808dc431ef712231ac6808716e819f9643b9f",
+      "format": "tar.gz",
+      "path": "templ",
+      "providers": [
+        {
+          "url": "https://github.com/a-h/templ/releases/download/v0.3.977/templ_Darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/a-h/templ",
+          "tag": "v0.3.977",
+          "name": "templ_Darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 4952455,
       "hash": "blake3",

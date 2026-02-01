@@ -3,6 +3,23 @@
 {
   "name": "bazelisk",
   "platforms": {
+    "macos-aarch64": {
+      "size": 6286130,
+      "hash": "blake3",
+      "digest": "2ca1332cda8275aad722a04f721e4c5cae879e148d7f7e40af19dc88a1c157c0",
+      "path": "bazelisk-darwin-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-darwin-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/bazelbuild/bazelisk",
+          "tag": "v1.27.0",
+          "name": "bazelisk-darwin-arm64"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 6160568,
       "hash": "blake3",

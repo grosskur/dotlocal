@@ -3,6 +3,24 @@
 {
   "name": "hl",
   "platforms": {
+    "macos-aarch64": {
+      "size": 2757885,
+      "hash": "blake3",
+      "digest": "6fb042f384038a89c8a00f88ac286c0535643b468d77595e09cb1af9d532bb52",
+      "format": "tar.gz",
+      "path": "hl",
+      "providers": [
+        {
+          "url": "https://github.com/pamburus/hl/releases/download/v0.32.3/hl-macos-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pamburus/hl",
+          "tag": "v0.32.3",
+          "name": "hl-macos-arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 3088554,
       "hash": "blake3",

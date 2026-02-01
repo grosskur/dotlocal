@@ -3,6 +3,18 @@
 {
   "name": "go",
   "platforms": {
+    "macos-aarch64": {
+      "size": 58026727,
+      "hash": "blake3",
+      "digest": "d7f27b2c4a08e90a28350969248ba7f56405ceca2eaa13a82f4c129f4a8722b4",
+      "format": "tar.gz",
+      "path": "go/bin/go",
+      "providers": [
+        {
+          "url": "https://go.dev/dl/go1.25.4.darwin-arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 57268847,
       "hash": "blake3",

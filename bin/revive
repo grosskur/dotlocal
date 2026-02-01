@@ -3,6 +3,24 @@
 {
   "name": "revive",
   "platforms": {
+    "macos-aarch64": {
+      "size": 3803433,
+      "hash": "blake3",
+      "digest": "b1df5ae121ab0164beb43f35fc83a1c9edb02317143adb3b1415056af0927ed3",
+      "format": "tar.gz",
+      "path": "revive",
+      "providers": [
+        {
+          "url": "https://github.com/mgechev/revive/releases/download/v1.13.0/revive_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/mgechev/revive",
+          "tag": "v1.13.0",
+          "name": "revive_darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 3673502,
       "hash": "blake3",

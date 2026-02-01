@@ -3,6 +3,24 @@
 {
   "name": "task",
   "platforms": {
+    "macos-aarch64": {
+      "size": 10030577,
+      "hash": "blake3",
+      "digest": "5e8ade6577a7d82d24becfd27db44ec671f275a7fc2f0a2aa571c7564a734dd7",
+      "format": "tar.gz",
+      "path": "task",
+      "providers": [
+        {
+          "url": "https://github.com/go-task/task/releases/download/v3.46.4/task_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/go-task/task",
+          "tag": "v3.46.4",
+          "name": "task_darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 9567683,
       "hash": "blake3",

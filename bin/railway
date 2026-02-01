@@ -3,6 +3,24 @@
 {
   "name": "railway",
   "platforms": {
+    "macos-aarch64": {
+      "size": 2832625,
+      "hash": "blake3",
+      "digest": "6e486c4ce91f3d7ffdcd1cfaa0ca40ae70837cda0c5b40f0cead416a9793f76c",
+      "format": "tar.gz",
+      "path": "railway",
+      "providers": [
+        {
+          "url": "https://github.com/railwayapp/cli/releases/download/v4.16.1/railway-v4.16.1-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/railwayapp/cli",
+          "tag": "v4.16.1",
+          "name": "railway-v4.16.1-aarch64-apple-darwin.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 3941745,
       "hash": "blake3",

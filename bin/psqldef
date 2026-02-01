@@ -3,6 +3,24 @@
 {
   "name": "psqldef",
   "platforms": {
+    "macos-aarch64": {
+      "size": 5182529,
+      "hash": "blake3",
+      "digest": "601b4afb510143258d83174de0d590879ec204d68d93c74942a0620ee24c86e0",
+      "format": "zip",
+      "path": "psqldef",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.9.4/psqldef_darwin_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.9.4",
+          "name": "psqldef_darwin_arm64.zip"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 4966720,
       "hash": "blake3",

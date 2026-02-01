@@ -3,6 +3,18 @@
 {
   "name": "zig",
   "platforms": {
+    "macos-aarch64": {
+      "size": 50635984,
+      "hash": "blake3",
+      "digest": "c7d2fb746701fea2c070f66c29a0300ba42a0d5d2c09c493462b8c0f4f0bd604",
+      "format": "tar.xz",
+      "path": "zig-aarch64-macos-0.15.2/zig",
+      "providers": [
+        {
+          "url": "https://ziglang.org/download/0.15.2/zig-aarch64-macos-0.15.2.tar.xz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 49471996,
       "hash": "blake3",

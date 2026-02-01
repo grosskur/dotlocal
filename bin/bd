@@ -3,6 +3,24 @@
 {
   "name": "bd",
   "platforms": {
+    "macos-aarch64": {
+      "size": 7319866,
+      "hash": "blake3",
+      "digest": "5a4481292339c37e9ea641a68bb6dfab9f159d6997ff07ddd8f098c32f41e81e",
+      "format": "tar.gz",
+      "path": "bd",
+      "providers": [
+        {
+          "url": "https://github.com/steveyegge/beads/releases/download/v0.29.0/beads_0.29.0_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/steveyegge/beads",
+          "tag": "v0.29.0",
+          "name": "beads_0.29.0_darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 7054886,
       "hash": "blake3",

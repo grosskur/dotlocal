@@ -3,6 +3,24 @@
 {
   "name": "zellij",
   "platforms": {
+    "macos-aarch64": {
+      "size": 12620507,
+      "hash": "blake3",
+      "digest": "42947740b67a439ab3af3155abb8780f90a67132dbad1f51c549f84750aa39b6",
+      "format": "tar.gz",
+      "path": "zellij",
+      "providers": [
+        {
+          "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zellij-org/zellij",
+          "tag": "v0.43.1",
+          "name": "zellij-no-web-aarch64-apple-darwin.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 14501271,
       "hash": "blake3",

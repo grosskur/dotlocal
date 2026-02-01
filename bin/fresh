@@ -3,6 +3,24 @@
 {
   "name": "fresh",
   "platforms": {
+    "macos-aarch64": {
+      "size": 18044980,
+      "hash": "blake3",
+      "digest": "1b1e255d9091fffc8deebf011fe900e309b7b49e41d5ca46828495b0254a07be",
+      "format": "tar.xz",
+      "path": "fresh-editor-aarch64-apple-darwin/fresh",
+      "providers": [
+        {
+          "url": "https://github.com/sinelaw/fresh/releases/download/v0.1.17/fresh-editor-aarch64-apple-darwin.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sinelaw/fresh",
+          "tag": "v0.1.17",
+          "name": "fresh-editor-aarch64-apple-darwin.tar.xz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 28810968,
       "hash": "blake3",

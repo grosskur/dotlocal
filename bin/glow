@@ -3,6 +3,24 @@
 {
   "name": "glow",
   "platforms": {
+    "macos-aarch64": {
+      "size": 6029837,
+      "hash": "blake3",
+      "digest": "40c03c98871371ac2107cc18d2a20a4023d97fc661f7d52bcec60f1434a21e15",
+      "format": "tar.gz",
+      "path": "glow_2.1.1_Darwin_arm64/glow",
+      "providers": [
+        {
+          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.1/glow_2.1.1_Darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/charmbracelet/glow",
+          "tag": "v2.1.1",
+          "name": "glow_2.1.1_Darwin_arm64.tar.gz"
+        }
+      ]
+    },
     "linux-aarch64": {
       "size": 5789499,
       "hash": "blake3",
