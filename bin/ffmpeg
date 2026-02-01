@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "ffmpeg",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 120464904,
+      "hash": "blake3",
+      "digest": "2648c8ddb04cc4630749a506a6743c2507495b22091e8fb82152e7f3c57b640b",
+      "format": "tar.xz",
+      "path": "ffmpeg-n8.0.1-48-g0592be14ff-linuxarm64-gpl-8.0/bin/ffmpeg",
+      "providers": [
+        {
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-01-31-12-57/ffmpeg-n8.0.1-48-g0592be14ff-linuxarm64-gpl-8.0.tar.xz",
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/BtbN/FFmpeg-Builds",
+          "tag": "autobuild-2026-01-31-12-57",
+          "name": "ffmpeg-n8.0.1-48-g0592be14ff-linuxarm64-gpl-8.0.tar.xz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 138994960,
+      "hash": "blake3",
+      "digest": "1f999a57773668f3c473f0cedeb2d963e750cd6a76f94370956607691bd87bc1",
+      "format": "tar.xz",
+      "path": "ffmpeg-n8.0.1-48-g0592be14ff-linux64-gpl-8.0/bin/ffmpeg",
+      "providers": [
+        {
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-01-31-12-57/ffmpeg-n8.0.1-48-g0592be14ff-linux64-gpl-8.0.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/BtbN/FFmpeg-Builds",
+          "tag": "autobuild-2026-01-31-12-57",
+          "name": "ffmpeg-n8.0.1-48-g0592be14ff-linux64-gpl-8.0.tar.xz"
+        }
+      ]
+    }
+  }
+}
