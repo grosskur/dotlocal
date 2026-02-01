@@ -4,109 +4,109 @@
   "name": "codex",
   "platforms": {
     "macos-aarch64": {
-      "size": 14281449,
+      "size": 15852268,
       "hash": "blake3",
-      "digest": "1b66f7c65e6ac798d70b0850acbe862a33349ed8493c6e9e75e4148402cd881d",
+      "digest": "995478caf2427fc6d791dc551d621d7a14503f237aa42b3073a406e7f3eab2bc",
       "format": "zst",
       "path": "codex",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.92.0/codex-aarch64-apple-darwin.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.93.0/codex-aarch64-apple-darwin.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.92.0",
+          "tag": "rust-v0.93.0",
           "name": "codex-aarch64-apple-darwin.zst"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 16105059,
+      "size": 18165392,
       "hash": "blake3",
-      "digest": "1c5207776c71b7a4f48a334e45b7b72a941f271b172a23d08e536a499ffd82dd",
+      "digest": "fa3c63569b044c33d72b508e07fb90efe2404f3801cc69325390c899b746d651",
       "format": "zst",
       "path": "codex",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.92.0/codex-x86_64-apple-darwin.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.93.0/codex-x86_64-apple-darwin.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.92.0",
+          "tag": "rust-v0.93.0",
           "name": "codex-x86_64-apple-darwin.zst"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 18409344,
+      "size": 20401223,
       "hash": "blake3",
-      "digest": "8b3ff57c5066c5cf7432751ab7b5d697cad33f0ff98bde804815ac9604b0d048",
+      "digest": "9f7d551860a162f9fb095b02ca7a26270d7601118e4e6fef518f25ac2baa66de",
       "format": "zst",
       "path": "codex",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.92.0/codex-x86_64-unknown-linux-musl.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.93.0/codex-x86_64-unknown-linux-musl.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.92.0",
+          "tag": "rust-v0.93.0",
           "name": "codex-x86_64-unknown-linux-musl.zst"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 17253367,
+      "size": 18821585,
       "hash": "blake3",
-      "digest": "93a2407c88d36d464df0c23ccdd3dabab2bc0f7e870b14d5ac53168433b28873",
+      "digest": "93d90c6fa0048de9d4dea9f7892a2be5de8400fd9dc3dd7bd1b90412d9b7a266",
       "format": "zst",
       "path": "codex",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.92.0/codex-aarch64-unknown-linux-musl.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.93.0/codex-aarch64-unknown-linux-musl.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.92.0",
+          "tag": "rust-v0.93.0",
           "name": "codex-aarch64-unknown-linux-musl.zst"
         }
       ]
     },
     "windows-x86_64": {
-      "size": 17403969,
+      "size": 19614828,
       "hash": "blake3",
-      "digest": "0dcebf684a01c08cafde75804c2ab9fd973457409a8fb54ebfa16df0a82ba129",
+      "digest": "89bdadd8728992194fa897580a2e6dc376ee87f54088a3b28fed76cb076eee79",
       "format": "zst",
       "path": "codex.exe",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.92.0/codex-x86_64-pc-windows-msvc.exe.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.93.0/codex-x86_64-pc-windows-msvc.exe.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.92.0",
+          "tag": "rust-v0.93.0",
           "name": "codex-x86_64-pc-windows-msvc.exe.zst"
         }
       ]
     },
     "windows-aarch64": {
-      "size": 15919095,
+      "size": 17806738,
       "hash": "blake3",
-      "digest": "42525dfe0bdde1cb9b16c756ead183eef2f72d3242de0be1be58058be16b0f07",
+      "digest": "e5a2401164deaa452278282e7ec1a18262b31b147241403ce8cd35506dd6f363",
       "format": "zst",
       "path": "codex.exe",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.92.0/codex-aarch64-pc-windows-msvc.exe.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.93.0/codex-aarch64-pc-windows-msvc.exe.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.92.0",
+          "tag": "rust-v0.93.0",
           "name": "codex-aarch64-pc-windows-msvc.exe.zst"
         }
       ]
