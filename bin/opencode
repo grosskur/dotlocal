@@ -4,55 +4,55 @@
   "name": "opencode",
   "platforms": {
     "macos-aarch64": {
-      "size": 32615821,
+      "size": 33917906,
       "hash": "blake3",
-      "digest": "8c6504a6fdc3cf988d60b7320bc055b5d0ca382d698f6dbec288804de068e219",
+      "digest": "5d45e7acc79c2a78dd06dc5de009d5b65c564ed953991e650afd3dbbcb1104d9",
       "format": "zip",
       "path": "opencode",
       "providers": [
         {
-          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.1/opencode-darwin-arm64.zip"
+          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.48/opencode-darwin-arm64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anomalyco/opencode",
-          "tag": "v1.1.1",
+          "tag": "v1.1.48",
           "name": "opencode-darwin-arm64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 49067821,
+      "size": 50244639,
       "hash": "blake3",
-      "digest": "4dd09b70c1fdcba17315f0513338eccea765e08897510ed1f84ece8f2d4dcaa0",
+      "digest": "fa5697e3ae5f5c449308ed33d5c1c78525854801c3e36d06c7e0790ecd07af10",
       "format": "tar.gz",
       "path": "opencode",
       "providers": [
         {
-          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.1/opencode-linux-arm64.tar.gz"
+          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.48/opencode-linux-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anomalyco/opencode",
-          "tag": "v1.1.1",
+          "tag": "v1.1.48",
           "name": "opencode-linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 50617216,
+      "size": 51797370,
       "hash": "blake3",
-      "digest": "095cec8437d0818e45ad2fe30f1cee3817ff40f47357abb0bb385b078f278a38",
+      "digest": "4958da1d1267dc697757bad1ae88700ae7349987f52965aefb1ed3f820530389",
       "format": "tar.gz",
       "path": "opencode",
       "providers": [
         {
-          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.1/opencode-linux-x64.tar.gz"
+          "url": "https://github.com/anomalyco/opencode/releases/download/v1.1.48/opencode-linux-x64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anomalyco/opencode",
-          "tag": "v1.1.1",
+          "tag": "v1.1.48",
           "name": "opencode-linux-x64.tar.gz"
         }
       ]
