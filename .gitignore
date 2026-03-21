@@ -1,5 +1,12 @@
 /.envdir/
 /bin/claude
+/bin/gcloud
+/bin/gke-gcloud-auth-plugin
+/bin/gsutil
+/bin/llama-cli
+/bin/llama-server
+/bin/orb
+/bin/orbctl
 /bin/pi
 /opt/
 /share/
