@@ -4,52 +4,52 @@
   "name": "kind",
   "platforms": {
     "macos-aarch64": {
-      "size": 10624850,
+      "size": 10538994,
       "hash": "blake3",
-      "digest": "d5f71fe49ef1fb4b2d0ecb83b51bc2f7272a5e993e8d8143ff9c06f329afcd3d",
+      "digest": "067dde699217cd5deb7d14ab0529cd1403e052ae80a53a4af957aae5121130a0",
       "path": "kind-darwin-arm64",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-arm64"
+          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kind",
-          "tag": "v0.30.0",
+          "tag": "v0.31.0",
           "name": "kind-darwin-arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 10453204,
+      "size": 10458020,
       "hash": "blake3",
-      "digest": "87fb85e8264998d28cba4c9e4031c092e642a60f3a447d3fd3f19350fbd77319",
+      "digest": "d7b7514a9bf33500283d6f7c1d298ece951e455cba343587d21bb15ac801803d",
       "path": "kind-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64"
+          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kind",
-          "tag": "v0.30.0",
+          "tag": "v0.31.0",
           "name": "kind-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 11055553,
+      "size": 11097044,
       "hash": "blake3",
-      "digest": "af832bdeb51387897fb96655befff09a55410729e2a050c6ec2e437636d17eab",
+      "digest": "1db74c99f42e0b65494a3bde06b9eb77d587cf5283e2c278801677134ec1561a",
       "path": "kind-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64"
+          "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kind",
-          "tag": "v0.30.0",
+          "tag": "v0.31.0",
           "name": "kind-linux-amd64"
         }
       ]
