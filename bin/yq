@@ -1,0 +1,40 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "yq",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 12926738,
+      "hash": "blake3",
+      "digest": "c20df7e4e8b3829f733862edf45036cb088a7c1abaa77c3639108e756c3256bd",
+      "path": "yq_darwin_arm64",
+      "providers": [
+        {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_darwin_arm64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 12714146,
+      "hash": "blake3",
+      "digest": "5f1d1b6fe007c992041061d9f044fca2215d427cb21475fa002bb430a8d75109",
+      "path": "yq_linux_arm64",
+      "providers": [
+        {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_linux_arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 13623458,
+      "hash": "blake3",
+      "digest": "36e79f7e07d2a0dd30c41b7809ed96a9776d71e533776f8bab3c15c4300a205b",
+      "path": "yq_linux_amd64",
+      "providers": [
+        {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_linux_amd64"
+        }
+      ]
+    }
+  }
+}
