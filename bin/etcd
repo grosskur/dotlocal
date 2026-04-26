@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "etcd",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 23682117,
+      "hash": "blake3",
+      "digest": "6e55965c59446df537288debcb43965964365159b8f0575a52e8c24ef814575a",
+      "format": "zip",
+      "path": "etcd-v3.6.10-darwin-arm64/etcd",
+      "providers": [
+        {
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-darwin-arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/etcd-io/etcd",
+          "tag": "v3.6.10",
+          "name": "etcd-v3.6.10-darwin-arm64.zip"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 25370341,
+      "hash": "blake3",
+      "digest": "bbb115d02c6424082e7e6f6c72271d1ee31892c33e35edba0069a42b740c3d6a",
+      "format": "zip",
+      "path": "etcd-v3.6.10-darwin-amd64/etcd",
+      "providers": [
+        {
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-darwin-amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/etcd-io/etcd",
+          "tag": "v3.6.10",
+          "name": "etcd-v3.6.10-darwin-amd64.zip"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 22651783,
+      "hash": "blake3",
+      "digest": "fdc3a1445790da49a77fd897098baeec7f6f372642f6d2907c7e59da4369fabd",
+      "format": "tar.gz",
+      "path": "etcd-v3.6.10-linux-arm64/etcd",
+      "providers": [
+        {
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-linux-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/etcd-io/etcd",
+          "tag": "v3.6.10",
+          "name": "etcd-v3.6.10-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 24798802,
+      "hash": "blake3",
+      "digest": "9f05be03f2e8442516363597e38ac4cfa4e8108c571b1f373f02392a471dfd04",
+      "format": "tar.gz",
+      "path": "etcd-v3.6.10-linux-amd64/etcd",
+      "providers": [
+        {
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-linux-amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/etcd-io/etcd",
+          "tag": "v3.6.10",
+          "name": "etcd-v3.6.10-linux-amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
