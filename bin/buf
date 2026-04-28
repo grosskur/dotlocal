@@ -1,0 +1,58 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "buf",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 52634866,
+      "hash": "blake3",
+      "digest": "c31f65e85a70b56875bf1657220626a7cc12acda0ab7b377e3e7785e689bf005",
+      "path": "buf-Darwin-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/bufbuild/buf/releases/download/v1.68.4/buf-Darwin-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/bufbuild/buf",
+          "tag": "v1.68.4",
+          "name": "buf-Darwin-arm64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 50659490,
+      "hash": "blake3",
+      "digest": "9bc907b3da4463100b85029e5beae7bb8536f7f7f48e5f0fba8646587477f54b",
+      "path": "buf-Linux-aarch64",
+      "providers": [
+        {
+          "url": "https://github.com/bufbuild/buf/releases/download/v1.68.4/buf-Linux-aarch64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/bufbuild/buf",
+          "tag": "v1.68.4",
+          "name": "buf-Linux-aarch64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 53776546,
+      "hash": "blake3",
+      "digest": "b35ef38010ab5a90aa48e817ab31f18cb7811bf3cfa5cacd1e5a57b5110598f6",
+      "path": "buf-Linux-x86_64",
+      "providers": [
+        {
+          "url": "https://github.com/bufbuild/buf/releases/download/v1.68.4/buf-Linux-x86_64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/bufbuild/buf",
+          "tag": "v1.68.4",
+          "name": "buf-Linux-x86_64"
+        }
+      ]
+    }
+  }
+}
