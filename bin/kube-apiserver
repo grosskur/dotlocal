@@ -1,0 +1,29 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "kube-apiserver",
+  "platforms": {
+    "linux-x86_64": {
+      "size": 88309922,
+      "hash": "blake3",
+      "digest": "7ca379a9c9ce2cc63586dc60f08a9fa8248fa1c3acc07f7662afbc22c4dd6e8a",
+      "path": "kube-apiserver",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/v1.36.0/bin/linux/amd64/kube-apiserver"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 81592482,
+      "hash": "blake3",
+      "digest": "69d748e4eea1e305fb08b330d92d94e8f9b46e98fcec1cf3b4b71a2e33c8677e",
+      "path": "kube-apiserver",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/v1.36.0/bin/linux/arm64/kube-apiserver"
+        }
+      ]
+    }
+  }
+}
