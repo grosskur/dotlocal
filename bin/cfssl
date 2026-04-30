@@ -1,0 +1,75 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cfssl",
+  "platforms": {
+    "macos-x86_64": {
+      "size": 13683624,
+      "hash": "blake3",
+      "digest": "5b0e6424986f46665781cfea78700addd73fcf0a5200f7703ba67873d7ccf653",
+      "path": "cfssl_1.6.5_darwin_amd64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_darwin_amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssl_1.6.5_darwin_amd64"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 13218770,
+      "hash": "blake3",
+      "digest": "42dd4f4f275e60767f0b14c9f641ba090052c9ae55a49a61102ff440895dca31",
+      "path": "cfssl_1.6.5_darwin_arm64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_darwin_arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssl_1.6.5_darwin_arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 11890840,
+      "hash": "blake3",
+      "digest": "56fa2d168125bfc1a7e1dee598f3ca4f441379d29440efb6c3e3c3f11af219e4",
+      "path": "cfssl_1.6.5_linux_amd64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_linux_amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssl_1.6.5_linux_amd64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 11534488,
+      "hash": "blake3",
+      "digest": "4e8ab1a51d7a110cfaf577d0570a58dbcddfb73319ba4bc8859daa39a2333fec",
+      "path": "cfssl_1.6.5_linux_arm64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_linux_arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssl_1.6.5_linux_arm64"
+        }
+      ]
+    }
+  }
+}

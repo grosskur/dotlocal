@@ -1,0 +1,58 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cfssljson",
+  "platforms": {
+    "macos-x86_64": {
+      "size": 6323704,
+      "hash": "blake3",
+      "digest": "7bdb571d5da35bb8c6a6b8cdb4e74b4ec0cc6db269313a6e9441d677e6ed50cd",
+      "path": "cfssljson_1.6.5_darwin_amd64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssljson_1.6.5_darwin_amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssljson_1.6.5_darwin_amd64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 6205592,
+      "hash": "blake3",
+      "digest": "fbc172487b5c8056ae0c0a4f8405a2a9a085680ccc050c84c4561ac0900301ff",
+      "path": "cfssljson_1.6.5_linux_amd64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssljson_1.6.5_linux_amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssljson_1.6.5_linux_amd64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 6095000,
+      "hash": "blake3",
+      "digest": "cdee5ded3fcd0a2721bf51f4f4dd33604c6cfc42ee625af8785d4fe2eabf3afd",
+      "path": "cfssljson_1.6.5_linux_arm64",
+      "providers": [
+        {
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssljson_1.6.5_linux_arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cloudflare/cfssl",
+          "tag": "v1.6.5",
+          "name": "cfssljson_1.6.5_linux_arm64"
+        }
+      ]
+    }
+  }
+}
