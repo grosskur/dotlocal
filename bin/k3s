@@ -1,0 +1,41 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "k3s",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 71827618,
+      "hash": "blake3",
+      "digest": "7beb4c7599218d6297c4d5a0a63ae4ee131a797c58ed37cc9042e85af0a1d0b8",
+      "path": "k3s",
+      "providers": [
+        {
+          "url": "https://github.com/k3s-io/k3s/releases/download/v1.36.0-rc2%2Bk3s1/k3s-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/k3s-io/k3s",
+          "tag": "v1.36.0-rc2+k3s1",
+          "name": "k3s-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 79257762,
+      "hash": "blake3",
+      "digest": "d635e7af4187092f53362ff2f1fd35bfd488277db80862b02b077a6f08cf343a",
+      "path": "k3s",
+      "providers": [
+        {
+          "url": "https://github.com/k3s-io/k3s/releases/download/v1.36.0-rc2%2Bk3s1/k3s"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/k3s-io/k3s",
+          "tag": "v1.36.0-rc2+k3s1",
+          "name": "k3s"
+        }
+      ]
+    }
+  }
+}
