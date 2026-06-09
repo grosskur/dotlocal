@@ -4,55 +4,55 @@
   "name": "kubeconform",
   "platforms": {
     "macos-aarch64": {
-      "size": 7031569,
+      "size": 7276844,
       "hash": "blake3",
-      "digest": "01b77521742f74bde028dc834b76e246ce8f3effcfe7cf82d3bc873e39345e17",
+      "digest": "1ba8d7aa1e5e70d3f43b40dc2517dfcf614c132bbfb35cbdad1d3fd3addadf18",
       "format": "tar.gz",
       "path": "kubeconform",
       "providers": [
         {
-          "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-darwin-arm64.tar.gz"
+          "url": "https://github.com/yannh/kubeconform/releases/download/v0.8.0/kubeconform-darwin-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/yannh/kubeconform",
-          "tag": "v0.7.0",
+          "tag": "v0.8.0",
           "name": "kubeconform-darwin-arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 6982794,
+      "size": 6901136,
       "hash": "blake3",
-      "digest": "3b36f0300de1df07b02a45be3f764c832369b181517e93c6655a0ce23b471c6e",
+      "digest": "5e60a36063e1225c441a2497b45233e4f582393b40a7189f0296c2365639f454",
       "format": "tar.gz",
       "path": "kubeconform",
       "providers": [
         {
-          "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-linux-arm64.tar.gz"
+          "url": "https://github.com/yannh/kubeconform/releases/download/v0.8.0/kubeconform-linux-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/yannh/kubeconform",
-          "tag": "v0.7.0",
+          "tag": "v0.8.0",
           "name": "kubeconform-linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 7491807,
+      "size": 7534236,
       "hash": "blake3",
-      "digest": "bd76b2460597ba3c6babd636caab7214899e40b17e6f839acf3e2fe2a857ffe1",
+      "digest": "f0dcd6a59775e6b3afbeea523034b078d8bfeb8c22c0424752316fdb3cb77284",
       "format": "tar.gz",
       "path": "kubeconform",
       "providers": [
         {
-          "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-linux-amd64.tar.gz"
+          "url": "https://github.com/yannh/kubeconform/releases/download/v0.8.0/kubeconform-linux-amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/yannh/kubeconform",
-          "tag": "v0.7.0",
+          "tag": "v0.8.0",
           "name": "kubeconform-linux-amd64.tar.gz"
         }
       ]

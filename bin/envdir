@@ -4,56 +4,56 @@
   "name": "envdir",
   "platforms": {
     "macos-aarch64": {
-      "size": 658548,
+      "size": 782338,
       "hash": "blake3",
-      "digest": "cfe0ec63adac277d09abc66675c57f939d6551700c9d8573032caee5166daa03",
+      "digest": "5268a8c05fa9775bcc414932954f10d75a600710d83984264a62c39e651baf8d",
       "format": "tar.gz",
       "path": "envdir",
       "providers": [
         {
-          "url": "https://github.com/kevinburke/envdir/releases/download/v0.7/envdir_0.7_darwin_arm64.tar.gz"
+          "url": "https://github.com/kevinburke/envdir/releases/download/v0.8.2/envdir_0.8.2_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kevinburke/envdir",
-          "tag": "v0.7",
-          "name": "envdir_0.7_darwin_arm64.tar.gz"
+          "tag": "v0.8.2",
+          "name": "envdir_0.8.2_darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 610613,
+      "size": 767533,
       "hash": "blake3",
-      "digest": "8473d6667700fd1a538260a0554eb08eac8b3b9089d494a43f20bb09e8a7e882",
+      "digest": "cfb16008ef06d5f8910f62fcf6e8431f85ca4c309513bdc9018a5dbf3c1f2f40",
       "format": "tar.gz",
       "path": "envdir",
       "providers": [
         {
-          "url": "https://github.com/kevinburke/envdir/releases/download/v0.7/envdir_0.7_linux_arm64.tar.gz"
+          "url": "https://github.com/kevinburke/envdir/releases/download/v0.8.2/envdir_0.8.2_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kevinburke/envdir",
-          "tag": "v0.7",
-          "name": "envdir_0.7_linux_arm64.tar.gz"
+          "tag": "v0.8.2",
+          "name": "envdir_0.8.2_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 649745,
+      "size": 837605,
       "hash": "blake3",
-      "digest": "fe5bcf3f5917b8f6728fe6e26947edbd6858488fc684dcdf91dfaacfe1643f94",
+      "digest": "b47034a6a399d572e82e9fe2736787956153ea4dc84c46cbb10a844536473156",
       "format": "tar.gz",
       "path": "envdir",
       "providers": [
         {
-          "url": "https://github.com/kevinburke/envdir/releases/download/v0.7/envdir_0.7_linux_x86_64.tar.gz"
+          "url": "https://github.com/kevinburke/envdir/releases/download/v0.8.2/envdir_0.8.2_linux_x86_64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kevinburke/envdir",
-          "tag": "v0.7",
-          "name": "envdir_0.7_linux_x86_64.tar.gz"
+          "tag": "v0.8.2",
+          "name": "envdir_0.8.2_linux_x86_64.tar.gz"
         }
       ]
     }

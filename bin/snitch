@@ -4,56 +4,56 @@
   "name": "snitch",
   "platforms": {
     "macos-aarch64": {
-      "size": 3431072,
+      "size": 3461887,
       "hash": "blake3",
-      "digest": "d3b45d4478399a703de9ef69cf2af6c3e037ba32270ddaba12aef8925f381f05",
+      "digest": "218a751a58e9a72304068dd4fea34d6f358b0fd2d0c85c0ba4d6eadb77b12241",
       "format": "tar.gz",
       "path": "snitch",
       "providers": [
         {
-          "url": "https://github.com/karol-broda/snitch/releases/download/v0.1.8/snitch_0.1.8_darwin_arm64.tar.gz"
+          "url": "https://github.com/karol-broda/snitch/releases/download/v0.2.2/snitch_0.2.2_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/karol-broda/snitch",
-          "tag": "v0.1.8",
-          "name": "snitch_0.1.8_darwin_arm64.tar.gz"
+          "tag": "v0.2.2",
+          "name": "snitch_0.2.2_darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 3361697,
+      "size": 3395902,
       "hash": "blake3",
-      "digest": "842de6aeb2ee043a664863b5e8fcbe120c9f995ff406c12dc3c3814264ca17e1",
+      "digest": "d7218ebbcf7de0be0fb56753ad63262b1eab83b116123d8d65097fd1d0303f41",
       "format": "tar.gz",
       "path": "snitch",
       "providers": [
         {
-          "url": "https://github.com/karol-broda/snitch/releases/download/v0.1.8/snitch_0.1.8_linux_arm64.tar.gz",
+          "url": "https://github.com/karol-broda/snitch/releases/download/v0.2.2/snitch_0.2.2_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/karol-broda/snitch",
-          "tag": "v0.1.8",
-          "name": "snitch_0.1.8_linux_arm64.tar.gz"
+          "tag": "v0.2.2",
+          "name": "snitch_0.2.2_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 3687131,
+      "size": 3724898,
       "hash": "blake3",
-      "digest": "ebf8cdf04e72fc0b8294338f8f0a74f800c39492f6139e4369816240dd31ca80",
+      "digest": "911ec64cc8e9e82861f14dcdc3e7465b3c650dd437e4bc605f10592b2c2758b1",
       "format": "tar.gz",
       "path": "snitch",
       "providers": [
         {
-          "url": "https://github.com/karol-broda/snitch/releases/download/v0.1.8/snitch_0.1.8_linux_amd64.tar.gz"
+          "url": "https://github.com/karol-broda/snitch/releases/download/v0.2.2/snitch_0.2.2_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/karol-broda/snitch",
-          "tag": "v0.1.8",
-          "name": "snitch_0.1.8_linux_amd64.tar.gz"
+          "tag": "v0.2.2",
+          "name": "snitch_0.2.2_linux_amd64.tar.gz"
         }
       ]
     }

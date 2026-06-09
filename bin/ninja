@@ -4,55 +4,55 @@
   "name": "ninja",
   "platforms": {
     "macos-aarch64": {
-      "size": 314009,
+      "size": 314051,
       "hash": "blake3",
-      "digest": "31719eacb643ad5a5a5c0b4f3d323b841eaefd694c6095196360abd82fbb45ad",
+      "digest": "8afdef849b534a3110519a8726a8887f6ec62424c6b820ce787952c2e16f1bd7",
       "format": "zip",
       "path": "ninja",
       "providers": [
         {
-          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-mac.zip"
+          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-mac.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ninja-build/ninja",
-          "tag": "v1.13.1",
+          "tag": "v1.13.2",
           "name": "ninja-mac.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 126282,
+      "size": 126256,
       "hash": "blake3",
-      "digest": "25ef1b62b7fcd279e1594ec4c5156b73ba1c665ab3bb4cf8d46e8ccffbd7bf3e",
+      "digest": "8ecffdb1d4fa859d4fd4dd12ceeb2f5799681237db4ebe137736dacb13d8a8ea",
       "format": "zip",
       "path": "ninja",
       "providers": [
         {
-          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux-aarch64.zip"
+          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux-aarch64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ninja-build/ninja",
-          "tag": "v1.13.1",
+          "tag": "v1.13.2",
           "name": "ninja-linux-aarch64.zip"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 134048,
+      "size": 134040,
       "hash": "blake3",
-      "digest": "053f5d28e835217145a40b2e43780ce5aacb0ad05d9ef7c091bbeee231f45c9a",
+      "digest": "ffcc21d4dc61e6911ae870ecc9559d03514d02db3d50a34b2ce68ed67a22bbc5",
       "format": "zip",
       "path": "ninja",
       "providers": [
         {
-          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux.zip"
+          "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ninja-build/ninja",
-          "tag": "v1.13.1",
+          "tag": "v1.13.2",
           "name": "ninja-linux.zip"
         }
       ]

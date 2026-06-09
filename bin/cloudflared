@@ -4,71 +4,71 @@
   "name": "cloudflared",
   "platforms": {
     "macos-aarch64": {
-      "size": 19380182,
+      "size": 18939602,
       "hash": "blake3",
-      "digest": "f9eb7847df15175cd56b0a949f8c3b6598b766b49edd58330bb49314fe9d386c",
+      "digest": "032253498862f13e5f43f1c1e4460a2cbbd97aee771f8507ef24244d3185be01",
       "format": "tar.gz",
       "path": "cloudflared",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-darwin-arm64.tgz"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.5.2/cloudflared-darwin-arm64.tgz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2025.9.1",
+          "tag": "2026.5.2",
           "name": "cloudflared-darwin-arm64.tgz"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 21081942,
+      "size": 20819466,
       "hash": "blake3",
-      "digest": "a7a696c7fb36d07eb539459f93420c9086618b7e09098d0509f4a1fefbafa80d",
+      "digest": "9f5f489c2f86aa0b0c88b32490911901174fcf1afc3c07aeda4a00d58c2c78e5",
       "format": "tar.gz",
       "path": "cloudflared",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-darwin-amd64.tgz"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.5.2/cloudflared-darwin-amd64.tgz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2025.9.1",
+          "tag": "2026.5.2",
           "name": "cloudflared-darwin-amd64.tgz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 41192406,
+      "size": 39203902,
       "hash": "blake3",
-      "digest": "e6e107a5c266a4b5feae4c73c3d83d5da8df462318b3aa8db6f35ac8b36d3b8c",
+      "digest": "16374ab70df14aa61771a9e8439670c942dfa58989e51b0a34c0f687a923718a",
       "path": "cloudflared-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-linux-amd64"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.5.2/cloudflared-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2025.9.1",
+          "tag": "2026.5.2",
           "name": "cloudflared-linux-amd64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 39251401,
+      "size": 36835266,
       "hash": "blake3",
-      "digest": "b96d26f7ac5cd20efb665c328de8ab20903986d7c2dfa866be8b5bbdf80144e4",
+      "digest": "979774d3023f0ab41526b1755b6e5af43b109ce2ef5f691dc84e7b69ccc52b37",
       "path": "cloudflare-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2025.9.1/cloudflared-linux-arm64"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.5.2/cloudflared-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2025.9.1",
+          "tag": "2026.5.2",
           "name": "cloudflared-linux-arm64"
         }
       ]

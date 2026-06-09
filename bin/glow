@@ -4,56 +4,56 @@
   "name": "glow",
   "platforms": {
     "macos-aarch64": {
-      "size": 6029837,
+      "size": 6186562,
       "hash": "blake3",
-      "digest": "40c03c98871371ac2107cc18d2a20a4023d97fc661f7d52bcec60f1434a21e15",
+      "digest": "b87dbde690a8d120e13a857baf90223b2bb31adac30d586cfa54ea4f516c43f6",
       "format": "tar.gz",
-      "path": "glow_2.1.1_Darwin_arm64/glow",
+      "path": "glow_2.1.2_Darwin_arm64/glow",
       "providers": [
         {
-          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.1/glow_2.1.1_Darwin_arm64.tar.gz"
+          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.2/glow_2.1.2_Darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/charmbracelet/glow",
-          "tag": "v2.1.1",
-          "name": "glow_2.1.1_Darwin_arm64.tar.gz"
+          "tag": "v2.1.2",
+          "name": "glow_2.1.2_Darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 5789499,
+      "size": 5954660,
       "hash": "blake3",
-      "digest": "bd482903d0c9db5cf9733d638bd6990f8397c26f3eb0f15eb008ab6c899245a9",
+      "digest": "f821e9edbbde6af147d4e43200e097f188134cfb848110b04fcc88a14ed84351",
       "format": "tar.gz",
-      "path": "glow_2.1.1_Linux_arm64/glow",
+      "path": "glow_2.1.2_Linux_arm64/glow",
       "providers": [
         {
-          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.1/glow_2.1.1_Linux_arm64.tar.gz"
+          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.2/glow_2.1.2_Linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/charmbracelet/glow",
-          "tag": "v2.1.1",
-          "name": "glow_2.1.1_Linux_arm64.tar.gz"
+          "tag": "v2.1.2",
+          "name": "glow_2.1.2_Linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 6321230,
+      "size": 6586652,
       "hash": "blake3",
-      "digest": "4da2800621774a9367f39f9ee3ffa1f62864cd5e7331004ca6ecf7028b0932d4",
+      "digest": "889bc8b1203e136a80939403aa1f5c396bee0e3a0999fd4961f87db9c60979e2",
       "format": "tar.gz",
-      "path": "glow_2.1.1_Linux_x86_64/glow",
+      "path": "glow_2.1.2_Linux_x86_64/glow",
       "providers": [
         {
-          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.1/glow_2.1.1_Linux_x86_64.tar.gz"
+          "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.2/glow_2.1.2_Linux_x86_64.tar.gz"
         },
         {
           "type": "github-release",
-          "repo": "https://github.com/charmbracelet",
-          "tag": "v2.1.1",
-          "name": "glow_2.1.1_Linux_x86_64.tar.gz"
+          "repo": "https://github.com/charmbracelet/glow",
+          "tag": "v2.1.2",
+          "name": "glow_2.1.2_Linux_x86_64.tar.gz"
         }
       ]
     }

@@ -4,52 +4,52 @@
   "name": "bazelisk",
   "platforms": {
     "macos-aarch64": {
-      "size": 6286130,
+      "size": 6659202,
       "hash": "blake3",
-      "digest": "2ca1332cda8275aad722a04f721e4c5cae879e148d7f7e40af19dc88a1c157c0",
+      "digest": "fc9e085f4592aaf142553acedbc38f42d8ceb73b745db72cc86bc9c4df26a9a2",
       "path": "bazelisk-darwin-arm64",
       "providers": [
         {
-          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-darwin-arm64"
+          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.29.0/bazelisk-darwin-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/bazelbuild/bazelisk",
-          "tag": "v1.27.0",
+          "tag": "v1.29.0",
           "name": "bazelisk-darwin-arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 6160568,
+      "size": 6553784,
       "hash": "blake3",
-      "digest": "dd32fd0ff6e6d869922e22915d4c0d6a894f82ed456d42c14ed0fd9337f32490",
+      "digest": "0f1c5fdcf165a85b9d2dccb40a3b1f15320d818e269382b1c2d250e357fe096e",
       "path": "bazelisk-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-linux-arm64"
+          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.29.0/bazelisk-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/bazelbuild/bazelisk",
-          "tag": "v1.27.0",
+          "tag": "v1.29.0",
           "name": "bazelisk-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 6545592,
+      "size": 6914232,
       "hash": "blake3",
-      "digest": "d8d4e75dfa02755672f878c63cba3d21c2eabd1660d279e6204b85eecc6a831a",
+      "digest": "c14e2840efd5b2bc851a65ece052979b4cddabdc5be2f6153987f6239975f837",
       "path": "bazelisk-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.27.0/bazelisk-linux-amd64"
+          "url": "https://github.com/bazelbuild/bazelisk/releases/download/v1.29.0/bazelisk-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/bazelbuild/bazelisk",
-          "tag": "v1.27.0",
+          "tag": "v1.29.0",
           "name": "bazelisk-linux-amd64"
         }
       ]

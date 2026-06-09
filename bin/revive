@@ -4,55 +4,55 @@
   "name": "revive",
   "platforms": {
     "macos-aarch64": {
-      "size": 3803433,
+      "size": 3979347,
       "hash": "blake3",
-      "digest": "b1df5ae121ab0164beb43f35fc83a1c9edb02317143adb3b1415056af0927ed3",
+      "digest": "6e2b3cd60086e8868cdff942fd2291c09dec9f6543ebb180a11aa52183e6e133",
       "format": "tar.gz",
       "path": "revive",
       "providers": [
         {
-          "url": "https://github.com/mgechev/revive/releases/download/v1.13.0/revive_darwin_arm64.tar.gz"
+          "url": "https://github.com/mgechev/revive/releases/download/v1.15.0/revive_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/mgechev/revive",
-          "tag": "v1.13.0",
+          "tag": "v1.15.0",
           "name": "revive_darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 3673502,
+      "size": 3842458,
       "hash": "blake3",
-      "digest": "94d8067ca6e093262853c0663b554c2b7d9b27d6385778cbb705f539452479c9",
+      "digest": "ab1134915144d32ca8c0cb5e1a941cd43d9a8ee4931ec11ec4b2803ff7ef1b23",
       "format": "tar.gz",
       "path": "revive",
       "providers": [
         {
-          "url": "https://github.com/mgechev/revive/releases/download/v1.13.0/revive_linux_arm64.tar.gz"
+          "url": "https://github.com/mgechev/revive/releases/download/v1.15.0/revive_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/mgechev/revive",
-          "tag": "v1.13.0",
+          "tag": "v1.15.0",
           "name": "revive_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 4047586,
+      "size": 4245891,
       "hash": "blake3",
-      "digest": "346a69b1ab814a881854b15004f65b8ece287c4c96910e823753f15e62ac7b6c",
+      "digest": "cd1ee83b0d9de8230e974bac9fae8b22ba503b2ca708432275da67611f8cf2ff",
       "format": "tar.gz",
       "path": "revive",
       "providers": [
         {
-          "url": "https://github.com/mgechev/revive/releases/download/v1.13.0/revive_linux_amd64.tar.gz"
+          "url": "https://github.com/mgechev/revive/releases/download/v1.15.0/revive_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/mgechev/revive",
-          "tag": "v1.13.0",
+          "tag": "v1.15.0",
           "name": "revive_linux_amd64.tar.gz"
         }
       ]

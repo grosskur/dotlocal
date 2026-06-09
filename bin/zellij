@@ -4,55 +4,55 @@
   "name": "zellij",
   "platforms": {
     "macos-aarch64": {
-      "size": 12620507,
+      "size": 11599809,
       "hash": "blake3",
-      "digest": "42947740b67a439ab3af3155abb8780f90a67132dbad1f51c549f84750aa39b6",
+      "digest": "2bf33fd901d8a2145dbc4f5c27354df81bb130e3a2507563d7c874b20481ef7e",
       "format": "tar.gz",
       "path": "zellij",
       "providers": [
         {
-          "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-aarch64-apple-darwin.tar.gz"
+          "url": "https://github.com/zellij-org/zellij/releases/download/v0.44.3/zellij-no-web-aarch64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/zellij-org/zellij",
-          "tag": "v0.43.1",
+          "tag": "v0.44.3",
           "name": "zellij-no-web-aarch64-apple-darwin.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 14501271,
+      "size": 14179793,
       "hash": "blake3",
-      "digest": "b8878bc666132b2bf17d7209a3f156cd7e3791cc1065b9ede2100810812a5634",
+      "digest": "8d60e54338df260dd967675677ee978175cd9921d54cf34982df91f87ffcddd0",
       "format": "tar.gz",
       "path": "zellij",
       "providers": [
         {
-          "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-aarch64-unknown-linux-musl.tar.gz"
+          "url": "https://github.com/zellij-org/zellij/releases/download/v0.44.3/zellij-no-web-aarch64-unknown-linux-musl.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/zellij-org/zellij",
-          "tag": "v0.43.1",
+          "tag": "v0.44.3",
           "name": "zellij-no-web-aarch64-unknown-linux-musl.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 15669695,
+      "size": 14594534,
       "hash": "blake3",
-      "digest": "74f973deb14c81786a261a34cd626946b49cd52e43e6437caf26027a0290b2e5",
+      "digest": "84395e8a494357807ada43d0ce20eb0b80e37eb99455b2677aadce9d20c5e56a",
       "format": "tar.gz",
       "path": "zellij",
       "providers": [
         {
-          "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-x86_64-unknown-linux-musl.tar.gz"
+          "url": "https://github.com/zellij-org/zellij/releases/download/v0.44.3/zellij-no-web-x86_64-unknown-linux-musl.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/zellij-org/zellij",
-          "tag": "v0.43.1",
+          "tag": "v0.44.3",
           "name": "zellij-no-web-x86_64-unknown-linux-musl.tar.gz"
         }
       ]

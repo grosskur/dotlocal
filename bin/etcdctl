@@ -4,74 +4,74 @@
   "name": "etcdctl",
   "platforms": {
     "macos-aarch64": {
-      "size": 23682117,
+      "size": 23699841,
       "hash": "blake3",
-      "digest": "6e55965c59446df537288debcb43965964365159b8f0575a52e8c24ef814575a",
+      "digest": "10001277772334af4b0a61e29acbbd7578fd708a0db5eb0b6db342b20a2f3f78",
       "format": "zip",
-      "path": "etcd-v3.6.10-darwin-arm64/etcdctl",
+      "path": "etcd-v3.6.12-darwin-arm64/etcdctl",
       "providers": [
         {
-          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-darwin-arm64.zip"
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.12/etcd-v3.6.12-darwin-arm64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/etcd-io/etcd",
-          "tag": "v3.6.10",
-          "name": "etcd-v3.6.10-darwin-arm64.zip"
+          "tag": "v3.6.12",
+          "name": "etcd-v3.6.12-darwin-arm64.zip"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 25370341,
+      "size": 25393875,
       "hash": "blake3",
-      "digest": "bbb115d02c6424082e7e6f6c72271d1ee31892c33e35edba0069a42b740c3d6a",
+      "digest": "09a29e0c5d6a274d7d73b201aec07afdc0f7c04a8dcac30397b3c1271528393e",
       "format": "zip",
-      "path": "etcd-v3.6.10-darwin-amd64/etcdctl",
+      "path": "etcd-v3.6.12-darwin-amd64/etcdctl",
       "providers": [
         {
-          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-darwin-amd64.zip"
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.12/etcd-v3.6.12-darwin-amd64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/etcd-io/etcd",
-          "tag": "v3.6.10",
-          "name": "etcd-v3.6.10-darwin-amd64.zip"
+          "tag": "v3.6.12",
+          "name": "etcd-v3.6.12-darwin-amd64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 22651783,
+      "size": 22672569,
       "hash": "blake3",
-      "digest": "fdc3a1445790da49a77fd897098baeec7f6f372642f6d2907c7e59da4369fabd",
+      "digest": "410ba457d34d2e55039b8ef199c569115dc61f4924a9a358a479eb30fee36653",
       "format": "tar.gz",
-      "path": "etcd-v3.6.10-linux-arm64/etcdctl",
+      "path": "etcd-v3.6.12-linux-arm64/etcdctl",
       "providers": [
         {
-          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-linux-arm64.tar.gz"
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.12/etcd-v3.6.12-linux-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/etcd-io/etcd",
-          "tag": "v3.6.10",
-          "name": "etcd-v3.6.10-linux-arm64.tar.gz"
+          "tag": "v3.6.12",
+          "name": "etcd-v3.6.12-linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 24798802,
+      "size": 24822393,
       "hash": "blake3",
-      "digest": "9f05be03f2e8442516363597e38ac4cfa4e8108c571b1f373f02392a471dfd04",
+      "digest": "cc1461f5b756d1c7d04d2f853592b8bc790d483420a137755b0a1847a74d54f0",
       "format": "tar.gz",
-      "path": "etcd-v3.6.10-linux-amd64/etcdctl",
+      "path": "etcd-v3.6.12-linux-amd64/etcdctl",
       "providers": [
         {
-          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-linux-amd64.tar.gz"
+          "url": "https://github.com/etcd-io/etcd/releases/download/v3.6.12/etcd-v3.6.12-linux-amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/etcd-io/etcd",
-          "tag": "v3.6.10",
-          "name": "etcd-v3.6.10-linux-amd64.tar.gz"
+          "tag": "v3.6.12",
+          "name": "etcd-v3.6.12-linux-amd64.tar.gz"
         }
       ]
     }

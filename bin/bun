@@ -4,55 +4,55 @@
   "name": "bun",
   "platforms": {
     "macos-aarch64": {
-      "size": 22063538,
+      "size": 23586433,
       "hash": "blake3",
-      "digest": "2b8fa453577fa737c9eaf42730791360c8a133397db28684c93e49f9dd5d501a",
+      "digest": "1d67c2e82e92e551d07c96e56f22d7124e8aba1a7b0d56b576c0d14dab045697",
       "format": "zip",
       "path": "bun-darwin-aarch64/bun",
       "providers": [
         {
-          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.3/bun-darwin-aarch64.zip"
+          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-darwin-aarch64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/oven-sh/bun",
-          "tag": "v1.3.3",
+          "tag": "bun-v1.3.14",
           "name": "bun-darwin-aarch64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 37737441,
+      "size": 35700603,
       "hash": "blake3",
-      "digest": "c2631d04f2452a6944244e1d7bc03ac6d2ae45c2251e57461a7eadc2cc055ab5",
+      "digest": "5692bac092eef037877db0f324f59f3368f9f6c3996b4f96b22694964d91a216",
       "format": "zip",
       "path": "bun-linux-aarch64/bun",
       "providers": [
         {
-          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.3/bun-linux-aarch64.zip"
+          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-linux-aarch64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/oven-sh/bun",
-          "tag": "v1.3.3",
+          "tag": "bun-v1.3.14",
           "name": "bun-linux-aarch64.zip"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 39373706,
+      "size": 35969274,
       "hash": "blake3",
-      "digest": "2a039fe76a1bc9d414536fdf979210360b8f9082a8708a741f480badd25deaa0",
+      "digest": "1c4e26002349a65f612268e0ae0068b24aeb07ab5eb22ce4ab7a1eca548e6bc7",
       "format": "zip",
       "path": "bun-linux-x64/bun",
       "providers": [
         {
-          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.3/bun-linux-x64.zip"
+          "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-linux-x64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/oven-sh/bun",
-          "tag": "v1.3.3",
+          "tag": "bun-v1.3.14",
           "name": "bun-linux-x64.zip"
         }
       ]

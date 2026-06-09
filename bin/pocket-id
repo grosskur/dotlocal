@@ -4,52 +4,52 @@
   "name": "pocket-id",
   "platforms": {
     "macos-aarch64": {
-      "size": 56907058,
+      "size": 62508434,
       "hash": "blake3",
-      "digest": "ae4f31345ca8f6cdcccc03f2792bb501abe78ee181b3c2d1f1cac0f953505ad5",
+      "digest": "3d9c435a3eaaee775e816ce47b3da75b7a606f32f05be610dc28705e9b6a4967",
       "path": "pocket-id-macos-arm64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v1.16.0/pocket-id-macos-arm64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.8.0/pocket-id-macos-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v1.16.0",
+          "tag": "v2.8.0",
           "name": "pocket-id-macos-arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 55181496,
+      "size": 60620962,
       "hash": "blake3",
-      "digest": "e815eab88b27cdd5720fab2d63208173f364c7ce8c175c503f8b406ecbf02335",
+      "digest": "196630564bf6c726e3f6e85415bb0d81f53d56fdac2e6aa9fcc210165ad08c10",
       "path": "pocket-id-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v1.16.0/pocket-id-linux-arm64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.8.0/pocket-id-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v1.16.0",
+          "tag": "v2.8.0",
           "name": "pocket-id-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 58900664,
+      "size": 65024162,
       "hash": "blake3",
-      "digest": "2ff3e94861d8907f079d5ff9acf6bbade8c08eab0404f3d0b769bc4875d50d48",
+      "digest": "d4fe1711b5e9f96f4fc569dec69d752d0614d42cf29666341821aa1a559e2e13",
       "path": "pocket-id-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v1.16.0/pocket-id-linux-amd64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.8.0/pocket-id-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v1.16.0",
+          "tag": "v2.8.0",
           "name": "pocket-id-linux-amd64"
         }
       ]

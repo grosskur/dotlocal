@@ -4,55 +4,55 @@
   "name": "scc",
   "platforms": {
     "macos-aarch64": {
-      "size": 1709021,
+      "size": 1714799,
       "hash": "blake3",
-      "digest": "ac021d0f2848274c35b97c35e78901aa523d74010746cbf787e05c6ae9a71733",
+      "digest": "90a40b8b7def873cc7fc511ea0f2962a47b468d07e88afa95001850b34860aba",
       "format": "tar.gz",
       "path": "scc",
       "providers": [
         {
-          "url": "https://github.com/boyter/scc/releases/download/v3.6.0/scc_Darwin_arm64.tar.gz"
+          "url": "https://github.com/boyter/scc/releases/download/v3.7.0/scc_Darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/boyter/scc",
-          "tag": "v3.6.0",
+          "tag": "v3.7.0",
           "name": "scc_Darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 1649040,
+      "size": 1654554,
       "hash": "blake3",
-      "digest": "96336b78d277bb0185d4ea37fd2a9119694bf9a33cac823ac7d76ee416e3153d",
+      "digest": "c4ff51caba1842fd329a8394286e488274c086aece0d8ed2d39c45ec41429b44",
       "format": "tar.gz",
       "path": "scc",
       "providers": [
         {
-          "url": "https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_arm64.tar.gz"
+          "url": "https://github.com/boyter/scc/releases/download/v3.7.0/scc_Linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/boyter/scc",
-          "tag": "v3.6.0",
+          "tag": "v3.7.0",
           "name": "scc_Linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 1819741,
+      "size": 1825941,
       "hash": "blake3",
-      "digest": "6b56afc9f25f59b9f0e652878d956540b41925b2b38ae91c2161655f92bc2703",
+      "digest": "4f4deb9c91a66bb1ef4aabaf6ed71c111878b5185276d4cf1f04fcc3c00a02b2",
       "format": "tar.gz",
       "path": "scc",
       "providers": [
         {
-          "url": "https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_x86_64.tar.gz"
+          "url": "https://github.com/boyter/scc/releases/download/v3.7.0/scc_Linux_x86_64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/boyter/scc",
-          "tag": "v3.6.0",
+          "tag": "v3.7.0",
           "name": "scc_Linux_x86_64.tar.gz"
         }
       ]
