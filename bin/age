@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "age",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 9685129,
+      "hash": "blake3",
+      "digest": "d86f2a77816f81bf07ca2c983649b1a72d026f73aec09c3b80d42e1ac34e2b7b",
+      "format": "tar.gz",
+      "path": "age/age",
+      "providers": [
+        {
+          "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-darwin-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/FiloSottile/age",
+          "tag": "v1.3.1",
+          "name": "age-v1.3.1-darwin-arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 10288093,
+      "hash": "blake3",
+      "digest": "8d3ca2c46540ac20923234a28580691a7aeda60c14d32cde76bbdac1b5207793",
+      "format": "tar.gz",
+      "path": "age/age",
+      "providers": [
+        {
+          "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-darwin-amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/FiloSottile/age",
+          "tag": "v1.3.1",
+          "name": "age-v1.3.1-darwin-amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 9466344,
+      "hash": "blake3",
+      "digest": "85bfe2cd9485668eb7071d087862bd83cce47d4839f3db41a0279c19fe794524",
+      "format": "tar.gz",
+      "path": "age/age",
+      "providers": [
+        {
+          "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-linux-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/FiloSottile/age",
+          "tag": "v1.3.1",
+          "name": "age-v1.3.1-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 10263766,
+      "hash": "blake3",
+      "digest": "5d419f193b3fa998bd37f2ce4392858a4a6fde224b467649a7b43f083762b0ca",
+      "format": "tar.gz",
+      "path": "age/age",
+      "providers": [
+        {
+          "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-linux-amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/FiloSottile/age",
+          "tag": "v1.3.1",
+          "name": "age-v1.3.1-linux-amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}

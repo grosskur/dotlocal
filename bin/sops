@@ -1,0 +1,75 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "sops",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 49758498,
+      "hash": "blake3",
+      "digest": "fde402d6445d247f0ed76aa3c2e33b9f7b2174826e4907c88b005a251ddf3527",
+      "path": "sops-v3.13.1.darwin.arm64",
+      "providers": [
+        {
+          "url": "https://github.com/getsops/sops/releases/download/v3.13.1/sops-v3.13.1.darwin.arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/getsops/sops",
+          "tag": "v3.13.1",
+          "name": "sops-v3.13.1.darwin.arm64"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 53252064,
+      "hash": "blake3",
+      "digest": "58a8b6d83821e5772924488f7261a6b4660277112563ea19b6573ab5554568fd",
+      "path": "sops-v3.13.1.darwin.amd64",
+      "providers": [
+        {
+          "url": "https://github.com/getsops/sops/releases/download/v3.13.1/sops-v3.13.1.darwin.amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/getsops/sops",
+          "tag": "v3.13.1",
+          "name": "sops-v3.13.1.darwin.amd64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 47972514,
+      "hash": "blake3",
+      "digest": "574643c87b783abc95456882b65c1542731de853823039f599259e0940806e70",
+      "path": "sops-v3.13.1.linux.arm64",
+      "providers": [
+        {
+          "url": "https://github.com/getsops/sops/releases/download/v3.13.1/sops-v3.13.1.linux.arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/getsops/sops",
+          "tag": "v3.13.1",
+          "name": "sops-v3.13.1.linux.arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 51728546,
+      "hash": "blake3",
+      "digest": "4484bb1e8e3e3eaf73d9b202d7f96dd606ae47579fc19382de984bcfcdf9ea77",
+      "path": "sops-v3.13.1.linux.amd64",
+      "providers": [
+        {
+          "url": "https://github.com/getsops/sops/releases/download/v3.13.1/sops-v3.13.1.linux.amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/getsops/sops",
+          "tag": "v3.13.1",
+          "name": "sops-v3.13.1.linux.amd64"
+        }
+      ]
+    }
+  }
+}

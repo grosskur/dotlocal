@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "stern",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 13188737,
+      "hash": "blake3",
+      "digest": "635470cfa472908419b6085a65cc098aefcb4517bdeeadd98b11a7fe40a64e0a",
+      "format": "tar.gz",
+      "path": "stern",
+      "providers": [
+        {
+          "url": "https://github.com/stern/stern/releases/download/v1.34.0/stern_1.34.0_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/stern/stern",
+          "tag": "v1.34.0",
+          "name": "stern_1.34.0_darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 14403975,
+      "hash": "blake3",
+      "digest": "e32ec94def174de66bfb2aa4ac81811ad9a099aeaa99c21fde045a64f9132ba3",
+      "format": "tar.gz",
+      "path": "stern",
+      "providers": [
+        {
+          "url": "https://github.com/stern/stern/releases/download/v1.34.0/stern_1.34.0_darwin_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/stern/stern",
+          "tag": "v1.34.0",
+          "name": "stern_1.34.0_darwin_amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 12573579,
+      "hash": "blake3",
+      "digest": "35f850ece85aa9783c08e24430718103f88d3b9b0376e6e555b34452069a242b",
+      "format": "tar.gz",
+      "path": "stern",
+      "providers": [
+        {
+          "url": "https://github.com/stern/stern/releases/download/v1.34.0/stern_1.34.0_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/stern/stern",
+          "tag": "v1.34.0",
+          "name": "stern_1.34.0_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 14144343,
+      "hash": "blake3",
+      "digest": "cb8439ee0ce9037339fda40f09719d1867379a195dfb928fd436cc443d689f87",
+      "format": "tar.gz",
+      "path": "stern",
+      "providers": [
+        {
+          "url": "https://github.com/stern/stern/releases/download/v1.34.0/stern_1.34.0_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/stern/stern",
+          "tag": "v1.34.0",
+          "name": "stern_1.34.0_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}

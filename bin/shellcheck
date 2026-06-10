@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "shellcheck",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 7245972,
+      "hash": "blake3",
+      "digest": "ad4957ed937da4e876d19e3500fc31d104e43b6e4e11d57a7b7c40140bc870d6",
+      "format": "tar.xz",
+      "path": "shellcheck-v0.11.0/shellcheck",
+      "providers": [
+        {
+          "url": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.darwin.aarch64.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/koalaman/shellcheck",
+          "tag": "v0.11.0",
+          "name": "shellcheck-v0.11.0.darwin.aarch64.tar.xz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 4393952,
+      "hash": "blake3",
+      "digest": "48b37297aa6f728f92175720b35744bd9b57fc37ff3ac440a09b7cf5ad13a623",
+      "format": "tar.xz",
+      "path": "shellcheck-v0.11.0/shellcheck",
+      "providers": [
+        {
+          "url": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.darwin.x86_64.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/koalaman/shellcheck",
+          "tag": "v0.11.0",
+          "name": "shellcheck-v0.11.0.darwin.x86_64.tar.xz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 6811484,
+      "hash": "blake3",
+      "digest": "2387ca3885afdc055769f6d93a9693021d275293419fffce968d0324e441e8d6",
+      "format": "tar.xz",
+      "path": "shellcheck-v0.11.0/shellcheck",
+      "providers": [
+        {
+          "url": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.aarch64.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/koalaman/shellcheck",
+          "tag": "v0.11.0",
+          "name": "shellcheck-v0.11.0.linux.aarch64.tar.xz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 2559196,
+      "hash": "blake3",
+      "digest": "0ad9524f3f16ad030f8350e7b970c62c24aeff3d813f2565665aecc5a8b79644",
+      "format": "tar.xz",
+      "path": "shellcheck-v0.11.0/shellcheck",
+      "providers": [
+        {
+          "url": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.x86_64.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/koalaman/shellcheck",
+          "tag": "v0.11.0",
+          "name": "shellcheck-v0.11.0.linux.x86_64.tar.xz"
+        }
+      ]
+    }
+  }
+}

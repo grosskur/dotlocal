@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "fzf",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 1861771,
+      "hash": "blake3",
+      "digest": "2c0a2c86f930942092934bc3ec44f5c7b621d4ca8909d6a0b66f522660ac4cea",
+      "format": "tar.gz",
+      "path": "fzf",
+      "providers": [
+        {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/junegunn/fzf",
+          "tag": "v0.73.1",
+          "name": "fzf-0.73.1-darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 2025742,
+      "hash": "blake3",
+      "digest": "b7e290581c9f673486ab9eba62174ae7ccf8f1325541c5f81d99efd00006d750",
+      "format": "tar.gz",
+      "path": "fzf",
+      "providers": [
+        {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-darwin_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/junegunn/fzf",
+          "tag": "v0.73.1",
+          "name": "fzf-0.73.1-darwin_amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 1804720,
+      "hash": "blake3",
+      "digest": "bd5737b42b6107a606dfe0cd672bde3213dd902359e6c231fcb824a091c629ee",
+      "format": "tar.gz",
+      "path": "fzf",
+      "providers": [
+        {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/junegunn/fzf",
+          "tag": "v0.73.1",
+          "name": "fzf-0.73.1-linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 1969160,
+      "hash": "blake3",
+      "digest": "0cf4c8ad070306c1b747a48124f3f42e1939b4c5d248163321bfdfd1a02cb39d",
+      "format": "tar.gz",
+      "path": "fzf",
+      "providers": [
+        {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/junegunn/fzf",
+          "tag": "v0.73.1",
+          "name": "fzf-0.73.1-linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}

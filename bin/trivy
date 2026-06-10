@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "trivy",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 47384803,
+      "hash": "blake3",
+      "digest": "0fb50231d2088f90848a0bbe656267b6d541d172597d7ad65a7f85628f222ee1",
+      "format": "tar.gz",
+      "path": "trivy",
+      "providers": [
+        {
+          "url": "https://github.com/aquasecurity/trivy/releases/download/v0.71.0/trivy_0.71.0_macOS-ARM64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/aquasecurity/trivy",
+          "tag": "v0.71.0",
+          "name": "trivy_0.71.0_macOS-ARM64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 51183650,
+      "hash": "blake3",
+      "digest": "6f0736c0aa9d15ea3853e3543cc0627e14a250821d33de85af27e741c3980867",
+      "format": "tar.gz",
+      "path": "trivy",
+      "providers": [
+        {
+          "url": "https://github.com/aquasecurity/trivy/releases/download/v0.71.0/trivy_0.71.0_macOS-64bit.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/aquasecurity/trivy",
+          "tag": "v0.71.0",
+          "name": "trivy_0.71.0_macOS-64bit.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 45111254,
+      "hash": "blake3",
+      "digest": "026208f63daf39a80e57582d3c5f0ad9bd852358a54207ed9f20616ed19406f0",
+      "format": "tar.gz",
+      "path": "trivy",
+      "providers": [
+        {
+          "url": "https://github.com/aquasecurity/trivy/releases/download/v0.71.0/trivy_0.71.0_Linux-ARM64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/aquasecurity/trivy",
+          "tag": "v0.71.0",
+          "name": "trivy_0.71.0_Linux-ARM64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 50161716,
+      "hash": "blake3",
+      "digest": "7e5903ff79a58aecd273c76357b51166bb7526885f90d9a8645a4c86550d11bb",
+      "format": "tar.gz",
+      "path": "trivy",
+      "providers": [
+        {
+          "url": "https://github.com/aquasecurity/trivy/releases/download/v0.71.0/trivy_0.71.0_Linux-64bit.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/aquasecurity/trivy",
+          "tag": "v0.71.0",
+          "name": "trivy_0.71.0_Linux-64bit.tar.gz"
+        }
+      ]
+    }
+  }
+}

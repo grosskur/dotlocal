@@ -1,0 +1,75 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cosign",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 139051394,
+      "hash": "blake3",
+      "digest": "5a90c29a704ec984efe25d8318261755fc0f9099849cf5631e3ee5830ae179d8",
+      "path": "cosign-darwin-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-darwin-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sigstore/cosign",
+          "tag": "v3.1.1",
+          "name": "cosign-darwin-arm64"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 148002984,
+      "hash": "blake3",
+      "digest": "99e8415b5cdb95d4a557b1174dfa26ca4c850e0d5cff79caa6396d85adab2063",
+      "path": "cosign-darwin-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-darwin-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sigstore/cosign",
+          "tag": "v3.1.1",
+          "name": "cosign-darwin-amd64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 132135051,
+      "hash": "blake3",
+      "digest": "a13c56bdf8e408c29d34fb2eda16d4fe81c2b3dd0d69ff749b96becc58bc4c2b",
+      "path": "cosign-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sigstore/cosign",
+          "tag": "v3.1.1",
+          "name": "cosign-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 140588378,
+      "hash": "blake3",
+      "digest": "9a9a79d37998e8010986ec9fc93fb1b26eae258649e6b788b2817acc9668d03a",
+      "path": "cosign-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sigstore/cosign",
+          "tag": "v3.1.1",
+          "name": "cosign-linux-amd64"
+        }
+      ]
+    }
+  }
+}

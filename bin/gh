@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "gh",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 13646335,
+      "hash": "blake3",
+      "digest": "a1acef3bb78a9da5a6fc1f6af20cc757824df4b052de6fe34d6b5fa5eee7fef1",
+      "format": "zip",
+      "path": "gh_2.93.0_macOS_arm64/bin/gh",
+      "providers": [
+        {
+          "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cli/cli",
+          "tag": "v2.93.0",
+          "name": "gh_2.93.0_macOS_arm64.zip"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 14960426,
+      "hash": "blake3",
+      "digest": "7b21adcd97ef60b102bf2314b3361b90f5aab4f6a09b0a5b029f1ca37f02d64f",
+      "format": "zip",
+      "path": "gh_2.93.0_macOS_amd64/bin/gh",
+      "providers": [
+        {
+          "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cli/cli",
+          "tag": "v2.93.0",
+          "name": "gh_2.93.0_macOS_amd64.zip"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 13035187,
+      "hash": "blake3",
+      "digest": "7961aa9facb7bacc430fa9328564ef79c9c110062020ec7f86145bebea547461",
+      "format": "tar.gz",
+      "path": "gh_2.93.0_linux_arm64/bin/gh",
+      "providers": [
+        {
+          "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cli/cli",
+          "tag": "v2.93.0",
+          "name": "gh_2.93.0_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 14332871,
+      "hash": "blake3",
+      "digest": "6c156aecbae7ac6379e2d79ce5179f57390a2517e1dc474d51f5089c7b2bef96",
+      "format": "tar.gz",
+      "path": "gh_2.93.0_linux_amd64/bin/gh",
+      "providers": [
+        {
+          "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cli/cli",
+          "tag": "v2.93.0",
+          "name": "gh_2.93.0_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}

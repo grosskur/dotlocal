@@ -1,0 +1,79 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "kustomize",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 4918398,
+      "hash": "blake3",
+      "digest": "0b9eeb13fbbaa21a399983d22c406fb19916f527a4a47a20152d46fb04046e60",
+      "format": "tar.gz",
+      "path": "kustomize",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kustomize",
+          "tag": "kustomize/v5.8.1",
+          "name": "kustomize_v5.8.1_darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 5252204,
+      "hash": "blake3",
+      "digest": "dcdcec60d765bea7d2e1bf37757d34c543f5690a26cd6d4da2c0ff8f5ea73d79",
+      "format": "tar.gz",
+      "path": "kustomize",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_darwin_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kustomize",
+          "tag": "kustomize/v5.8.1",
+          "name": "kustomize_v5.8.1_darwin_amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 4736536,
+      "hash": "blake3",
+      "digest": "601c0959637ddb57cf1bf3becb9a66771019a4cc631020b8d0138d91716b227c",
+      "format": "tar.gz",
+      "path": "kustomize",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kustomize",
+          "tag": "kustomize/v5.8.1",
+          "name": "kustomize_v5.8.1_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 5171673,
+      "hash": "blake3",
+      "digest": "5317b6aee0830d9b93d7c481b91dc6f2d2ff6e0df9505bcacb9ed976f3cc5b49",
+      "format": "tar.gz",
+      "path": "kustomize",
+      "providers": [
+        {
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/kubernetes-sigs/kustomize",
+          "tag": "kustomize/v5.8.1",
+          "name": "kustomize_v5.8.1_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
