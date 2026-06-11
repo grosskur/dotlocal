@@ -1,0 +1,58 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "zot",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 206438702,
+      "hash": "blake3",
+      "digest": "b9f7433be027da6a992f9f510d896e379a284a3ac95696e65a70bc37423fa414",
+      "path": "zot-linux-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/project-zot/zot/releases/download/v2.1.17/zot-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/project-zot/zot",
+          "tag": "v2.1.17",
+          "name": "zot-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 221294894,
+      "hash": "blake3",
+      "digest": "3a7677df575dabeee1481d0c04430d8a9cb7247f22de040f628b8436136eb0a5",
+      "path": "zot-linux-amd64",
+      "providers": [
+        {
+          "url": "https://github.com/project-zot/zot/releases/download/v2.1.17/zot-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/project-zot/zot",
+          "tag": "v2.1.17",
+          "name": "zot-linux-amd64"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 192787938,
+      "hash": "blake3",
+      "digest": "2d1da3e4b54f5f6647d2391e9b19ac6b109f7a49f5d89ed9c1b1d6299bbe8311",
+      "path": "zot-darwin-arm64",
+      "providers": [
+        {
+          "url": "https://github.com/project-zot/zot/releases/download/v2.1.17/zot-darwin-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/project-zot/zot",
+          "tag": "v2.1.17",
+          "name": "zot-darwin-arm64"
+        }
+      ]
+    }
+  }
+}
