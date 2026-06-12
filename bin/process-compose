@@ -1,0 +1,115 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "process-compose",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 14618318,
+      "hash": "blake3",
+      "digest": "e245d9a8621cd409d26045d4ab94c5c4c8a9027524c614ec95d4ea7f0523669a",
+      "format": "tar.gz",
+      "path": "process-compose",
+      "providers": [
+        {
+          "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.110.0/process-compose_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/F1bonacc1/process-compose",
+          "tag": "v1.110.0",
+          "name": "process-compose_darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 15493197,
+      "hash": "blake3",
+      "digest": "7d3560297144f7ca2f607da3a52e75b729c49c7f9fdb4e1b742d3346ed4e8789",
+      "format": "tar.gz",
+      "path": "process-compose",
+      "providers": [
+        {
+          "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.110.0/process-compose_darwin_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/F1bonacc1/process-compose",
+          "tag": "v1.110.0",
+          "name": "process-compose_darwin_amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 14187418,
+      "hash": "blake3",
+      "digest": "f40e45cf5c8f0afded577574a0251e18bc70023e8aa108a3adebf9423dec942b",
+      "format": "tar.gz",
+      "path": "process-compose",
+      "providers": [
+        {
+          "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.110.0/process-compose_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/F1bonacc1/process-compose",
+          "tag": "v1.110.0",
+          "name": "process-compose_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 15412722,
+      "hash": "blake3",
+      "digest": "3e5a4f77347a44e35868c5ef8b28e89471248a108a06c97511cbd9ce902f3c25",
+      "format": "tar.gz",
+      "path": "process-compose",
+      "providers": [
+        {
+          "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.110.0/process-compose_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/F1bonacc1/process-compose",
+          "tag": "v1.110.0",
+          "name": "process-compose_linux_amd64.tar.gz"
+        }
+      ]
+    },
+    "windows-aarch64": {
+      "size": 14118583,
+      "hash": "blake3",
+      "digest": "5b933592f9dc3b6b17afaf9cbd4c7e52cc7714318775be00661bf651cbafbacf",
+      "format": "zip",
+      "path": "process-compose.exe",
+      "providers": [
+        {
+          "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.110.0/process-compose_windows_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/F1bonacc1/process-compose",
+          "tag": "v1.110.0",
+          "name": "process-compose_windows_arm64.zip"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 15519127,
+      "hash": "blake3",
+      "digest": "cf4ca67319d25cdfe793219bdbee535b7612f5c1d2e85f19a918196492d44044",
+      "format": "zip",
+      "path": "process-compose.exe",
+      "providers": [
+        {
+          "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.110.0/process-compose_windows_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/F1bonacc1/process-compose",
+          "tag": "v1.110.0",
+          "name": "process-compose_windows_amd64.zip"
+        }
+      ]
+    }
+  }
+}
