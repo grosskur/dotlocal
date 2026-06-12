@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "mprocs",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 863109,
+      "hash": "blake3",
+      "digest": "dc4bf8b33c9b20e3814cc034e08b934dab968c9ebd5990da1a5ed96e6ee0719e",
+      "format": "tar.gz",
+      "path": "mprocs",
+      "providers": [
+        {
+          "url": "https://github.com/pvolok/mprocs/releases/download/v0.9.6/mprocs-0.9.6-darwin-aarch64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pvolok/mprocs",
+          "tag": "v0.9.6",
+          "name": "mprocs-0.9.6-darwin-aarch64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 1045175,
+      "hash": "blake3",
+      "digest": "769cf98fa50fd5720ca44bfaddd76a57c8f7c8ccb73ca9c7e88fe4e498e507b8",
+      "format": "tar.gz",
+      "path": "mprocs",
+      "providers": [
+        {
+          "url": "https://github.com/pvolok/mprocs/releases/download/v0.9.6/mprocs-0.9.6-linux-aarch64-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pvolok/mprocs",
+          "tag": "v0.9.6",
+          "name": "mprocs-0.9.6-linux-aarch64-musl.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 1081292,
+      "hash": "blake3",
+      "digest": "1caaeb71461cba26b29b6ba136976131c6cde14dd70b0db702d7c29a5c103cb6",
+      "format": "tar.gz",
+      "path": "mprocs",
+      "providers": [
+        {
+          "url": "https://github.com/pvolok/mprocs/releases/download/v0.9.6/mprocs-0.9.6-linux-x86_64-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/pvolok/mprocs",
+          "tag": "v0.9.6",
+          "name": "mprocs-0.9.6-linux-x86_64-musl.tar.gz"
+        }
+      ]
+    }
+  }
+}
