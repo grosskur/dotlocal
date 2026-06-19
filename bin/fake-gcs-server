@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "fake-gcs-server",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 10148690,
+      "hash": "blake3",
+      "digest": "da6a4c783051e5fad32ba63bb15c84d9306ea8e2711ba0d7e4784b0ef1f9172c",
+      "format": "tar.gz",
+      "path": "fake-gcs-server",
+      "providers": [
+        {
+          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.54.0/fake-gcs-server_1.54.0_Darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/fsouza/fake-gcs-server",
+          "tag": "v1.54.0",
+          "name": "fake-gcs-server_1.54.0_Darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 10506711,
+      "hash": "blake3",
+      "digest": "80cbb6793b3dd1f82f8ef78b265aa8a1952eb6adb466b5d54ce9c7de9e137462",
+      "format": "tar.gz",
+      "path": "fake-gcs-server",
+      "providers": [
+        {
+          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.54.0/fake-gcs-server_1.54.0_Linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/fsouza/fake-gcs-server",
+          "tag": "v1.54.0",
+          "name": "fake-gcs-server_1.54.0_Linux_amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 9563509,
+      "hash": "blake3",
+      "digest": "1fce50b0358445f596feb4d63f47d9e3c451ba8310e57d46adebf808d17fa174",
+      "format": "tar.gz",
+      "path": "fake-gcs-server",
+      "providers": [
+        {
+          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.54.0/fake-gcs-server_1.54.0_Linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/fsouza/fake-gcs-server",
+          "tag": "v1.54.0",
+          "name": "fake-gcs-server_1.54.0_Linux_arm64.tar.gz"
+        }
+      ]
+    }
+  }
+}
