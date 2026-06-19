@@ -1,0 +1,29 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "garage",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 66349320,
+      "hash": "blake3",
+      "digest": "d37b8526083330fd073e418510b7ff143cb0a3eee527a02aff90bfa9d59e7fad",
+      "path": "garage",
+      "providers": [
+        {
+          "url": "https://garagehq.deuxfleurs.fr/_releases/v2.3.0/aarch64-unknown-linux-musl/garage"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 71281456,
+      "hash": "blake3",
+      "digest": "3c5b7562d8ddb71a45e2daa0fc4e37676ff01e791fb94a53454f91b3745bd596",
+      "path": "garage",
+      "providers": [
+        {
+          "url": "https://garagehq.deuxfleurs.fr/_releases/v2.3.0/x86_64-unknown-linux-musl/garage"
+        }
+      ]
+    }
+  }
+}
