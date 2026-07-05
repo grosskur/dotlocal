@@ -4,37 +4,37 @@
   "name": "bwrap",
   "platforms": {
     "linux-x86_64": {
-      "size": 237607,
+      "size": 237691,
       "hash": "blake3",
-      "digest": "cce375a3852bc67bf7520b048c24ed3072a8d079a12be9a0fb0a4300f012376a",
+      "digest": "389bd4ad6193a73b8617ffdfd64e993bba96629b10ff83dbd5c2b6bd06c88470",
       "format": "zst",
       "path": "bwrap",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.138.0/bwrap-x86_64-unknown-linux-musl.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.142.5/bwrap-x86_64-unknown-linux-musl.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.138.0",
+          "tag": "rust-v0.142.5",
           "name": "bwrap-x86_64-unknown-linux-musl.zst"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 231052,
+      "size": 231095,
       "hash": "blake3",
-      "digest": "fa5ab4f79fdb2382ee1ab6c0bd968d0c8f1f38c2d62bc6622d167da5191f58ca",
+      "digest": "8896694eacda5f45bf6106942bc0ac35f553b793196dc1a6b4a96a434a6ab07a",
       "format": "zst",
       "path": "bwrap",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.138.0/bwrap-aarch64-unknown-linux-musl.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.142.5/bwrap-aarch64-unknown-linux-musl.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.138.0",
+          "tag": "rust-v0.142.5",
           "name": "bwrap-aarch64-unknown-linux-musl.zst"
         }
       ]
