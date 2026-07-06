@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "mysqldef",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 3174859,
+      "hash": "blake3",
+      "digest": "5ba010d1538ef99cc7155543c9225fecc752312623e8c8b16bf87c21ca10fcb5",
+      "format": "zip",
+      "path": "mysqldef",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/mysqldef_darwin_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.11.13",
+          "name": "mysqldef_darwin_arm64.zip"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 3066828,
+      "hash": "blake3",
+      "digest": "0651194029b8fbf52f6e6ab8b4634dc8719ee21a26f1cf3d4d82c1b531f365b6",
+      "format": "tar.gz",
+      "path": "mysqldef",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/mysqldef_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.11.13",
+          "name": "mysqldef_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 3433468,
+      "hash": "blake3",
+      "digest": "d796505229f05d84ee94b882e7b5fc0fc38a871514b404ee05d943cad463a9d6",
+      "format": "tar.gz",
+      "path": "mysqldef",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/mysqldef_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.11.13",
+          "name": "mysqldef_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}

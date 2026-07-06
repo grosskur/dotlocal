@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "sqlite3def",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 3722437,
+      "hash": "blake3",
+      "digest": "2bb4db376428c02f50e7ce110be0434271ce5485834485e54a05977bc9473498",
+      "format": "zip",
+      "path": "sqlite3def",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/sqlite3def_darwin_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.11.13",
+          "name": "sqlite3def_darwin_arm64.zip"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 3601303,
+      "hash": "blake3",
+      "digest": "4e32039ef17c6927676d3997dedd686724a61be795f84a1d8d3b169053d9ecff",
+      "format": "tar.gz",
+      "path": "sqlite3def",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/sqlite3def_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.11.13",
+          "name": "sqlite3def_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 3932497,
+      "hash": "blake3",
+      "digest": "95c33e40ce19923c43053d59b15f543437ca0a05342a3a523e2e9932ab1d5f1b",
+      "format": "tar.gz",
+      "path": "sqlite3def",
+      "providers": [
+        {
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/sqlite3def_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/sqldef/sqldef",
+          "tag": "v3.11.13",
+          "name": "sqlite3def_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
