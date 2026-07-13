@@ -11,12 +11,12 @@
       "path": "bwrap",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.144.0/bwrap-x86_64-unknown-linux-musl.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.144.3/bwrap-x86_64-unknown-linux-musl.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.144.0",
+          "tag": "rust-v0.144.3",
           "name": "bwrap-x86_64-unknown-linux-musl.zst"
         }
       ]
@@ -29,12 +29,12 @@
       "path": "bwrap",
       "providers": [
         {
-          "url": "https://github.com/openai/codex/releases/download/rust-v0.144.0/bwrap-aarch64-unknown-linux-musl.zst"
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.144.3/bwrap-aarch64-unknown-linux-musl.zst"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/openai/codex",
-          "tag": "rust-v0.144.0",
+          "tag": "rust-v0.144.3",
           "name": "bwrap-aarch64-unknown-linux-musl.zst"
         }
       ]
