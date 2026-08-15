@@ -4,56 +4,56 @@
   "name": "ant",
   "platforms": {
     "macos-aarch64": {
-      "size": 6798518,
+      "size": 7163057,
       "hash": "blake3",
-      "digest": "d2f4ddd678ad7f2bfdaaef6841572d76a8fffa9a6f390f11dd2c04bb98709975",
+      "digest": "cdfe51cf539d45bdd4b1e99ca2cedeb7e4437dae9c7e86a6bbb9cf9fc061a412",
       "format": "zip",
       "path": "ant",
       "providers": [
         {
-          "url": "https://github.com/anthropics/anthropic-cli/releases/download/v1.10.0/ant_1.10.0_macos_arm64.zip"
+          "url": "https://github.com/anthropics/anthropic-cli/releases/download/v1.23.0/ant_1.23.0_macos_arm64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anthropics/anthropic-cli",
-          "tag": "v1.10.0",
-          "name": "ant_1.10.0_macos_arm64.zip"
+          "tag": "v1.23.0",
+          "name": "ant_1.23.0_macos_arm64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 6461231,
+      "size": 6793559,
       "hash": "blake3",
-      "digest": "828efb5499bb40ffe05d88da01429ebea0f259afba3f792bf29aac1afa0eaffc",
+      "digest": "8106b75e87d1fc69bf9006cf10891ea286ce7599287e389cb467fd6536b36da7",
       "format": "tar.gz",
       "path": "ant",
       "providers": [
         {
-          "url": "https://github.com/anthropics/anthropic-cli/releases/download/v1.10.0/ant_1.10.0_linux_arm64.tar.gz"
+          "url": "https://github.com/anthropics/anthropic-cli/releases/download/v1.23.0/ant_1.23.0_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anthropics/anthropic-cli",
-          "tag": "v1.10.0",
-          "name": "ant_1.10.0_linux_arm64.tar.gz"
+          "tag": "v1.23.0",
+          "name": "ant_1.23.0_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 7063789,
+      "size": 7420061,
       "hash": "blake3",
-      "digest": "86629660f2a719b48a51ca00eeb2dd9eb5e79dc1d6c07b2453dc0c43ad8331f6",
+      "digest": "9b58c9339b74eda38c25fcae3b58f8a75ab860aef365fcd403121d3da40d5da2",
       "format": "tar.gz",
       "path": "ant",
       "providers": [
         {
-          "url": "https://github.com/anthropics/anthropic-cli/releases/download/v1.10.0/ant_1.10.0_linux_amd64.tar.gz"
+          "url": "https://github.com/anthropics/anthropic-cli/releases/download/v1.23.0/ant_1.23.0_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anthropics/anthropic-cli",
-          "tag": "v1.10.0",
-          "name": "ant_1.10.0_linux_amd64.tar.gz"
+          "tag": "v1.23.0",
+          "name": "ant_1.23.0_linux_amd64.tar.gz"
         }
       ]
     }
