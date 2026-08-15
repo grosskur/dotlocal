@@ -4,56 +4,56 @@
   "name": "pandoc",
   "platforms": {
     "linux-x86_64": {
-      "size": 34661245,
+      "size": 34877720,
       "hash": "blake3",
-      "digest": "6ab82f96fccba6754b32aa58e435c4f00e6ec697735b5d6bbde39979d9f1732a",
+      "digest": "e313053a3a723b648104703c5e63cb10cae41dd04887c88f454a701518f49d71",
       "format": "tar.gz",
-      "path": "pandoc-3.10/bin/pandoc",
+      "path": "pandoc-3.10.2/bin/pandoc",
       "providers": [
         {
-          "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz"
+          "url": "https://github.com/jgm/pandoc/releases/download/3.10.2/pandoc-3.10.2-linux-amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/jgm/pandoc",
-          "tag": "3.10",
-          "name": "pandoc-3.10-linux-amd64.tar.gz"
+          "tag": "3.10.2",
+          "name": "pandoc-3.10.2-linux-amd64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 37109798,
+      "size": 37331747,
       "hash": "blake3",
-      "digest": "7144c7c5e9a410bc8940ec798a00cfbe46592cc70f56126b6417f1ff519e5f5e",
+      "digest": "23d6e64fd687ac43b157d1e17c45f736d861f409b1d83aeb9c8007e7b7ef23a5",
       "format": "tar.gz",
-      "path": "pandoc-3.10/bin/pandoc",
+      "path": "pandoc-3.10.2/bin/pandoc",
       "providers": [
         {
-          "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-arm64.tar.gz"
+          "url": "https://github.com/jgm/pandoc/releases/download/3.10.2/pandoc-3.10.2-linux-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/jgm/pandoc",
-          "tag": "3.10",
-          "name": "pandoc-3.10-linux-arm64.tar.gz"
+          "tag": "3.10.2",
+          "name": "pandoc-3.10.2-linux-arm64.tar.gz"
         }
       ]
     },
     "macos-aarch64": {
-      "size": 41511397,
+      "size": 41747373,
       "hash": "blake3",
-      "digest": "2bc40ce82cf585f6a5eb12298c59d305dc9e6ca945dbbabb8f6214e84ffa33d4",
+      "digest": "5ec0d458a2c2c2fa26495e89cab376e0d44a00c515321f746cd612add436b44d",
       "format": "zip",
-      "path": "pandoc-3.10-arm64/bin/pandoc",
+      "path": "pandoc-3.10.2-arm64/bin/pandoc",
       "providers": [
         {
-          "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-arm64-macOS.zip"
+          "url": "https://github.com/jgm/pandoc/releases/download/3.10.2/pandoc-3.10.2-arm64-macOS.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/jgm/pandoc",
-          "tag": "3.10",
-          "name": "pandoc-3.10-arm64-macOS.zip"
+          "tag": "3.10.2",
+          "name": "pandoc-3.10.2-arm64-macOS.zip"
         }
       ]
     }

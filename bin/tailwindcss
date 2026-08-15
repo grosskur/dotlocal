@@ -4,52 +4,52 @@
   "name": "tailwindcss",
   "platforms": {
     "macos-aarch64": {
-      "size": 79268386,
+      "size": 79826018,
       "hash": "blake3",
-      "digest": "01a3c2d3a68b1a2a00dc5ebcfda75be505c0c83e619de8e10961ad5655a91378",
+      "digest": "bf0dbb3a40df744a3a16ca6a82a3518238b49db6fe3985e1380ade88ca1fc2ab",
       "path": "tailwindcss-macos-arm64",
       "providers": [
         {
-          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.0/tailwindcss-macos-arm64"
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.3/tailwindcss-macos-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/tailwindlabs/tailwindcss",
-          "tag": "v4.3.0",
+          "tag": "v4.3.3",
           "name": "tailwindcss-macos-arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 117442880,
+      "size": 109881488,
       "hash": "blake3",
-      "digest": "64d7dee66ab34d6b7c4067cad0518fe4eb4bd05a86428b2a45c50edb66c733e1",
+      "digest": "f3ac8fd1fc428db693a9936038219460f3bba31df2f907d685711721709da0ef",
       "path": "tailwindcss-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.0/tailwindcss-linux-arm64"
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.3/tailwindcss-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/tailwindlabs/tailwindcss",
-          "tag": "v4.3.0",
+          "tag": "v4.3.3",
           "name": "tailwindcss-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 118880576,
+      "size": 111749248,
       "hash": "blake3",
-      "digest": "0aec0aab0cc4a6dc0943efd574e9b4586c8101ee370033a9076ddf11cb6e0e89",
+      "digest": "56cfe3c256b8e4b9bfbd2321d30335885a47889a6a8dcc4a35a36cf0c238ef38",
       "path": "tailwindcss-linux-x64",
       "providers": [
         {
-          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.0/tailwindcss-linux-x64"
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.3/tailwindcss-linux-x64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/tailwindlabs/tailwindcss",
-          "tag": "v4.3.0",
+          "tag": "v4.3.3",
           "name": "tailwindcss-linux-x64"
         }
       ]

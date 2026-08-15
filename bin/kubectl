@@ -4,35 +4,35 @@
   "name": "kubectl",
   "platforms": {
     "macos-aarch64": {
-      "size": 57259122,
+      "size": 57292162,
       "hash": "blake3",
-      "digest": "0f90964ec27b89228801e0e1d89e7ab59d9c31ccb109363a1f210c39ef0b69ea",
+      "digest": "82c6edd806ddfa8ca3706776f97ab4dc7d040561b4def6532f3b5e2d2800f6c6",
       "path": "kubectl",
       "providers": [
         {
-          "url": "https://dl.k8s.io/release/v1.36.1/bin/darwin/arm64/kubectl"
+          "url": "https://dl.k8s.io/release/v1.36.3/bin/darwin/arm64/kubectl"
         }
       ]
     },
     "linux-aarch64": {
       "size": 55640226,
       "hash": "blake3",
-      "digest": "cfddf09bfbe3b68c1d1be9f2ab757fa800bed0320f8030270e0bb11e5a753edb",
+      "digest": "4f799865ffc68d72a80c2a0e41e8937d3586f6d71b2029194448ca54e7fe1278",
       "path": "kubectl",
       "providers": [
         {
-          "url": "https://dl.k8s.io/release/v1.36.1/bin/linux/arm64/kubectl"
+          "url": "https://dl.k8s.io/release/v1.36.3/bin/linux/arm64/kubectl"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 59502754,
+      "size": 59556002,
       "hash": "blake3",
-      "digest": "7d0b0e516544676453460fa98633761c0c7edf007544cd9053c45061e23af2de",
+      "digest": "c3530650f7d0c8652634864db0b3a5a83dfb807387f33ebd2c5e36f89ac37588",
       "path": "kubectl",
       "providers": [
         {
-          "url": "https://dl.k8s.io/release/v1.36.1/bin/linux/amd64/kubectl"
+          "url": "https://dl.k8s.io/release/v1.36.3/bin/linux/amd64/kubectl"
         }
       ]
     }

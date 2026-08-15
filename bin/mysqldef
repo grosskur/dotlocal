@@ -4,55 +4,55 @@
   "name": "mysqldef",
   "platforms": {
     "macos-aarch64": {
-      "size": 3174859,
+      "size": 3192281,
       "hash": "blake3",
-      "digest": "5ba010d1538ef99cc7155543c9225fecc752312623e8c8b16bf87c21ca10fcb5",
+      "digest": "169ebba77425a4ae839878552ab60e1704ccd028ac6eb09ace7945ffd493aeee",
       "format": "zip",
       "path": "mysqldef",
       "providers": [
         {
-          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/mysqldef_darwin_arm64.zip"
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.19/mysqldef_darwin_arm64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sqldef/sqldef",
-          "tag": "v3.11.13",
+          "tag": "v3.11.19",
           "name": "mysqldef_darwin_arm64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 3066828,
+      "size": 3082781,
       "hash": "blake3",
-      "digest": "0651194029b8fbf52f6e6ab8b4634dc8719ee21a26f1cf3d4d82c1b531f365b6",
+      "digest": "f6d6e6aa1d46c38f219b4b9fd30886baa2bea40d7a7b2f1332f10708d1e5965c",
       "format": "tar.gz",
       "path": "mysqldef",
       "providers": [
         {
-          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/mysqldef_linux_arm64.tar.gz"
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.19/mysqldef_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sqldef/sqldef",
-          "tag": "v3.11.13",
+          "tag": "v3.11.19",
           "name": "mysqldef_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 3433468,
+      "size": 3455315,
       "hash": "blake3",
-      "digest": "d796505229f05d84ee94b882e7b5fc0fc38a871514b404ee05d943cad463a9d6",
+      "digest": "e3ea7d15baa864f4ca66b91f3c6d31f16cf34c18529da11722776e88d4173495",
       "format": "tar.gz",
       "path": "mysqldef",
       "providers": [
         {
-          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/mysqldef_linux_amd64.tar.gz"
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.19/mysqldef_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sqldef/sqldef",
-          "tag": "v3.11.13",
+          "tag": "v3.11.19",
           "name": "mysqldef_linux_amd64.tar.gz"
         }
       ]

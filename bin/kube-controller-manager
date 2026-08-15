@@ -4,24 +4,24 @@
   "name": "kube-controller-manager",
   "platforms": {
     "linux-x86_64": {
-      "size": 74285218,
+      "size": 74354850,
       "hash": "blake3",
-      "digest": "0e9395300df79ae025ad4277c50d11c9a23ee499d3bf7e1a92561b63621e7ca9",
+      "digest": "ed3a73a736641f11725d04840e4c43c0131e231ba2376dfb4cb5df53fddaaf9a",
       "path": "kube-controller-manager",
       "providers": [
         {
-          "url": "https://dl.k8s.io/v1.36.1/bin/linux/amd64/kube-controller-manager"
+          "url": "https://dl.k8s.io/v1.36.3/bin/linux/amd64/kube-controller-manager"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 68681890,
+      "size": 68812962,
       "hash": "blake3",
-      "digest": "be6a6af311a7b7ad51df6c37a50b8edc36688fb4d6c4e4ae92d187c417d09d75",
+      "digest": "dade3455db236f9a7464aeb7fd8b77a84b46e16c47c456b8797c9d8326a291fc",
       "path": "kube-controller-manager",
       "providers": [
         {
-          "url": "https://dl.k8s.io/v1.36.1/bin/linux/arm64/kube-controller-manager"
+          "url": "https://dl.k8s.io/v1.36.3/bin/linux/arm64/kube-controller-manager"
         }
       ]
     }

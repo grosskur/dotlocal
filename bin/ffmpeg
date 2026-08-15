@@ -4,38 +4,38 @@
   "name": "ffmpeg",
   "platforms": {
     "linux-aarch64": {
-      "size": 100952108,
+      "size": 102872808,
       "hash": "blake3",
-      "digest": "46f86cb3317fd051e3b064ee2e74f1f5376f4ed8c699b2243f303e69e492f216",
+      "digest": "77d050c08a337039552a81ab98d0317cf9d19bad4258303993ff07d204dda0b8",
       "format": "tar.xz",
-      "path": "ffmpeg-n7.1.4-9-gc06af95f12-linuxarm64-gpl-7.1/bin/ffmpeg",
+      "path": "ffmpeg-n7.1.5-12-g1fdbca85aa-linuxarm64-gpl-7.1/bin/ffmpeg",
       "providers": [
         {
-          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-06-08-14-24/ffmpeg-n7.1.4-9-gc06af95f12-linuxarm64-gpl-7.1.tar.xz"
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-08-14-13-16/ffmpeg-n7.1.5-12-g1fdbca85aa-linuxarm64-gpl-7.1.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/BtbN/FFmpeg-Builds",
-          "tag": "autobuild-2026-06-08-14-24",
-          "name": "ffmpeg-n7.1.4-9-gc06af95f12-linuxarm64-gpl-7.1.tar.xz"
+          "tag": "autobuild-2026-08-14-13-16",
+          "name": "ffmpeg-n7.1.5-12-g1fdbca85aa-linuxarm64-gpl-7.1.tar.xz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 118914508,
+      "size": 119819072,
       "hash": "blake3",
-      "digest": "c377d4bfc0f4f1901ad701dce0abab924206b3746b7e0ae4912a9518a0893dca",
+      "digest": "0cec59eca5d5b99ccb5e1aefdab972a4ee49ba4f4ad1d6e5cd0923c6c2e09d40",
       "format": "tar.xz",
-      "path": "ffmpeg-n7.1.4-9-gc06af95f12-linux64-gpl-7.1/bin/ffmpeg",
+      "path": "ffmpeg-n7.1.5-12-g1fdbca85aa-linux64-gpl-7.1/bin/ffmpeg",
       "providers": [
         {
-          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-06-08-14-24/ffmpeg-n7.1.4-9-gc06af95f12-linux64-gpl-7.1.tar.xz"
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-08-14-13-16/ffmpeg-n7.1.5-12-g1fdbca85aa-linux64-gpl-7.1.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/BtbN/FFmpeg-Builds",
-          "tag": "autobuild-2026-06-08-14-24",
-          "name": "ffmpeg-n7.1.4-9-gc06af95f12-linux64-gpl-7.1.tar.xz"
+          "tag": "autobuild-2026-08-14-13-16",
+          "name": "ffmpeg-n7.1.5-12-g1fdbca85aa-linux64-gpl-7.1.tar.xz"
         }
       ]
     }

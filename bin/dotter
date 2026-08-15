@@ -4,52 +4,52 @@
   "name": "dotter",
   "platforms": {
     "macos-aarch64": {
-      "size": 3513552,
+      "size": 3312720,
       "hash": "blake3",
-      "digest": "7484387e8283e7503593ae9667d97898f3167eb82b87f87de5936b93c3378472",
+      "digest": "01ac9916fee62b47cc45529fc0ad132d3df60a18cc06d5a5640f252d28206ccd",
       "path": "dotter-macos-arm64.arm",
       "providers": [
         {
-          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-macos-arm64.arm"
+          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.5/dotter-macos-arm64.arm"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/SuperCuber/dotter",
-          "tag": "v0.13.4",
+          "tag": "v0.13.5",
           "name": "dotter-macos-arm64.arm"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 4242976,
+      "size": 4099136,
       "hash": "blake3",
-      "digest": "ebab947cd65dc94e09f0c83d23fab5a28de98df84610afdfbc7fbdcb26043272",
+      "digest": "badc3e18ff0d263828a82baaf4c2b1cf2d82594a9fa537e35f8e48158abae060",
       "path": "dotter-linux-arm64-musl",
       "providers": [
         {
-          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-linux-arm64-musl"
+          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.5/dotter-linux-arm64-musl"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/SuperCuber/dotter",
-          "tag": "v0.13.4",
+          "tag": "v0.13.5",
           "name": "dotter-linux-arm64-musl"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 5607584,
+      "size": 5349056,
       "hash": "blake3",
-      "digest": "d787ecf4d5feeaf5674c11dd0f6bb028f6434b70ee897f2f15bbef38702dd848",
+      "digest": "91d62c01267d10cea408ef335f41dea9e6985ac67b08ba2871bc92f1b19e4816",
       "path": "dotter-linux-x64-musl",
       "providers": [
         {
-          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-linux-x64-musl"
+          "url": "https://github.com/SuperCuber/dotter/releases/download/v0.13.5/dotter-linux-x64-musl"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/SuperCuber/dotter",
-          "tag": "v0.13.4",
+          "tag": "v0.13.5",
           "name": "dotter-linux-x64-musl"
         }
       ]

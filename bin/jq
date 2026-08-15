@@ -4,52 +4,52 @@
   "name": "jq",
   "platforms": {
     "macos-aarch64": {
-      "size": 841408,
+      "size": 841504,
       "hash": "blake3",
-      "digest": "d7f94364d8375d9004ac8169fdbb665f61360c2bcc7cceed1d7306dc6f8958b7",
+      "digest": "651534e32cf0d20894158c10fe984c89160650ca8e81ca9a545b501db5acac9a",
       "path": "jq-macos-arm64",
       "providers": [
         {
-          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64"
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/jqlang/jq",
-          "tag": "jq-1.8.1",
+          "tag": "jq-1.8.2",
           "name": "jq-macos-arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 1797872,
+      "size": 1797688,
       "hash": "blake3",
-      "digest": "4786647126a7ae8f1125c915e5e9460f5ce16c55c3b42100794e7971084fd805",
+      "digest": "428869e0c7c8b86cc2422a2b1e034cb026776795fb5df707bca3f889c6256626",
       "path": "jq-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64"
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/jqlang/jq",
-          "tag": "jq-1.8.1",
+          "tag": "jq-1.8.2",
           "name": "jq-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 2255816,
+      "size": 2267912,
       "hash": "blake3",
-      "digest": "b0419e57743765a9682d7924816269862890716d7bd3c1b78b2a3dd1f311a7f9",
+      "digest": "4311c64431be63fb82189e7e0950b060b39046e865ebb796ec3fa974309c4986",
       "path": "jq-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64"
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/jqlang/jq",
-          "tag": "jq-1.8.1",
+          "tag": "jq-1.8.2",
           "name": "jq-linux-amd64"
         }
       ]

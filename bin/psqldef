@@ -4,55 +4,55 @@
   "name": "psqldef",
   "platforms": {
     "macos-aarch64": {
-      "size": 5934467,
+      "size": 5962769,
       "hash": "blake3",
-      "digest": "b017c27acdd668165bfb4525d4d3b98f5563417a1129c5cf7ee5f9fb77460581",
+      "digest": "0a25ad1ed7b294a010c37010e65a60d0a3eaf541a4cddb5a76ed04e8374390bc",
       "format": "zip",
       "path": "psqldef",
       "providers": [
         {
-          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/psqldef_darwin_arm64.zip"
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.19/psqldef_darwin_arm64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sqldef/sqldef",
-          "tag": "v3.11.13",
+          "tag": "v3.11.19",
           "name": "psqldef_darwin_arm64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 5686817,
+      "size": 5717160,
       "hash": "blake3",
-      "digest": "35534b6cdc5ac902717744db8fdcefe9ad7bdfd76dab1d55cb4df26aafa86262",
+      "digest": "beae900c8664a9d4870c50fe047bc8f4f955b5f8cface5b1270b857d48c969cb",
       "format": "tar.gz",
       "path": "psqldef",
       "providers": [
         {
-          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/psqldef_linux_arm64.tar.gz"
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.19/psqldef_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sqldef/sqldef",
-          "tag": "v3.11.13",
+          "tag": "v3.11.19",
           "name": "psqldef_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 6283189,
+      "size": 6313646,
       "hash": "blake3",
-      "digest": "3fbc5c8f506b9bdde22ca67a2fa4f7ce8dc5c4481aec30d2a051f9a52fb0e7cf",
+      "digest": "bf6cd446e3074707df4aa915fa5fbb1e63fdb86f9a2d48bf70db104f0150acac",
       "format": "tar.gz",
       "path": "psqldef",
       "providers": [
         {
-          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.13/psqldef_linux_amd64.tar.gz"
+          "url": "https://github.com/sqldef/sqldef/releases/download/v3.11.19/psqldef_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sqldef/sqldef",
-          "tag": "v3.11.13",
+          "tag": "v3.11.19",
           "name": "psqldef_linux_amd64.tar.gz"
         }
       ]

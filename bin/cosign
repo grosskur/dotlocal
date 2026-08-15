@@ -4,69 +4,69 @@
   "name": "cosign",
   "platforms": {
     "macos-aarch64": {
-      "size": 139051394,
+      "size": 139618946,
       "hash": "blake3",
-      "digest": "5a90c29a704ec984efe25d8318261755fc0f9099849cf5631e3ee5830ae179d8",
+      "digest": "a0dc0c71e46b6d46abd65c932b47ab19753de4903e948d69613dc4a61d616591",
       "path": "cosign-darwin-arm64",
       "providers": [
         {
-          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-darwin-arm64"
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sigstore/cosign",
-          "tag": "v3.1.1",
+          "tag": "v3.1.3",
           "name": "cosign-darwin-arm64"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 148002984,
+      "size": 148611192,
       "hash": "blake3",
-      "digest": "99e8415b5cdb95d4a557b1174dfa26ca4c850e0d5cff79caa6396d85adab2063",
+      "digest": "61862410a4d06415b4ce9343b5d6665b43b49d2a52d1666c80d94b33d65d9ae2",
       "path": "cosign-darwin-amd64",
       "providers": [
         {
-          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-darwin-amd64"
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sigstore/cosign",
-          "tag": "v3.1.1",
+          "tag": "v3.1.3",
           "name": "cosign-darwin-amd64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 132135051,
+      "size": 132747403,
       "hash": "blake3",
-      "digest": "a13c56bdf8e408c29d34fb2eda16d4fe81c2b3dd0d69ff749b96becc58bc4c2b",
+      "digest": "5948bc55fa957977977fa95e23746656b3ecb49126da09de5bd127f382fe3100",
       "path": "cosign-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-arm64"
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sigstore/cosign",
-          "tag": "v3.1.1",
+          "tag": "v3.1.3",
           "name": "cosign-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 140588378,
+      "size": 141178250,
       "hash": "blake3",
-      "digest": "9a9a79d37998e8010986ec9fc93fb1b26eae258649e6b788b2817acc9668d03a",
+      "digest": "e5dccc8b0663db9a4f37f56d3c25d6aa1f5d6a0f8108223e687c21e626e06b67",
       "path": "cosign-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-amd64"
+          "url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sigstore/cosign",
-          "tag": "v3.1.1",
+          "tag": "v3.1.3",
           "name": "cosign-linux-amd64"
         }
       ]

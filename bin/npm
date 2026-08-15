@@ -4,38 +4,38 @@
   "name": "npm",
   "platforms": {
     "macos-aarch64": {
-      "size": 29978572,
+      "size": 30222604,
       "hash": "blake3",
-      "digest": "b6d8b253f362da33a73e5e832cc5e47dfab4b6137a08c09b1a75cd8297c6e9e6",
+      "digest": "d36cb0830be306bf654c8c16c5b14c06a1f7373712128315808a2ec7070983bb",
       "format": "tar.xz",
-      "path": "node-v26.3.0-darwin-arm64/lib/node_modules/npm/bin/npm",
+      "path": "node-v26.7.0-darwin-arm64/lib/node_modules/npm/bin/npm",
       "providers": [
         {
-          "url": "https://nodejs.org/dist/v26.3.0/node-v26.3.0-darwin-arm64.tar.xz"
+          "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-darwin-arm64.tar.xz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 32290636,
+      "size": 32581212,
       "hash": "blake3",
-      "digest": "3ff3400346c0c26e6a577ec00d508a32c9a81ce170540ccad0fd54f1c513cf5e",
+      "digest": "4ce47bde4b7e3fa6086556a096a9d386178aa7d699a3b13fc32025623222a951",
       "format": "tar.xz",
-      "path": "node-v26.3.0-linux-arm64/bin/npm",
+      "path": "node-v26.7.0-linux-arm64/bin/npm",
       "providers": [
         {
-          "url": "https://nodejs.org/dist/v26.3.0/node-v26.3.0-linux-arm64.tar.xz"
+          "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-linux-arm64.tar.xz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 33248860,
+      "size": 33539588,
       "hash": "blake3",
-      "digest": "18504039f24e45e3beee4b76e2e97562a024ca6976af22ed0f5d580b9b694c82",
+      "digest": "63c6c654d06963fc229fd9226fcb8a54e90522fb3045a4be7b550be5c8802b86",
       "format": "tar.xz",
-      "path": "node-v26.3.0-linux-x64/bin/npm",
+      "path": "node-v26.7.0-linux-x64/bin/npm",
       "providers": [
         {
-          "url": "https://nodejs.org/dist/v26.3.0/node-v26.3.0-linux-x64.tar.xz"
+          "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-linux-x64.tar.xz"
         }
       ]
     }

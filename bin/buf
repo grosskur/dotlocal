@@ -4,52 +4,52 @@
   "name": "buf",
   "platforms": {
     "macos-aarch64": {
-      "size": 52869634,
+      "size": 52887954,
       "hash": "blake3",
-      "digest": "35ea0b070de37c5f9611b1c266236fe1fe4370a5017226f6a4fde2a038632b46",
+      "digest": "81382b0e38744b92ccfa435956532ca3f29f81f016b164f50851598f5401e79a",
       "path": "buf-Darwin-arm64",
       "providers": [
         {
-          "url": "https://github.com/bufbuild/buf/releases/download/v1.70.0/buf-Darwin-arm64"
+          "url": "https://github.com/bufbuild/buf/releases/download/v1.72.0/buf-Darwin-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/bufbuild/buf",
-          "tag": "v1.70.0",
+          "tag": "v1.72.0",
           "name": "buf-Darwin-arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 50921634,
+      "size": 50987170,
       "hash": "blake3",
-      "digest": "0375f629b72aaece1518928effdfe4d076c794f01f3f1943695020519f2a3483",
+      "digest": "958706c0ab55f61adea81a2fe7875fcc19209eb77b10866def3146fb90398a2b",
       "path": "buf-Linux-aarch64",
       "providers": [
         {
-          "url": "https://github.com/bufbuild/buf/releases/download/v1.70.0/buf-Linux-aarch64"
+          "url": "https://github.com/bufbuild/buf/releases/download/v1.72.0/buf-Linux-aarch64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/bufbuild/buf",
-          "tag": "v1.70.0",
+          "tag": "v1.72.0",
           "name": "buf-Linux-aarch64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 54038690,
+      "size": 54050978,
       "hash": "blake3",
-      "digest": "756cb236a7c9e5caaaeb6b74e85dcce73f2b068f537624647fb9af8815c1b7c7",
+      "digest": "ca49e73a1a597b391970dcc3913f5cf5a0693d09c477260df3cb08c0ad0d3230",
       "path": "buf-Linux-x86_64",
       "providers": [
         {
-          "url": "https://github.com/bufbuild/buf/releases/download/v1.70.0/buf-Linux-x86_64"
+          "url": "https://github.com/bufbuild/buf/releases/download/v1.72.0/buf-Linux-x86_64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/bufbuild/buf",
-          "tag": "v1.70.0",
+          "tag": "v1.72.0",
           "name": "buf-Linux-x86_64"
         }
       ]

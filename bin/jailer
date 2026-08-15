@@ -4,38 +4,38 @@
   "name": "firecracker",
   "platforms": {
     "linux-aarch64": {
-      "size": 7307463,
+      "size": 7310680,
       "hash": "blake3",
-      "digest": "d5bb74de6786fb9e1375e25c3a415e57c30df6d4238d6a98c2734a8f3dfff5bc",
+      "digest": "60a268f92a9037e61a63516dd56b75fd1cf809dbeca2cd58c209b2d71356187d",
       "format": "tar.gz",
-      "path": "release-v1.16.0-aarch64/jailer-v1.16.0-aarch64",
+      "path": "release-v1.16.1-aarch64/jailer-v1.16.1-aarch64",
       "providers": [
         {
-          "url": "https://github.com/firecracker-microvm/firecracker/releases/download/v1.16.0/firecracker-v1.16.0-aarch64.tgz"
+          "url": "https://github.com/firecracker-microvm/firecracker/releases/download/v1.16.1/firecracker-v1.16.1-aarch64.tgz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/firecracker-microvm/firecracker",
-          "tag": "v1.16.0",
-          "name": "firecracker-v1.16.0-aarch64.tgz"
+          "tag": "v1.16.1",
+          "name": "firecracker-v1.16.1-aarch64.tgz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 7483651,
+      "size": 7486686,
       "hash": "blake3",
-      "digest": "30ec59e716c2ba02acf250911fa88783de95fae0ae4060cdcd6099ec160cc4e6",
+      "digest": "8629938a0e0db92dc25cfc1ee6df61f99aeff4df08a213def4e20f68928fa9f0",
       "format": "tar.gz",
-      "path": "release-v1.16.0-x86_64/jailer-v1.16.0-x86_64",
+      "path": "release-v1.16.1-x86_64/jailer-v1.16.1-x86_64",
       "providers": [
         {
-          "url": "https://github.com/firecracker-microvm/firecracker/releases/download/v1.16.0/firecracker-v1.16.0-x86_64.tgz"
+          "url": "https://github.com/firecracker-microvm/firecracker/releases/download/v1.16.1/firecracker-v1.16.1-x86_64.tgz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/firecracker-microvm/firecracker",
-          "tag": "v1.16.0",
-          "name": "firecracker-v1.16.0-x86_64.tgz"
+          "tag": "v1.16.1",
+          "name": "firecracker-v1.16.1-x86_64.tgz"
         }
       ]
     }

@@ -4,55 +4,55 @@
   "name": "uvx",
   "platforms": {
     "macos-aarch64": {
-      "size": 20810636,
+      "size": 18518284,
       "hash": "blake3",
-      "digest": "ee2e39e347c367bcd74c30455339c246ca8f6292eb3306bac2652c80bd5152b0",
+      "digest": "80ddcacbc0ddc4934bc772ab94a148a4b611a02c2ba55d7111d6b7b6669a36f5",
       "format": "tar.gz",
       "path": "uv-aarch64-apple-darwin/uvx",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-aarch64-apple-darwin.tar.gz"
+          "url": "https://github.com/astral-sh/uv/releases/download/0.12.5/uv-aarch64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/uv",
-          "tag": "0.11.19",
+          "tag": "0.12.5",
           "name": "uv-aarch64-apple-darwin.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 22671085,
+      "size": 21478307,
       "hash": "blake3",
-      "digest": "d4e8b9199242e2e731ef3e9299cc4ba2c868f80d252bd746eced81994a523f3f",
+      "digest": "39a27c80f03f331094889e06dd8e9ac45e7c34c55f7a1a6f32bbf3e1c18b3183",
       "format": "tar.gz",
       "path": "uv-aarch64-unknown-linux-gnu/uvx",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-aarch64-unknown-linux-gnu.tar.gz"
+          "url": "https://github.com/astral-sh/uv/releases/download/0.12.5/uv-aarch64-unknown-linux-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/uv",
-          "tag": "0.11.19",
+          "tag": "0.12.5",
           "name": "uv-aarch64-unknown-linux-gnu.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 24201121,
+      "size": 23015306,
       "hash": "blake3",
-      "digest": "c3c0538c3d79ce82f8d645e4a49d1befa3295285531e95b86690b49559e0bbac",
+      "digest": "455d63bbd4777c67125c60112a62961066b7422d4c721567eece98fa80856b10",
       "format": "tar.gz",
       "path": "uv-x86_64-unknown-linux-gnu/uvx",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-x86_64-unknown-linux-gnu.tar.gz"
+          "url": "https://github.com/astral-sh/uv/releases/download/0.12.5/uv-x86_64-unknown-linux-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/uv",
-          "tag": "0.11.19",
+          "tag": "0.12.5",
           "name": "uv-x86_64-unknown-linux-gnu.tar.gz"
         }
       ]

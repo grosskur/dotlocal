@@ -4,55 +4,55 @@
   "name": "fresh",
   "platforms": {
     "macos-aarch64": {
-      "size": 8895172,
+      "size": 8768484,
       "hash": "blake3",
-      "digest": "f12ef5a37cabe86f890c5db2cf543c4d09f0e86574851e80e57a874c6572eb30",
+      "digest": "cf656b92ad05f79afad5a7954641663aaa95f2accfa855eb3c0f8c52b601ad1b",
       "format": "tar.xz",
       "path": "fresh-editor-aarch64-apple-darwin/fresh",
       "providers": [
         {
-          "url": "https://github.com/sinelaw/fresh/releases/download/v0.3.12/fresh-editor-aarch64-apple-darwin.tar.xz"
+          "url": "https://github.com/sinelaw/fresh/releases/download/v0.4.9/fresh-editor-aarch64-apple-darwin.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sinelaw/fresh",
-          "tag": "v0.3.12",
+          "tag": "v0.4.9",
           "name": "fresh-editor-aarch64-apple-darwin.tar.xz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 10050728,
+      "size": 10116836,
       "hash": "blake3",
-      "digest": "d12319b177f40c75ad4d4c17cc11c303eb5a36d1b88342b3524eb9a49dcbe4aa",
+      "digest": "7bf2f9947b9ec6b774721ea07a50ab4baa1a8803bd3f0136a3f7ac1ab090a095",
       "format": "tar.xz",
       "path": "fresh-editor-aarch64-unknown-linux-gnu/fresh",
       "providers": [
         {
-          "url": "https://github.com/sinelaw/fresh/releases/download/v0.3.12/fresh-editor-aarch64-unknown-linux-gnu.tar.xz"
+          "url": "https://github.com/sinelaw/fresh/releases/download/v0.4.9/fresh-editor-aarch64-unknown-linux-gnu.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sinelaw/fresh",
-          "tag": "v0.3.12",
+          "tag": "v0.4.9",
           "name": "fresh-editor-aarch64-unknown-linux-gnu.tar.xz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 9918260,
+      "size": 9915712,
       "hash": "blake3",
-      "digest": "bc4cb11314111526a7e4c58825d9fea98c83b1b9521a193e298c0493be651dca",
+      "digest": "b6e52a934efcf9ec3015f2a9e922f8ca1cbbe02a631ea14e1b2546a41c51d045",
       "format": "tar.xz",
       "path": "fresh-editor-x86_64-unknown-linux-gnu/fresh",
       "providers": [
         {
-          "url": "https://github.com/sinelaw/fresh/releases/download/v0.3.12/fresh-editor-x86_64-unknown-linux-gnu.tar.xz"
+          "url": "https://github.com/sinelaw/fresh/releases/download/v0.4.9/fresh-editor-x86_64-unknown-linux-gnu.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/sinelaw/fresh",
-          "tag": "v0.3.12",
+          "tag": "v0.4.9",
           "name": "fresh-editor-x86_64-unknown-linux-gnu.tar.xz"
         }
       ]

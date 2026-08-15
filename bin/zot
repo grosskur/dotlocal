@@ -4,52 +4,52 @@
   "name": "zot",
   "platforms": {
     "linux-aarch64": {
-      "size": 206438702,
+      "size": 210108718,
       "hash": "blake3",
-      "digest": "b9f7433be027da6a992f9f510d896e379a284a3ac95696e65a70bc37423fa414",
+      "digest": "5a46961fa9b9f5ce54594a7736de95c45ac8c0f1afb89213ac97816e05702811",
       "path": "zot-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/project-zot/zot/releases/download/v2.1.17/zot-linux-arm64"
+          "url": "https://github.com/project-zot/zot/releases/download/v2.1.20/zot-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/project-zot/zot",
-          "tag": "v2.1.17",
+          "tag": "v2.1.20",
           "name": "zot-linux-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 221294894,
+      "size": 225001774,
       "hash": "blake3",
-      "digest": "3a7677df575dabeee1481d0c04430d8a9cb7247f22de040f628b8436136eb0a5",
+      "digest": "653fd54afee07d541a1a68551137df7b30bb85f8ac9728629dad4ada5a25a451",
       "path": "zot-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/project-zot/zot/releases/download/v2.1.17/zot-linux-amd64"
+          "url": "https://github.com/project-zot/zot/releases/download/v2.1.20/zot-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/project-zot/zot",
-          "tag": "v2.1.17",
+          "tag": "v2.1.20",
           "name": "zot-linux-amd64"
         }
       ]
     },
     "macos-aarch64": {
-      "size": 192787938,
+      "size": 195992546,
       "hash": "blake3",
-      "digest": "2d1da3e4b54f5f6647d2391e9b19ac6b109f7a49f5d89ed9c1b1d6299bbe8311",
+      "digest": "2b74458cf3d0359c869c802b65d3591add1b390153636e5a11ee4b2693650308",
       "path": "zot-darwin-arm64",
       "providers": [
         {
-          "url": "https://github.com/project-zot/zot/releases/download/v2.1.17/zot-darwin-arm64"
+          "url": "https://github.com/project-zot/zot/releases/download/v2.1.20/zot-darwin-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/project-zot/zot",
-          "tag": "v2.1.17",
+          "tag": "v2.1.20",
           "name": "zot-darwin-arm64"
         }
       ]

@@ -4,53 +4,53 @@
   "name": "pocket-id",
   "platforms": {
     "macos-aarch64": {
-      "size": 62508434,
+      "size": 71670574,
       "hash": "blake3",
-      "digest": "3d9c435a3eaaee775e816ce47b3da75b7a606f32f05be610dc28705e9b6a4967",
-      "path": "pocket-id-macos-arm64",
+      "digest": "06236ba03709122ae725efbaa0cd15e302408c62f4fc639c3eda91359910b323",
+      "path": "pocket-id_darwin_arm64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.8.0/pocket-id-macos-arm64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.13.0/pocket-id_darwin_arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v2.8.0",
-          "name": "pocket-id-macos-arm64"
+          "tag": "v2.13.0",
+          "name": "pocket-id_darwin_arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 60620962,
+      "size": 69009570,
       "hash": "blake3",
-      "digest": "196630564bf6c726e3f6e85415bb0d81f53d56fdac2e6aa9fcc210165ad08c10",
-      "path": "pocket-id-linux-arm64",
+      "digest": "d2bbbcde02bdaff385637f3dd2c8dc7c99fe8ed5110436c216fdf3864b40c615",
+      "path": "pocket-id_linux_arm64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.8.0/pocket-id-linux-arm64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.13.0/pocket-id_linux_arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v2.8.0",
-          "name": "pocket-id-linux-arm64"
+          "tag": "v2.13.0",
+          "name": "pocket-id_linux_arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 65024162,
+      "size": 73920674,
       "hash": "blake3",
-      "digest": "d4fe1711b5e9f96f4fc569dec69d752d0614d42cf29666341821aa1a559e2e13",
-      "path": "pocket-id-linux-amd64",
+      "digest": "5a82c2a51b6651a661700612dcb9902d3f2754d6fda361191a5b20c4d38b6f33",
+      "path": "pocket-id_linux_amd64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.8.0/pocket-id-linux-amd64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.13.0/pocket-id_linux_amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v2.8.0",
-          "name": "pocket-id-linux-amd64"
+          "tag": "v2.13.0",
+          "name": "pocket-id_linux_amd64"
         }
       ]
     }

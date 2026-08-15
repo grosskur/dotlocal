@@ -4,74 +4,74 @@
   "name": "syft",
   "platforms": {
     "macos-aarch64": {
-      "size": 26482258,
+      "size": 27498100,
       "hash": "blake3",
-      "digest": "2d762a8523ed6289b15fe255458cf05b0a8615c1c77c0ab5ae9e5f50f0b495b1",
+      "digest": "92b50fd433b85cd71b54b0767aaff7fb0fa7161a01852bb67567267f8e43d2c5",
       "format": "tar.gz",
       "path": "syft",
       "providers": [
         {
-          "url": "https://github.com/anchore/syft/releases/download/v1.45.1/syft_1.45.1_darwin_arm64.tar.gz"
+          "url": "https://github.com/anchore/syft/releases/download/v1.51.0/syft_1.51.0_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anchore/syft",
-          "tag": "v1.45.1",
-          "name": "syft_1.45.1_darwin_arm64.tar.gz"
+          "tag": "v1.51.0",
+          "name": "syft_1.51.0_darwin_arm64.tar.gz"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 28994373,
+      "size": 30017290,
       "hash": "blake3",
-      "digest": "270989735b7abac6f681a57881862ce45e96a7be6d5c91c37e7b15105efa8167",
+      "digest": "0410915ca3f87822369dc10b45180dfc6279961271c812621043e6f7be4b75d9",
       "format": "tar.gz",
       "path": "syft",
       "providers": [
         {
-          "url": "https://github.com/anchore/syft/releases/download/v1.45.1/syft_1.45.1_darwin_amd64.tar.gz"
+          "url": "https://github.com/anchore/syft/releases/download/v1.51.0/syft_1.51.0_darwin_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anchore/syft",
-          "tag": "v1.45.1",
-          "name": "syft_1.45.1_darwin_amd64.tar.gz"
+          "tag": "v1.51.0",
+          "name": "syft_1.51.0_darwin_amd64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 25294605,
+      "size": 26261269,
       "hash": "blake3",
-      "digest": "d6d97938ed771a45f88e0cb1f61af1759984fcc2ac35ad94b5308ca71b5c41a2",
+      "digest": "9e3051ea3cf0a8051bcdf777b376c35ec1daf5679e30114c0e33f815e5a07ada",
       "format": "tar.gz",
       "path": "syft",
       "providers": [
         {
-          "url": "https://github.com/anchore/syft/releases/download/v1.45.1/syft_1.45.1_linux_arm64.tar.gz"
+          "url": "https://github.com/anchore/syft/releases/download/v1.51.0/syft_1.51.0_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anchore/syft",
-          "tag": "v1.45.1",
-          "name": "syft_1.45.1_linux_arm64.tar.gz"
+          "tag": "v1.51.0",
+          "name": "syft_1.51.0_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 27758405,
+      "size": 28743977,
       "hash": "blake3",
-      "digest": "0a13906db7ba712b9ece9cafc94757c3223d39882eea7c26140739d1eccf6867",
+      "digest": "59bbea01552fe2d826aef6fda28d7f1c8e4c61aeae2bcea5e132170d7cf6a975",
       "format": "tar.gz",
       "path": "syft",
       "providers": [
         {
-          "url": "https://github.com/anchore/syft/releases/download/v1.45.1/syft_1.45.1_linux_amd64.tar.gz"
+          "url": "https://github.com/anchore/syft/releases/download/v1.51.0/syft_1.51.0_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/anchore/syft",
-          "tag": "v1.45.1",
-          "name": "syft_1.45.1_linux_amd64.tar.gz"
+          "tag": "v1.51.0",
+          "name": "syft_1.51.0_linux_amd64.tar.gz"
         }
       ]
     }
