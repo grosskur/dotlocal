@@ -4,55 +4,55 @@
   "name": "task",
   "platforms": {
     "macos-aarch64": {
-      "size": 14819630,
+      "size": 15163036,
       "hash": "blake3",
-      "digest": "24b420830488824238efe4e309f7fb2685622cc9cb9502152211db6d937e63b3",
+      "digest": "09d279b6f886026dfe630d30bcfd0b52db8d35ff5a58738df7f3a56c08c91fd2",
       "format": "tar.gz",
       "path": "task",
       "providers": [
         {
-          "url": "https://github.com/go-task/task/releases/download/v3.51.1/task_darwin_arm64.tar.gz"
+          "url": "https://github.com/go-task/task/releases/download/v3.52.0/task_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/go-task/task",
-          "tag": "v3.51.1",
+          "tag": "v3.52.0",
           "name": "task_darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 14055259,
+      "size": 14387497,
       "hash": "blake3",
-      "digest": "5c4fbb0b92f897e731c50215a817a5b5ab1b14334955008f37fa355f3a4be87d",
+      "digest": "fca0f630180b0d81df6da72b728f7c0ec3ba177a45412066e78acc8aa108b99c",
       "format": "tar.gz",
       "path": "task",
       "providers": [
         {
-          "url": "https://github.com/go-task/task/releases/download/v3.51.1/task_linux_arm64.tar.gz"
+          "url": "https://github.com/go-task/task/releases/download/v3.52.0/task_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/go-task/task",
-          "tag": "v3.51.1",
+          "tag": "v3.52.0",
           "name": "task_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 15532420,
+      "size": 15876029,
       "hash": "blake3",
-      "digest": "aeb8b97c386d6c4f591d81eabef9b391980d3650d8ba25099c3abaf83be23b9d",
+      "digest": "be4ba6dedf43236df775c955a573df4fa4e3e7a29b4af703503e0e10a20d7394",
       "format": "tar.gz",
       "path": "task",
       "providers": [
         {
-          "url": "https://github.com/go-task/task/releases/download/v3.51.1/task_linux_amd64.tar.gz"
+          "url": "https://github.com/go-task/task/releases/download/v3.52.0/task_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/go-task/task",
-          "tag": "v3.51.1",
+          "tag": "v3.52.0",
           "name": "task_linux_amd64.tar.gz"
         }
       ]

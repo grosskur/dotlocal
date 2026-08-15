@@ -4,55 +4,55 @@
   "name": "ast-grep",
   "platforms": {
     "macos-aarch64": {
-      "size": 7997957,
+      "size": 8119588,
       "hash": "blake3",
-      "digest": "fc91a165c85714fcac722319741f6f5c02b441e6e19f2758dc3833cf9a8453c0",
+      "digest": "be0625021ec6074aa5d8bbba87f364657a0f2ba59eb415f98134d5fd66b84862",
       "format": "zip",
       "path": "ast-grep",
       "providers": [
         {
-          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.43.0/app-aarch64-apple-darwin.zip"
+          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.45.1/app-aarch64-apple-darwin.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ast-grep/ast-grep",
-          "tag": "0.43.0",
+          "tag": "0.45.1",
           "name": "app-aarch64-apple-darwin.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 7872274,
+      "size": 7983379,
       "hash": "blake3",
-      "digest": "4231eeb3c7a4c2256802d6064a7ad686da222a2082886916be0c77334e3605df",
+      "digest": "12606526b8d79dc0f7ca7182cf36941034fb499f237892818fa1543722d5ed5e",
       "format": "zip",
       "path": "ast-grep",
       "providers": [
         {
-          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.43.0/app-aarch64-unknown-linux-gnu.zip"
+          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.45.1/app-aarch64-unknown-linux-gnu.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ast-grep/ast-grep",
-          "tag": "0.43.0",
+          "tag": "0.45.1",
           "name": "app-aarch64-unknown-linux-gnu.zip"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 8143119,
+      "size": 8254249,
       "hash": "blake3",
-      "digest": "2185296120a103e1863de54e5b38961022418b38a8a88c338df269dd5fd83036",
+      "digest": "e67627ff721312771de0d3ac3c532131a373b36e0b6c1aaedaaf1fdfcb0e2b9d",
       "format": "zip",
       "path": "ast-grep",
       "providers": [
         {
-          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.43.0/app-x86_64-unknown-linux-gnu.zip"
+          "url": "https://github.com/ast-grep/ast-grep/releases/download/0.45.1/app-x86_64-unknown-linux-gnu.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ast-grep/ast-grep",
-          "tag": "0.43.0",
+          "tag": "0.45.1",
           "name": "app-x86_64-unknown-linux-gnu.zip"
         }
       ]

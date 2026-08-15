@@ -4,73 +4,73 @@
   "name": "ruff",
   "platforms": {
     "macos-aarch64": {
-      "size": 9908580,
+      "size": 9944235,
       "hash": "blake3",
-      "digest": "7ed38d3264ea0083c685ff2b1a3f035e17aa22a24c1c609544b9a8f64689c434",
+      "digest": "95851455e4f998fdbc6051f277a5017fba94510e9cf7075fc27bcb1319ee13be",
       "format": "tar.gz",
       "path": "ruff-aarch64-apple-darwin/ruff",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/ruff/releases/download/0.15.16/ruff-aarch64-apple-darwin.tar.gz"
+          "url": "https://github.com/astral-sh/ruff/releases/download/0.16.3/ruff-aarch64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/ruff",
-          "tag": "0.15.16",
+          "tag": "0.16.3",
           "name": "ruff-aarch64-apple-darwin.tar.gz"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 10667823,
+      "size": 10742637,
       "hash": "blake3",
-      "digest": "a596fb58eed1ecde45fea48c9c0889f39881cd56ad17fb1597178b9cefdf90e8",
+      "digest": "9bed9cd716ce7b64ebbe857fe7c096f0f5afc51f0d71520d976256c3b946ef99",
       "format": "tar.gz",
       "path": "ruff-x86_64-apple-darwin/ruff",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/ruff/releases/download/0.15.16/ruff-x86_64-apple-darwin.tar.gz"
+          "url": "https://github.com/astral-sh/ruff/releases/download/0.16.3/ruff-x86_64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/ruff",
-          "tag": "0.15.16",
+          "tag": "0.16.3",
           "name": "ruff-x86_64-apple-darwin.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 10232979,
+      "size": 10126329,
       "hash": "blake3",
-      "digest": "02d4e4a309876174e425454b7395bb306c3fb054a487707a7c8050af4bcb3d30",
+      "digest": "89126928d1fd7b2f61c8813c6aae84c5097be026b033e21b0ddbaf519ddcbfe1",
       "format": "tar.gz",
       "path": "ruff-aarch64-unknown-linux-gnu/ruff",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/ruff/releases/download/0.15.16/ruff-aarch64-unknown-linux-gnu.tar.gz"
+          "url": "https://github.com/astral-sh/ruff/releases/download/0.16.3/ruff-aarch64-unknown-linux-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/ruff",
-          "tag": "0.15.16",
+          "tag": "0.16.3",
           "name": "ruff-aarch64-unknown-linux-gnu.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 10987952,
+      "size": 10649747,
       "hash": "blake3",
-      "digest": "6855f78e3f38b46e847a044acea2c64ab1dd089a0fe224271905a7b0d441ab21",
+      "digest": "5066973014755e5f9e895a6db08795d9f67d27cfadc40c8a07f9cc421a7eb8b8",
       "format": "tar.gz",
       "path": "ruff-x86_64-unknown-linux-gnu/ruff",
       "providers": [
         {
-          "url": "https://github.com/astral-sh/ruff/releases/download/0.15.16/ruff-x86_64-unknown-linux-gnu.tar.gz"
+          "url": "https://github.com/astral-sh/ruff/releases/download/0.16.3/ruff-x86_64-unknown-linux-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/astral-sh/ruff",
-          "tag": "0.15.16",
+          "tag": "0.16.3",
           "name": "ruff-x86_64-unknown-linux-gnu.tar.gz"
         }
       ]
