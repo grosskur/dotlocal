@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cilium",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 70280540,
+      "hash": "blake3",
+      "digest": "e870791aab08b66a2e7e8a0a247c69e711bf95028c5f1e2c77ff836594988a18",
+      "format": "tar.gz",
+      "path": "cilium",
+      "providers": [
+        {
+          "url": "https://github.com/cilium/cilium-cli/releases/download/v0.19.7/cilium-darwin-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cilium/cilium-cli",
+          "tag": "v0.19.7",
+          "name": "cilium-darwin-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 68548547,
+      "hash": "blake3",
+      "digest": "79e76b1385d3b47664eefdaba26a06b0676ebc7438e7cf159fc5e0fd1e4c03ff",
+      "format": "tar.gz",
+      "path": "cilium",
+      "providers": [
+        {
+          "url": "https://github.com/cilium/cilium-cli/releases/download/v0.19.7/cilium-linux-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cilium/cilium-cli",
+          "tag": "v0.19.7",
+          "name": "cilium-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 72097466,
+      "hash": "blake3",
+      "digest": "17b9e0974b5e2ca73041d16dae986b6c31221e3e3023e62786407707cd39ac59",
+      "format": "tar.gz",
+      "path": "cilium",
+      "providers": [
+        {
+          "url": "https://github.com/cilium/cilium-cli/releases/download/v0.19.7/cilium-linux-amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cilium/cilium-cli",
+          "tag": "v0.19.7",
+          "name": "cilium-linux-amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
