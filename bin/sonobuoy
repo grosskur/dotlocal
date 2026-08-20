@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "sonobuoy",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 24607015,
+      "hash": "blake3",
+      "digest": "11faa161b8847d9f0c88a1c22ade01679550fa40449b548067905acf251d884d",
+      "format": "tar.gz",
+      "path": "sonobuoy",
+      "providers": [
+        {
+          "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.5/sonobuoy_0.57.5_darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/vmware-tanzu/sonobuoy",
+          "tag": "v0.57.5",
+          "name": "sonobuoy_0.57.5_darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 23935407,
+      "hash": "blake3",
+      "digest": "3e374bf6f08040d2d915385414d501bbbc6c59a1c708cdeb54b4d42e0151c169",
+      "format": "tar.gz",
+      "path": "sonobuoy",
+      "providers": [
+        {
+          "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.5/sonobuoy_0.57.5_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/vmware-tanzu/sonobuoy",
+          "tag": "v0.57.5",
+          "name": "sonobuoy_0.57.5_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 25428672,
+      "hash": "blake3",
+      "digest": "308ee6af6f2177b9b15d8121be3df08c63d18f22b5a32782aebd2a6018994280",
+      "format": "tar.gz",
+      "path": "sonobuoy",
+      "providers": [
+        {
+          "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.5/sonobuoy_0.57.5_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/vmware-tanzu/sonobuoy",
+          "tag": "v0.57.5",
+          "name": "sonobuoy_0.57.5_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
