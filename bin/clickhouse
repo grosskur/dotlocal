@@ -1,0 +1,60 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "clickhouse",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 176598684,
+      "hash": "blake3",
+      "digest": "3484cb3e662a7173161b06bff2a94e3d9cd2c8916e9a5be2df4035652eedbcbd",
+      "path": "clickhouse",
+      "providers": [
+        {
+          "url": "https://github.com/ClickHouse/ClickHouse/releases/download/v26.8.5.13-lts/clickhouse-macos-aarch64"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ClickHouse/ClickHouse",
+          "tag": "v26.8.5.13-lts",
+          "name": "clickhouse-macos-aarch64"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 217271153,
+      "hash": "blake3",
+      "digest": "8302239edde41217fb8d6d68b2bbc367d67c3c7aafcb5b6e338d6c41ed7eba1c",
+      "format": "tar.gz",
+      "path": "clickhouse-common-static-26.8.5.13/usr/bin/clickhouse",
+      "providers": [
+        {
+          "url": "https://github.com/ClickHouse/ClickHouse/releases/download/v26.8.5.13-lts/clickhouse-common-static-26.8.5.13-arm64.tgz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ClickHouse/ClickHouse",
+          "tag": "v26.8.5.13-lts",
+          "name": "clickhouse-common-static-26.8.5.13-arm64.tgz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 235716831,
+      "hash": "blake3",
+      "digest": "503d5533a31e8b6620ba18f13b9bb84d3414ed113fef4f068c25036d861c9b5a",
+      "format": "tar.gz",
+      "path": "clickhouse-common-static-26.8.5.13/usr/bin/clickhouse",
+      "providers": [
+        {
+          "url": "https://github.com/ClickHouse/ClickHouse/releases/download/v26.8.5.13-lts/clickhouse-common-static-26.8.5.13-amd64.tgz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/ClickHouse/ClickHouse",
+          "tag": "v26.8.5.13-lts",
+          "name": "clickhouse-common-static-26.8.5.13-amd64.tgz"
+        }
+      ]
+    }
+  }
+}
