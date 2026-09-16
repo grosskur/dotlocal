@@ -1,5 +1,6 @@
 /.envdir/
 /bin/claude
+/bin/codex
 /bin/gcloud
 /bin/gke-gcloud-auth-plugin
 /bin/gsutil
