@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "sccache",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 7997637,
+      "hash": "blake3",
+      "digest": "b80b35b7791fe13a2a63dd6c5aace615516b4773d32a00e8826567d35620e758",
+      "format": "tar.gz",
+      "path": "sccache-v0.18.0-aarch64-apple-darwin/sccache",
+      "providers": [
+        {
+          "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/mozilla/sccache",
+          "tag": "v0.18.0",
+          "name": "sccache-v0.18.0-aarch64-apple-darwin.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 8968665,
+      "hash": "blake3",
+      "digest": "6bd2e2d3aea3011e61259cb07b3d90b298f3ba11c7b16c1186b86a4ff02533f5",
+      "format": "tar.gz",
+      "path": "sccache-v0.18.0-aarch64-unknown-linux-musl/sccache",
+      "providers": [
+        {
+          "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-aarch64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/mozilla/sccache",
+          "tag": "v0.18.0",
+          "name": "sccache-v0.18.0-aarch64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 9730540,
+      "hash": "blake3",
+      "digest": "bd6209f71c1f69d02c3dc263525d0a0caa0ae2dab7b4769ab1053e56f5163186",
+      "format": "tar.gz",
+      "path": "sccache-v0.18.0-x86_64-unknown-linux-musl/sccache",
+      "providers": [
+        {
+          "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-x86_64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/mozilla/sccache",
+          "tag": "v0.18.0",
+          "name": "sccache-v0.18.0-x86_64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    }
+  }
+}
