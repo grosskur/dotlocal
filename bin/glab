@@ -1,0 +1,43 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "glab",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 17481316,
+      "hash": "blake3",
+      "digest": "08cce3e711609a8fdd2cc3d3997332f380184ad131bae73000af30a00fcd9366",
+      "format": "tar.gz",
+      "path": "bin/glab",
+      "providers": [
+        {
+          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.119.0/downloads/glab_1.119.0_darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 16885569,
+      "hash": "blake3",
+      "digest": "01d6265f56d60ee609f5bbd2e4d9a5be654f0dd2306b738ad036a8faf41450cb",
+      "format": "tar.gz",
+      "path": "bin/glab",
+      "providers": [
+        {
+          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.119.0/downloads/glab_1.119.0_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 18422088,
+      "hash": "blake3",
+      "digest": "1d514511651819a489748617a8add156d605e2cdf518f189c3003630e4210f4b",
+      "format": "tar.gz",
+      "path": "bin/glab",
+      "providers": [
+        {
+          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.119.0/downloads/glab_1.119.0_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
