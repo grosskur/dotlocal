@@ -1,0 +1,64 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "cmake",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 89445170,
+      "hash": "blake3",
+      "digest": "449b85b029af873cda29b6912011b0b5cd0faa9ab9b36810dd127d4c89e468fc",
+      "format": "tar.gz",
+      "path": "cmake-4.4.3-macos-universal/CMake.app/Contents/bin/cmake",
+      "arg0": "underlying-executable",
+      "providers": [
+        {
+          "url": "https://github.com/Kitware/CMake/releases/download/v4.4.3/cmake-4.4.3-macos-universal.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/Kitware/CMake",
+          "tag": "v4.4.3",
+          "name": "cmake-4.4.3-macos-universal.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 52036576,
+      "hash": "blake3",
+      "digest": "b6f69675f272889a807a804bbef7dd0931d23dfcad5d53fad0f01164b8760a4c",
+      "format": "tar.gz",
+      "path": "cmake-4.4.3-linux-aarch64/bin/cmake",
+      "arg0": "underlying-executable",
+      "providers": [
+        {
+          "url": "https://github.com/Kitware/CMake/releases/download/v4.4.3/cmake-4.4.3-linux-aarch64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/Kitware/CMake",
+          "tag": "v4.4.3",
+          "name": "cmake-4.4.3-linux-aarch64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 64872980,
+      "hash": "blake3",
+      "digest": "46e4da3037aab2f5d249d6a3249d5a3b1f52f7b0830b88c784b2d48ebe6bf43d",
+      "format": "tar.gz",
+      "path": "cmake-4.4.3-linux-x86_64/bin/cmake",
+      "arg0": "underlying-executable",
+      "providers": [
+        {
+          "url": "https://github.com/Kitware/CMake/releases/download/v4.4.3/cmake-4.4.3-linux-x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/Kitware/CMake",
+          "tag": "v4.4.3",
+          "name": "cmake-4.4.3-linux-x86_64.tar.gz"
+        }
+      ]
+    }
+  }
+}
