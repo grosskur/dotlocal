@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "git-absorb",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 858904,
+      "hash": "blake3",
+      "digest": "6c72dbab5d9c34326c49f2a5b0ff678eeb9fa7d9f51d94103c00a78f23c4a3eb",
+      "format": "tar.gz",
+      "path": "git-absorb",
+      "providers": [
+        {
+          "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/git-absorb-0.9.0/git-absorb-0.9.0-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cargo-bins/cargo-quickinstall",
+          "tag": "git-absorb-0.9.0",
+          "name": "git-absorb-0.9.0-aarch64-apple-darwin.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 884803,
+      "hash": "blake3",
+      "digest": "30f97950816238a8a761d4fe1e11ca4c2ca1c260261273127f11eea54d30b560",
+      "format": "tar.gz",
+      "path": "git-absorb",
+      "providers": [
+        {
+          "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/git-absorb-0.9.0/git-absorb-0.9.0-aarch64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/cargo-bins/cargo-quickinstall",
+          "tag": "git-absorb-0.9.0",
+          "name": "git-absorb-0.9.0-aarch64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 1055826,
+      "hash": "blake3",
+      "digest": "1db9d4f887d86572f83d8c9fd376ec9c8105e0ccea827c48f081024674822761",
+      "format": "tar.gz",
+      "path": "git-absorb-0.9.0-x86_64-unknown-linux-musl/git-absorb",
+      "providers": [
+        {
+          "url": "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/tummychow/git-absorb",
+          "tag": "0.9.0",
+          "name": "git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz"
+        }
+      ]
+    }
+  }
+}
