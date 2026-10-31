@@ -4,50 +4,50 @@
   "name": "helm",
   "platforms": {
     "macos-aarch64": {
-      "size": 18311181,
+      "size": 18815398,
       "hash": "blake3",
-      "digest": "3ddfaa3c08978bc482f293c486df3880bf4b5225d9f419ec75aadbb86bfaa682",
+      "digest": "50f9c670ee1a5b753f98f5aa5b4076a9d58c4f4a55ea59215750d32a4209aad7",
       "format": "tar.gz",
       "path": "darwin-arm64/helm",
       "providers": [
         {
-          "url": "https://get.helm.sh/helm-v4.2.0-darwin-arm64.tar.gz"
+          "url": "https://get.helm.sh/helm-v4.3.1-darwin-arm64.tar.gz"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 20134857,
+      "size": 20779996,
       "hash": "blake3",
-      "digest": "695d34373c0288bd344e10346628dcc606fd5fd8acbbf0d27ebb4c9c0cd3277a",
+      "digest": "bf9ddbae56508799135e61291e4c87e158dfbcb8a52396893df14efea973ef69",
       "format": "tar.gz",
       "path": "darwin-amd64/helm",
       "providers": [
         {
-          "url": "https://get.helm.sh/helm-v4.2.0-darwin-amd64.tar.gz"
+          "url": "https://get.helm.sh/helm-v4.3.1-darwin-amd64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 17452671,
+      "size": 17917453,
       "hash": "blake3",
-      "digest": "4ae3c5cc3863f91ade812e3ccffd71566d39332832139ba9fbcac81639ea861c",
+      "digest": "8c6c884058d0b8a7c88e32fc1141e86a09ed90dba7edcfe301d8b9ed3c549ca5",
       "format": "tar.gz",
       "path": "linux-arm64/helm",
       "providers": [
         {
-          "url": "https://get.helm.sh/helm-v4.2.0-linux-arm64.tar.gz"
+          "url": "https://get.helm.sh/helm-v4.3.1-linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 19749911,
+      "size": 20368240,
       "hash": "blake3",
-      "digest": "5d4695b36e9b476f5e6b221cbe3abe94bce0047509020f2383f6e28132ad2c8f",
+      "digest": "7c85e27cccd7eff9e91af1f4ed9be40685ccb2fd8890ab467ac3c0f26a999526",
       "format": "tar.gz",
       "path": "linux-amd64/helm",
       "providers": [
         {
-          "url": "https://get.helm.sh/helm-v4.2.0-linux-amd64.tar.gz"
+          "url": "https://get.helm.sh/helm-v4.3.1-linux-amd64.tar.gz"
         }
       ]
     }

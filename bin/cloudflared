@@ -4,71 +4,71 @@
   "name": "cloudflared",
   "platforms": {
     "macos-aarch64": {
-      "size": 19214189,
+      "size": 19847161,
       "hash": "blake3",
-      "digest": "5474d872bea7fdb36783c70beec51f8edc7b12127e55d6d263b548f2e036f30c",
+      "digest": "6f9943a142a7bfd088917aca4086cd63fc61ea4a149948e10cd15e85d0e98cac",
       "format": "tar.gz",
       "path": "cloudflared",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-darwin-arm64.tgz"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.7/cloudflared-darwin-arm64.tgz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2026.8.2",
+          "tag": "2026.10.7",
           "name": "cloudflared-darwin-arm64.tgz"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 21116242,
+      "size": 21834416,
       "hash": "blake3",
-      "digest": "6314567156801f9227f6a3f3311968e3240fb300ef5971102959624ddc8d6edc",
+      "digest": "a7f59a10cb27b5b2520bc1106fcda8433fe84652001b1c16d3ce114a02a4888e",
       "format": "tar.gz",
       "path": "cloudflared",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-darwin-amd64.tgz"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.7/cloudflared-darwin-amd64.tgz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2026.8.2",
+          "tag": "2026.10.7",
           "name": "cloudflared-darwin-amd64.tgz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 39799316,
+      "size": 40274445,
       "hash": "blake3",
-      "digest": "0228f02f442ff36bbe07707cb862679093b612c1ed44fac36096583cafbfc66a",
+      "digest": "36e0d8ca057182f809864d49914ae15b19c9736693d80e59931a2435b7eb9b9c",
       "path": "cloudflared-linux-amd64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-amd64"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.7/cloudflared-linux-amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2026.8.2",
+          "tag": "2026.10.7",
           "name": "cloudflared-linux-amd64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 37404344,
+      "size": 37667293,
       "hash": "blake3",
-      "digest": "fa2a97228a06967301f626dc3f6a305ee0d37f9376282cd16a89dc054d2d9ec8",
+      "digest": "9689bf4fc408b0f53ed828ce5085fdc820fca3f61386e8806f22510c04cd7ad9",
       "path": "cloudflare-linux-arm64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-arm64"
+          "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.7/cloudflared-linux-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cloudflared",
-          "tag": "2026.8.2",
+          "tag": "2026.10.7",
           "name": "cloudflared-linux-arm64"
         }
       ]

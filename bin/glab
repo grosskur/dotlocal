@@ -4,38 +4,38 @@
   "name": "glab",
   "platforms": {
     "macos-aarch64": {
-      "size": 17481316,
+      "size": 17154224,
       "hash": "blake3",
-      "digest": "08cce3e711609a8fdd2cc3d3997332f380184ad131bae73000af30a00fcd9366",
+      "digest": "975314b18fab37f07d252d55a041807bcdb182390d6548057359e03a444889bc",
       "format": "tar.gz",
       "path": "bin/glab",
       "providers": [
         {
-          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.119.0/downloads/glab_1.119.0_darwin_arm64.tar.gz"
+          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.126.0/downloads/glab_1.126.0_darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 16885569,
+      "size": 16554886,
       "hash": "blake3",
-      "digest": "01d6265f56d60ee609f5bbd2e4d9a5be654f0dd2306b738ad036a8faf41450cb",
+      "digest": "b9179ecd75f227901c31ea1a0165bc7081561ff632c76a46757249d7788e940e",
       "format": "tar.gz",
       "path": "bin/glab",
       "providers": [
         {
-          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.119.0/downloads/glab_1.119.0_linux_arm64.tar.gz"
+          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.126.0/downloads/glab_1.126.0_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 18422088,
+      "size": 18118872,
       "hash": "blake3",
-      "digest": "1d514511651819a489748617a8add156d605e2cdf518f189c3003630e4210f4b",
+      "digest": "1513375ca7ea483083bee1c8b7d3ce9ba1a59dbe159731c6fec2eeb6c8981d08",
       "format": "tar.gz",
       "path": "bin/glab",
       "providers": [
         {
-          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.119.0/downloads/glab_1.119.0_linux_amd64.tar.gz"
+          "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.126.0/downloads/glab_1.126.0_linux_amd64.tar.gz"
         }
       ]
     }

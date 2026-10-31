@@ -4,56 +4,56 @@
   "name": "golangci-lint",
   "platforms": {
     "macos-aarch64": {
-      "size": 14354152,
+      "size": 14858012,
       "hash": "blake3",
-      "digest": "9d08a23a24fe86b398fa8d27215096cccf02fc32f994bab6072e727abb99dd6a",
+      "digest": "fd5d7a060432ac35de92ff039b3e95feea5fac027560271e2ab25940b0bf8abd",
       "format": "tar.gz",
-      "path": "golangci-lint-2.12.2-darwin-arm64/golangci-lint",
+      "path": "golangci-lint-2.15.0-darwin-arm64/golangci-lint",
       "providers": [
         {
-          "url": "https://github.com/golangci/golangci-lint/releases/download/v2.12.2/golangci-lint-2.12.2-darwin-arm64.tar.gz"
+          "url": "https://github.com/golangci/golangci-lint/releases/download/v2.15.0/golangci-lint-2.15.0-darwin-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/golangci/golangci-lint",
-          "tag": "v2.12.2",
-          "name": "golangci-lint-2.12.2-darwin-arm64.tar.gz"
+          "tag": "v2.15.0",
+          "name": "golangci-lint-2.15.0-darwin-arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 13672880,
+      "size": 14141514,
       "hash": "blake3",
-      "digest": "6e28dc8271c882db20619e4e459a10228fb7598c5ee875921abea6da1a1c303c",
+      "digest": "917c72aebc6ca1ca9895b4125fe585e53ebc5a42a095e4817be2641edb23fb58",
       "format": "tar.gz",
-      "path": "golangci-lint-2.12.2-linux-arm64/golangci-lint",
+      "path": "golangci-lint-2.15.0-linux-arm64/golangci-lint",
       "providers": [
         {
-          "url": "https://github.com/golangci/golangci-lint/releases/download/v2.12.2/golangci-lint-2.12.2-linux-arm64.tar.gz"
+          "url": "https://github.com/golangci/golangci-lint/releases/download/v2.15.0/golangci-lint-2.15.0-linux-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/golangci/golangci-lint",
-          "tag": "v2.12.2",
-          "name": "golangci-lint-2.12.2-linux-arm64.tar.gz"
+          "tag": "v2.15.0",
+          "name": "golangci-lint-2.15.0-linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 15022786,
+      "size": 15585535,
       "hash": "blake3",
-      "digest": "ad6c00c05df493baccb71d7de88fc0f9d4377c8ce471a6605d5751d87c711361",
+      "digest": "3b2d1493d1759db7d33f82210654125cc7a7b8513f6dc07ea1bc28af250e2a59",
       "format": "tar.gz",
-      "path": "golangci-lint-2.12.2-linux-amd64/golangci-lint",
+      "path": "golangci-lint-2.15.0-linux-amd64/golangci-lint",
       "providers": [
         {
-          "url": "https://github.com/golangci/golangci-lint/releases/download/v2.12.2/golangci-lint-2.12.2-linux-amd64.tar.gz"
+          "url": "https://github.com/golangci/golangci-lint/releases/download/v2.15.0/golangci-lint-2.15.0-linux-amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/golangci/golangci-lint",
-          "tag": "v2.12.2",
-          "name": "golangci-lint-2.12.2-linux-amd64.tar.gz"
+          "tag": "v2.15.0",
+          "name": "golangci-lint-2.15.0-linux-amd64.tar.gz"
         }
       ]
     }

@@ -4,56 +4,56 @@
   "name": "railway",
   "platforms": {
     "macos-aarch64": {
-      "size": 6063199,
+      "size": 7657421,
       "hash": "blake3",
-      "digest": "4717ac2829ae3389277059d9155b8e3f07bfc0dce51442149a3e5e518e4cb7d0",
+      "digest": "3551988ca3585a3242107c1d292355023aa677a1e0c87422e693799686a47cf2",
       "format": "tar.gz",
       "path": "railway",
       "providers": [
         {
-          "url": "https://github.com/railwayapp/cli/releases/download/v5.41.2/railway-v5.41.2-aarch64-apple-darwin.tar.gz"
+          "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-aarch64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/railwayapp/cli",
-          "tag": "v5.41.2",
-          "name": "railway-v5.41.2-aarch64-apple-darwin.tar.gz"
+          "tag": "v5.71.0",
+          "name": "railway-v5.71.0-aarch64-apple-darwin.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 8299155,
+      "size": 10391203,
       "hash": "blake3",
-      "digest": "676a099eddd901f3f023c5ef4c421f4eab3b3a7b35e884565b0e270338213a3e",
+      "digest": "d71f68d3c7b9816c2794dacdaf058ec44ca3b885ae104a1f6f60c2ed4d5a103b",
       "format": "tar.gz",
       "path": "railway",
       "providers": [
         {
-          "url": "https://github.com/railwayapp/cli/releases/download/v5.41.2/railway-v5.41.2-aarch64-unknown-linux-musl.tar.gz"
+          "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-aarch64-unknown-linux-musl.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/railwayapp/cli",
-          "tag": "v5.41.2",
-          "name": "railway-v5.41.2-aarch64-unknown-linux-musl.tar.gz"
+          "tag": "v5.71.0",
+          "name": "railway-v5.71.0-aarch64-unknown-linux-musl.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 7324193,
+      "size": 9245637,
       "hash": "blake3",
-      "digest": "239f949a9346a368a73e308fc27907205df24282d9cc66d3ed83950ee490d754",
+      "digest": "e80e37cb60346d76cbe09993e00f4f32be1d0771be154278c3b6ec59babc0e55",
       "format": "tar.gz",
       "path": "railway",
       "providers": [
         {
-          "url": "https://github.com/railwayapp/cli/releases/download/v5.41.2/railway-v5.41.2-x86_64-unknown-linux-musl.tar.gz"
+          "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-x86_64-unknown-linux-musl.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/railwayapp/cli",
-          "tag": "v5.41.2",
-          "name": "railway-v5.41.2-x86_64-unknown-linux-musl.tar.gz"
+          "tag": "v5.71.0",
+          "name": "railway-v5.71.0-x86_64-unknown-linux-musl.tar.gz"
         }
       ]
     }

@@ -4,70 +4,70 @@
   "name": "cfssl",
   "platforms": {
     "macos-x86_64": {
-      "size": 13683624,
+      "size": 17406624,
       "hash": "blake3",
-      "digest": "5b0e6424986f46665781cfea78700addd73fcf0a5200f7703ba67873d7ccf653",
-      "path": "cfssl_1.6.5_darwin_amd64",
+      "digest": "fd31dec7307305af4e51dc3a3a5de8b9bce396e7308ec586c1275dbf1c03ebf4",
+      "path": "cfssl_1.7.1_darwin_amd64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_darwin_amd64"
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.7.1/cfssl_1.7.1_darwin_amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cfssl",
-          "tag": "v1.6.5",
-          "name": "cfssl_1.6.5_darwin_amd64"
+          "tag": "v1.7.1",
+          "name": "cfssl_1.7.1_darwin_amd64"
         }
       ]
     },
     "macos-aarch64": {
-      "size": 13218770,
+      "size": 16363138,
       "hash": "blake3",
-      "digest": "42dd4f4f275e60767f0b14c9f641ba090052c9ae55a49a61102ff440895dca31",
-      "path": "cfssl_1.6.5_darwin_arm64",
+      "digest": "2c738f5d183cf8e1d373de2d0687b99e9faf05afb40c6a92c17c96da04d2353a",
+      "path": "cfssl_1.7.1_darwin_arm64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_darwin_arm64"
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.7.1/cfssl_1.7.1_darwin_arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cfssl",
-          "tag": "v1.6.5",
-          "name": "cfssl_1.6.5_darwin_arm64"
+          "tag": "v1.7.1",
+          "name": "cfssl_1.7.1_darwin_arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 11890840,
+      "size": 15720608,
       "hash": "blake3",
-      "digest": "56fa2d168125bfc1a7e1dee598f3ca4f441379d29440efb6c3e3c3f11af219e4",
-      "path": "cfssl_1.6.5_linux_amd64",
+      "digest": "7b5b1e170f622692d5925af4f15b0f55d30e47360861b9154ab2f7e3c7d486f0",
+      "path": "cfssl_1.7.1_linux_amd64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_linux_amd64"
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.7.1/cfssl_1.7.1_linux_amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cfssl",
-          "tag": "v1.6.5",
-          "name": "cfssl_1.6.5_linux_amd64"
+          "tag": "v1.7.1",
+          "name": "cfssl_1.7.1_linux_amd64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 11534488,
+      "size": 14745760,
       "hash": "blake3",
-      "digest": "4e8ab1a51d7a110cfaf577d0570a58dbcddfb73319ba4bc8859daa39a2333fec",
-      "path": "cfssl_1.6.5_linux_arm64",
+      "digest": "d10cc10243887c38c4a739c3785ac7aceccc2e74fe67601e315eefad9826542b",
+      "path": "cfssl_1.7.1_linux_arm64",
       "providers": [
         {
-          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_linux_arm64"
+          "url": "https://github.com/cloudflare/cfssl/releases/download/v1.7.1/cfssl_1.7.1_linux_arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloudflare/cfssl",
-          "tag": "v1.6.5",
-          "name": "cfssl_1.6.5_linux_arm64"
+          "tag": "v1.7.1",
+          "name": "cfssl_1.7.1_linux_arm64"
         }
       ]
     }

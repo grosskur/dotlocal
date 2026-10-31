@@ -4,56 +4,56 @@
   "name": "protoc",
   "platforms": {
     "macos-aarch64": {
-      "size": 2585575,
+      "size": 2625514,
       "hash": "blake3",
-      "digest": "b8b564b4256ce64d403fa75841b37ac338bf5d801e63c95d67741c9092bc2c21",
+      "digest": "6239ed4f417c7b5f3dc09bd760b189166235fd9621187570e166987ef8010020",
       "format": "zip",
       "path": "bin/protoc",
       "providers": [
         {
-          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v35.1/protoc-35.1-osx-aarch_64.zip"
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-osx-aarch_64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/protocolbuffers/protobuf",
-          "tag": "v35.1",
-          "name": "protoc-35.1-osx-aarch_64.zip"
+          "tag": "v36.2",
+          "name": "protoc-36.2-osx-aarch_64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 3583287,
+      "size": 3631325,
       "hash": "blake3",
-      "digest": "b47cb7cc0830e31f73beb01546352325e89a3c4cac265a10240c48c62d5573de",
+      "digest": "8fbd296de288862252d9897489ca755c30c675af39f17982dd5eed8322dfc517",
       "format": "zip",
       "path": "bin/protoc",
       "providers": [
         {
-          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v35.1/protoc-35.1-linux-aarch_64.zip"
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-aarch_64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/protocolbuffers/protobuf",
-          "tag": "v35.1",
-          "name": "protoc-35.1-linux-aarch_64.zip"
+          "tag": "v36.2",
+          "name": "protoc-36.2-linux-aarch_64.zip"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 3633928,
+      "size": 3681545,
       "hash": "blake3",
-      "digest": "6fcad120b5855b435cf6a7f8fbad5dca36e415467f028b1355969ed79ba65309",
+      "digest": "b77e4a873eacd2b222a9f2dd0232b28d47d06268caf97f54cff77f9e8c86e958",
       "format": "zip",
       "path": "bin/protoc",
       "providers": [
         {
-          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v35.1/protoc-35.1-linux-x86_64.zip"
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-x86_64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/protocolbuffers/protobuf",
-          "tag": "v35.1",
-          "name": "protoc-35.1-linux-x86_64.zip"
+          "tag": "v36.2",
+          "name": "protoc-36.2-linux-x86_64.zip"
         }
       ]
     }

@@ -4,35 +4,35 @@
   "name": "yq",
   "platforms": {
     "macos-aarch64": {
-      "size": 13045874,
+      "size": 13414050,
       "hash": "blake3",
-      "digest": "64223041643239b0ff1b20982bdcde3786121157f8cd1c8c05475737bb3ced0b",
+      "digest": "18052c92f0c13f4d281bee7e147a4e32668ed408518c60c07e54365fdcbb06c5",
       "path": "yq_darwin_arm64",
       "providers": [
         {
-          "url": "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_darwin_arm64"
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 12845218,
+      "size": 13172896,
       "hash": "blake3",
-      "digest": "394fa57498013aa9b09c5dba8c2453d75a9889ee4e06a7e02bdf3fcee92807fb",
+      "digest": "3f81ef993c3ffd609c6b64563e2ac74ff42e340f4ee9fd764209c23f78a0a414",
       "path": "yq_linux_arm64",
       "providers": [
         {
-          "url": "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_linux_arm64"
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 13750434,
+      "size": 14168224,
       "hash": "blake3",
-      "digest": "7b58f2f9e95b025dee6b7a66357383aa0569f5f761711bfd468f663ca69134e3",
+      "digest": "dd7cceb9432b0eeac1cd217a2ee723f6070b895289d29861265a5dd915fd56ba",
       "path": "yq_linux_amd64",
       "providers": [
         {
-          "url": "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_linux_amd64"
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64"
         }
       ]
     }

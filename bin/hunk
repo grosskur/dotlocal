@@ -4,55 +4,55 @@
   "name": "hunk",
   "platforms": {
     "macos-aarch64": {
-      "size": 27831062,
+      "size": 47819312,
       "hash": "blake3",
-      "digest": "404c1de4adedbd7bcafc71bd449b7166fae3be54b3f0f23b8b4be534a78fdb04",
+      "digest": "6da5f79056eb75050303cc1fa8ad79203449303552bd834b54c06f17b74e530d",
       "format": "tar.gz",
       "path": "hunkdiff-darwin-arm64/hunk",
       "providers": [
         {
-          "url": "https://github.com/modem-dev/hunk/releases/download/v0.18.2/hunkdiff-darwin-arm64.tar.gz"
+          "url": "https://github.com/modem-dev/hunk/releases/download/v0.24.1/hunkdiff-darwin-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/modem-dev/hunk",
-          "tag": "v0.18.2",
+          "tag": "v0.24.1",
           "name": "hunkdiff-darwin-arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 45631795,
+      "size": 70707103,
       "hash": "blake3",
-      "digest": "c9df7c37f17ed9c02e745f3eef34351d4d4f6bc88ca8716bc9a7f23153f61f2d",
+      "digest": "c46c36424e48473028da97f4bea4bcbab6a23fb66413c4c4675ef3bb54ce76bf",
       "format": "tar.gz",
       "path": "hunkdiff-linux-arm64/hunk",
       "providers": [
         {
-          "url": "https://github.com/modem-dev/hunk/releases/download/v0.18.2/hunkdiff-linux-arm64.tar.gz"
+          "url": "https://github.com/modem-dev/hunk/releases/download/v0.24.1/hunkdiff-linux-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/modem-dev/hunk",
-          "tag": "v0.18.2",
+          "tag": "v0.24.1",
           "name": "hunkdiff-linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 46052132,
+      "size": 71396538,
       "hash": "blake3",
-      "digest": "918007f349d389c80bfeff10d88a0fbde8a08852174d5c80c35c11da8d9cf2f0",
+      "digest": "c679ae1a3bc9e611b68ca7aa400db64aa886e625f2af73a6e002812ee517e462",
       "format": "tar.gz",
       "path": "hunkdiff-linux-x64/hunk",
       "providers": [
         {
-          "url": "https://github.com/modem-dev/hunk/releases/download/v0.18.2/hunkdiff-linux-x64.tar.gz"
+          "url": "https://github.com/modem-dev/hunk/releases/download/v0.24.1/hunkdiff-linux-x64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/modem-dev/hunk",
-          "tag": "v0.18.2",
+          "tag": "v0.24.1",
           "name": "hunkdiff-linux-x64.tar.gz"
         }
       ]

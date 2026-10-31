@@ -4,52 +4,52 @@
   "name": "pocket-id",
   "platforms": {
     "macos-aarch64": {
-      "size": 71670574,
+      "size": 76728863,
       "hash": "blake3",
-      "digest": "06236ba03709122ae725efbaa0cd15e302408c62f4fc639c3eda91359910b323",
+      "digest": "d033a0588d4ceb0b1a882b9f7f593726c711a62fb350c456784758fee913bbbb",
       "path": "pocket-id_darwin_arm64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.13.0/pocket-id_darwin_arm64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.19.1/pocket-id_darwin_arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v2.13.0",
+          "tag": "v2.19.1",
           "name": "pocket-id_darwin_arm64"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 69009570,
+      "size": 74186912,
       "hash": "blake3",
-      "digest": "d2bbbcde02bdaff385637f3dd2c8dc7c99fe8ed5110436c216fdf3864b40c615",
+      "digest": "c53430e06a75e1e5f7ec6cbfa80f050c6fe184f78b98dc1840ad27177e3ed3f3",
       "path": "pocket-id_linux_arm64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.13.0/pocket-id_linux_arm64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.19.1/pocket-id_linux_arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v2.13.0",
+          "tag": "v2.19.1",
           "name": "pocket-id_linux_arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 73920674,
+      "size": 79376544,
       "hash": "blake3",
-      "digest": "5a82c2a51b6651a661700612dcb9902d3f2754d6fda361191a5b20c4d38b6f33",
+      "digest": "90770aad2cd600a40ca34a564321f0cec020af3c62f65ac3cd35083dcbae678e",
       "path": "pocket-id_linux_amd64",
       "providers": [
         {
-          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.13.0/pocket-id_linux_amd64"
+          "url": "https://github.com/pocket-id/pocket-id/releases/download/v2.19.1/pocket-id_linux_amd64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pocket-id/pocket-id",
-          "tag": "v2.13.0",
+          "tag": "v2.19.1",
           "name": "pocket-id_linux_amd64"
         }
       ]

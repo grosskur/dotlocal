@@ -4,56 +4,56 @@
   "name": "crush",
   "platforms": {
     "macos-aarch64": {
-      "size": 27787125,
+      "size": 26204394,
       "hash": "blake3",
-      "digest": "b19034c67f3581e03edd8fd88fa3c5dd629e2e16e681f915c2096e3d4e14ea37",
+      "digest": "37e33051b209d104ac1f63519eed003e08eca4bedc1a69274fe2a333051b474f",
       "format": "tar.gz",
-      "path": "crush_0.89.0_Darwin_arm64/crush",
+      "path": "crush_0.99.0_Darwin_arm64/crush",
       "providers": [
         {
-          "url": "https://github.com/charmbracelet/crush/releases/download/v0.89.0/crush_0.89.0_Darwin_arm64.tar.gz"
+          "url": "https://github.com/charmbracelet/crush/releases/download/v0.99.0/crush_0.99.0_Darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/charmbracelet/crush",
-          "tag": "v0.89.0",
-          "name": "crush_0.89.0_Darwin_arm64.tar.gz"
+          "tag": "v0.99.0",
+          "name": "crush_0.99.0_Darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 26518078,
+      "size": 24858221,
       "hash": "blake3",
-      "digest": "a56e0ecc92e479de73a8615e2694347ff721728092698574eda906d21fe60d75",
+      "digest": "6ba404aa299d48587e0a57df2b15fc234914c31e1b3832b028f9f4dd082b7ee7",
       "format": "tar.gz",
-      "path": "crush_0.89.0_Linux_arm64/crush",
+      "path": "crush_0.99.0_Linux_arm64/crush",
       "providers": [
         {
-          "url": "https://github.com/charmbracelet/crush/releases/download/v0.89.0/crush_0.89.0_Linux_arm64.tar.gz"
+          "url": "https://github.com/charmbracelet/crush/releases/download/v0.99.0/crush_0.99.0_Linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/charmbracelet/crush",
-          "tag": "v0.89.0",
-          "name": "crush_0.89.0_Linux_arm64.tar.gz"
+          "tag": "v0.99.0",
+          "name": "crush_0.99.0_Linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 28527053,
+      "size": 26938863,
       "hash": "blake3",
-      "digest": "17ee2b13e592fe1483a99cee1d148e9a41b6d3f80bfc4c6ab7669ddf956b2b3f",
+      "digest": "e0c4e83b0eccd5eef0c1b83189bc9ec7f217d986d5ad6daee63649c4abfc789c",
       "format": "tar.gz",
-      "path": "crush_0.89.0_Linux_x86_64/crush",
+      "path": "crush_0.99.0_Linux_x86_64/crush",
       "providers": [
         {
-          "url": "https://github.com/charmbracelet/crush/releases/download/v0.89.0/crush_0.89.0_Linux_x86_64.tar.gz"
+          "url": "https://github.com/charmbracelet/crush/releases/download/v0.99.0/crush_0.99.0_Linux_x86_64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/charmbracelet/crush",
-          "tag": "v0.89.0",
-          "name": "crush_0.89.0_Linux_x86_64.tar.gz"
+          "tag": "v0.99.0",
+          "name": "crush_0.99.0_Linux_x86_64.tar.gz"
         }
       ]
     }

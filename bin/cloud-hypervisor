@@ -4,35 +4,35 @@
   "name": "cloud-hypervisor",
   "platforms": {
     "linux-aarch64": {
-      "size": 5468264,
+      "size": 5824616,
       "hash": "blake3",
-      "digest": "ca67fec95ba99dd23a5af4749932f6045795bd65a8bd4ea404813c389ac37deb",
+      "digest": "6883858817ce0061b48c9d983f1d53e48efe7da2de79e705166e9516473d12e9",
       "path": "cloud-hypervisor",
       "providers": [
         {
-          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v53.0/cloud-hypervisor-static-aarch64"
+          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v54.0/cloud-hypervisor-static-aarch64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloud-hypervisor/cloud-hypervisor",
-          "tag": "v53.0",
+          "tag": "v54.0",
           "name": "cloud-hypervisor-static-aarch64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 7062256,
+      "size": 7365360,
       "hash": "blake3",
-      "digest": "6972c4a3e2d1dd269078c0c447fe1ee009da54be61fd9a2d1a531fac1fd49851",
+      "digest": "a34e3ebdc3b2eeb76f29a66684349516833a65d522a3aa897be485993c4f5bfc",
       "path": "cloud-hypervisor",
       "providers": [
         {
-          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v53.0/cloud-hypervisor-static"
+          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v54.0/cloud-hypervisor-static"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cloud-hypervisor/cloud-hypervisor",
-          "tag": "v53.0",
+          "tag": "v54.0",
           "name": "cloud-hypervisor-static"
         }
       ]

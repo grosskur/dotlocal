@@ -4,56 +4,56 @@
   "name": "mprocs",
   "platforms": {
     "macos-aarch64": {
-      "size": 863109,
+      "size": 2606721,
       "hash": "blake3",
-      "digest": "dc4bf8b33c9b20e3814cc034e08b934dab968c9ebd5990da1a5ed96e6ee0719e",
+      "digest": "82ed4aca457f3d06f5e702f2087185409acf137bade8c45db76852be14b2ac3a",
       "format": "tar.gz",
-      "path": "mprocs",
+      "path": "dekit",
       "providers": [
         {
-          "url": "https://github.com/pvolok/mprocs/releases/download/v0.9.6/mprocs-0.9.6-darwin-aarch64.tar.gz"
+          "url": "https://github.com/pvolok/dekit/releases/download/v0.10.3/dekit-aarch64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
-          "repo": "https://github.com/pvolok/mprocs",
-          "tag": "v0.9.6",
-          "name": "mprocs-0.9.6-darwin-aarch64.tar.gz"
+          "repo": "https://github.com/pvolok/dekit",
+          "tag": "v0.10.3",
+          "name": "dekit-aarch64-apple-darwin.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 1045175,
+      "size": 2924035,
       "hash": "blake3",
-      "digest": "769cf98fa50fd5720ca44bfaddd76a57c8f7c8ccb73ca9c7e88fe4e498e507b8",
+      "digest": "51030377e497ec7db440411e8a62d119210adbf5004fef642f777b98f044edd6",
       "format": "tar.gz",
-      "path": "mprocs",
+      "path": "dekit",
       "providers": [
         {
-          "url": "https://github.com/pvolok/mprocs/releases/download/v0.9.6/mprocs-0.9.6-linux-aarch64-musl.tar.gz"
+          "url": "https://github.com/pvolok/dekit/releases/download/v0.10.3/dekit-aarch64-unknown-linux-musl.tar.gz"
         },
         {
           "type": "github-release",
-          "repo": "https://github.com/pvolok/mprocs",
-          "tag": "v0.9.6",
-          "name": "mprocs-0.9.6-linux-aarch64-musl.tar.gz"
+          "repo": "https://github.com/pvolok/dekit",
+          "tag": "v0.10.3",
+          "name": "dekit-aarch64-unknown-linux-musl.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 1081292,
+      "size": 3030345,
       "hash": "blake3",
-      "digest": "1caaeb71461cba26b29b6ba136976131c6cde14dd70b0db702d7c29a5c103cb6",
+      "digest": "2d43fcb4b970cb8db01fde35e9d870d8018051ba7e8be290fa4bd3f0006b2943",
       "format": "tar.gz",
-      "path": "mprocs",
+      "path": "dekit",
       "providers": [
         {
-          "url": "https://github.com/pvolok/mprocs/releases/download/v0.9.6/mprocs-0.9.6-linux-x86_64-musl.tar.gz"
+          "url": "https://github.com/pvolok/dekit/releases/download/v0.10.3/dekit-x86_64-unknown-linux-musl.tar.gz"
         },
         {
           "type": "github-release",
-          "repo": "https://github.com/pvolok/mprocs",
-          "tag": "v0.9.6",
-          "name": "mprocs-0.9.6-linux-x86_64-musl.tar.gz"
+          "repo": "https://github.com/pvolok/dekit",
+          "tag": "v0.10.3",
+          "name": "dekit-x86_64-unknown-linux-musl.tar.gz"
         }
       ]
     }

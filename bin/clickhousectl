@@ -4,56 +4,56 @@
   "name": "clickhousectl",
   "platforms": {
     "macos-aarch64": {
-      "size": 6415246,
+      "size": 9050218,
       "hash": "blake3",
-      "digest": "8413a62fd84012ed71a331ebeecbdb32fda2c69821e3caeb9b07a7e3bc6b2426",
+      "digest": "2593e9e6a99177ae27b81a4a07226598d68f602deb71e895d61dd9ded2bc4b4e",
       "format": "tar.gz",
-      "path": "clickhousectl-aarch64-apple-darwin-v0.4.2/clickhousectl",
+      "path": "clickhousectl-aarch64-apple-darwin-v0.5.0/clickhousectl",
       "providers": [
         {
-          "url": "https://github.com/ClickHouse/clickhousectl/releases/download/v0.4.2/clickhousectl-aarch64-apple-darwin-v0.4.2.tar.gz"
+          "url": "https://github.com/ClickHouse/clickhousectl/releases/download/v0.5.0/clickhousectl-aarch64-apple-darwin-v0.5.0.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ClickHouse/clickhousectl",
-          "tag": "v0.4.2",
-          "name": "clickhousectl-aarch64-apple-darwin-v0.4.2.tar.gz"
+          "tag": "v0.5.0",
+          "name": "clickhousectl-aarch64-apple-darwin-v0.5.0.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 6925558,
+      "size": 9878545,
       "hash": "blake3",
-      "digest": "d7724684eb621b4850a09ca95dc22f2c568e68d11c1b13237b063fb5f29535f1",
+      "digest": "6f3c8acb7048df1c493b29f998eef1b1a5534cd9ddb00768d4812f6ae70e28ed",
       "format": "tar.gz",
-      "path": "clickhousectl-aarch64-unknown-linux-musl-v0.4.2/clickhousectl",
+      "path": "clickhousectl-aarch64-unknown-linux-musl-v0.5.0/clickhousectl",
       "providers": [
         {
-          "url": "https://github.com/ClickHouse/clickhousectl/releases/download/v0.4.2/clickhousectl-aarch64-unknown-linux-musl-v0.4.2.tar.gz"
+          "url": "https://github.com/ClickHouse/clickhousectl/releases/download/v0.5.0/clickhousectl-aarch64-unknown-linux-musl-v0.5.0.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ClickHouse/clickhousectl",
-          "tag": "v0.4.2",
-          "name": "clickhousectl-aarch64-unknown-linux-musl-v0.4.2.tar.gz"
+          "tag": "v0.5.0",
+          "name": "clickhousectl-aarch64-unknown-linux-musl-v0.5.0.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 7211614,
+      "size": 10358957,
       "hash": "blake3",
-      "digest": "54522a5d9e3f09d72b3bb010a64e51748d868342b42b094aa60dd06e0dcb0ce1",
+      "digest": "63c333b2e488f52b1409a11caeadcf41081febd0a630d8d58e0beabe89140998",
       "format": "tar.gz",
-      "path": "clickhousectl-x86_64-unknown-linux-musl-v0.4.2/clickhousectl",
+      "path": "clickhousectl-x86_64-unknown-linux-musl-v0.5.0/clickhousectl",
       "providers": [
         {
-          "url": "https://github.com/ClickHouse/clickhousectl/releases/download/v0.4.2/clickhousectl-x86_64-unknown-linux-musl-v0.4.2.tar.gz"
+          "url": "https://github.com/ClickHouse/clickhousectl/releases/download/v0.5.0/clickhousectl-x86_64-unknown-linux-musl-v0.5.0.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/ClickHouse/clickhousectl",
-          "tag": "v0.4.2",
-          "name": "clickhousectl-x86_64-unknown-linux-musl-v0.4.2.tar.gz"
+          "tag": "v0.5.0",
+          "name": "clickhousectl-x86_64-unknown-linux-musl-v0.5.0.tar.gz"
         }
       ]
     }

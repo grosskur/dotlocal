@@ -4,24 +4,24 @@
   "name": "kube-apiserver",
   "platforms": {
     "linux-x86_64": {
-      "size": 88387746,
+      "size": 95891618,
       "hash": "blake3",
-      "digest": "0c34f8a55b41dde9a1815be4d4f616081b1594545f01dea06bccdf3f93069014",
+      "digest": "462def3bf707eb50324044da4f81ed9af6ca659d0ed31ad2cb1fd216201aa59d",
       "path": "kube-apiserver",
       "providers": [
         {
-          "url": "https://dl.k8s.io/v1.36.3/bin/linux/amd64/kube-apiserver"
+          "url": "https://dl.k8s.io/v1.37.2/bin/linux/amd64/kube-apiserver"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 81658018,
+      "size": 88670370,
       "hash": "blake3",
-      "digest": "ee5fa41467f97cd6618bb521d4dc7e01989b7623256c107dbb6f94f1959f1484",
+      "digest": "78a005c3b86e88c384cbef744adcf30b7aa7781c744d09b04e8129f153611ac5",
       "path": "kube-apiserver",
       "providers": [
         {
-          "url": "https://dl.k8s.io/v1.36.3/bin/linux/arm64/kube-apiserver"
+          "url": "https://dl.k8s.io/v1.37.2/bin/linux/arm64/kube-apiserver"
         }
       ]
     }

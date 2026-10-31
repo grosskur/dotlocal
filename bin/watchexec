@@ -4,56 +4,56 @@
   "name": "watchexec",
   "platforms": {
     "macos-aarch64": {
-      "size": 1953616,
+      "size": 2069904,
       "hash": "blake3",
-      "digest": "1e7a5b71bb7a81e0ffd3485d31c3336050858609bbf39b11ef6ac7d9e652aa51",
+      "digest": "23641918adcf22cce1408e472a41b7e06ad4797bd4bf888b782ee6e7bac7a105",
       "format": "tar.xz",
-      "path": "watchexec-2.5.1-aarch64-apple-darwin/watchexec",
+      "path": "watchexec-2.8.0-aarch64-apple-darwin/watchexec",
       "providers": [
         {
-          "url": "https://github.com/watchexec/watchexec/releases/download/v2.5.1/watchexec-2.5.1-aarch64-apple-darwin.tar.xz"
+          "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-aarch64-apple-darwin.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/watchexec/watchexec",
-          "tag": "v2.5.1",
-          "name": "watchexec-2.5.1-aarch64-apple-darwin.tar.xz"
+          "tag": "v2.8.0",
+          "name": "watchexec-2.8.0-aarch64-apple-darwin.tar.xz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 2412188,
+      "size": 2529616,
       "hash": "blake3",
-      "digest": "c7449b4fa8145bc2c7adf58597dc263be4775f15229ea5499a70e2583fb46cf5",
+      "digest": "fe895fe8eb82ddecdad19a8a985df831864c582df1d3454272df5230bd736221",
       "format": "tar.xz",
-      "path": "watchexec-2.5.1-aarch64-unknown-linux-gnu/watchexec",
+      "path": "watchexec-2.8.0-aarch64-unknown-linux-gnu/watchexec",
       "providers": [
         {
-          "url": "https://github.com/watchexec/watchexec/releases/download/v2.5.1/watchexec-2.5.1-aarch64-unknown-linux-gnu.tar.xz"
+          "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-aarch64-unknown-linux-gnu.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/watchexec/watchexec",
-          "tag": "v2.5.1",
-          "name": "watchexec-2.5.1-aarch64-unknown-linux-gnu.tar.xz"
+          "tag": "v2.8.0",
+          "name": "watchexec-2.8.0-aarch64-unknown-linux-gnu.tar.xz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 2789564,
+      "size": 2940160,
       "hash": "blake3",
-      "digest": "eb10ab8781a9d97e36faa5b90aba6348701fe8c7357bff0bb38c1d077d1a4c0f",
+      "digest": "4dff62532ea15eed7ae27ebe578ce0529bba06a7eb59bef875d4613f1cb6bbed",
       "format": "tar.xz",
-      "path": "watchexec-2.5.1-x86_64-unknown-linux-gnu/watchexec",
+      "path": "watchexec-2.8.0-x86_64-unknown-linux-gnu/watchexec",
       "providers": [
         {
-          "url": "https://github.com/watchexec/watchexec/releases/download/v2.5.1/watchexec-2.5.1-x86_64-unknown-linux-gnu.tar.xz"
+          "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-x86_64-unknown-linux-gnu.tar.xz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/watchexec/watchexec",
-          "tag": "v2.5.1",
-          "name": "watchexec-2.5.1-x86_64-unknown-linux-gnu.tar.xz"
+          "tag": "v2.8.0",
+          "name": "watchexec-2.8.0-x86_64-unknown-linux-gnu.tar.xz"
         }
       ]
     }

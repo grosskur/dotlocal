@@ -4,55 +4,55 @@
   "name": "hl",
   "platforms": {
     "macos-aarch64": {
-      "size": 3055479,
+      "size": 3011510,
       "hash": "blake3",
-      "digest": "653270e065fdaae16b8a617a58f44b14185331aac71bd58ce5e1ca57fd675d19",
+      "digest": "883d4af9d7429b25ecccf979735156ccd7da9001679b4396f243e0fd212de728",
       "format": "tar.gz",
       "path": "hl",
       "providers": [
         {
-          "url": "https://github.com/pamburus/hl/releases/download/v0.36.3/hl-macos-arm64.tar.gz"
+          "url": "https://github.com/pamburus/hl/releases/download/v0.36.5/hl-macos-arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pamburus/hl",
-          "tag": "v0.36.3",
+          "tag": "v0.36.5",
           "name": "hl-macos-arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 3343491,
+      "size": 3332722,
       "hash": "blake3",
-      "digest": "f68291af8b86637d6b98d33f2586d341eb90e5a8939f4fd0daee76e98cae8700",
+      "digest": "907b1348eceeccd66c024425220a085da7354dd0c2d0177ac13181775826c33d",
       "format": "tar.gz",
       "path": "hl",
       "providers": [
         {
-          "url": "https://github.com/pamburus/hl/releases/download/v0.36.3/hl-linux-arm64-gnu.tar.gz"
+          "url": "https://github.com/pamburus/hl/releases/download/v0.36.5/hl-linux-arm64-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pamburus/hl",
-          "tag": "v0.36.3",
+          "tag": "v0.36.5",
           "name": "hl-linux-arm64-gnu.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 3581267,
+      "size": 3541469,
       "hash": "blake3",
-      "digest": "86b151cbbd03c237660d99100e641f5b15bde88a45ade1d1fda24c6fe78c85c4",
+      "digest": "f41657832cead382f29525fa1717fb03e2e25b7341b174b395a7b69319ca084f",
       "format": "tar.gz",
       "path": "hl",
       "providers": [
         {
-          "url": "https://github.com/pamburus/hl/releases/download/v0.36.3/hl-linux-x86_64-gnu.tar.gz"
+          "url": "https://github.com/pamburus/hl/releases/download/v0.36.5/hl-linux-x86_64-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/pamburus/hl",
-          "tag": "v0.36.3",
+          "tag": "v0.36.5",
           "name": "hl-linux-x86_64-gnu.tar.gz"
         }
       ]

@@ -4,35 +4,35 @@
   "name": "k3s",
   "platforms": {
     "linux-aarch64": {
-      "size": 74186914,
+      "size": 73728162,
       "hash": "blake3",
-      "digest": "72f9d47227c03fc057f0134b2b8ece123021a8dc9d90880ac18c6e529aed0269",
+      "digest": "7c6128d7fca53998766d9bde0a11837fc4f0b7a8f0e7f6cb875fa7e5af5e2fa6",
       "path": "k3s",
       "providers": [
         {
-          "url": "https://github.com/k3s-io/k3s/releases/download/v1.36.3%2Bk3s1/k3s-arm64"
+          "url": "https://github.com/k3s-io/k3s/releases/download/v1.37.1%2Bk3s1/k3s-arm64"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/k3s-io/k3s",
-          "tag": "v1.36.3+k3s1",
+          "tag": "v1.37.1+k3s1",
           "name": "k3s-arm64"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 82010274,
+      "size": 81543330,
       "hash": "blake3",
-      "digest": "06ba2c5fcd689c4172a7a2fa36f0417c8c5c4a1b23b043fd67f05314166c4613",
+      "digest": "390f5176b307ce0291ffb3b7825884d197ba450c913e89f986ac12d174584dd6",
       "path": "k3s",
       "providers": [
         {
-          "url": "https://github.com/k3s-io/k3s/releases/download/v1.36.3%2Bk3s1/k3s"
+          "url": "https://github.com/k3s-io/k3s/releases/download/v1.37.1%2Bk3s1/k3s"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/k3s-io/k3s",
-          "tag": "v1.36.3+k3s1",
+          "tag": "v1.37.1+k3s1",
           "name": "k3s"
         }
       ]

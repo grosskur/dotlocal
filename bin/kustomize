@@ -4,74 +4,74 @@
   "name": "kustomize",
   "platforms": {
     "macos-aarch64": {
-      "size": 4918398,
+      "size": 4726414,
       "hash": "blake3",
-      "digest": "0b9eeb13fbbaa21a399983d22c406fb19916f527a4a47a20152d46fb04046e60",
+      "digest": "f0bf2da77b493dc06238dc1b0a7674132c57baa505129f98aff792e2f3033c46",
       "format": "tar.gz",
       "path": "kustomize",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_darwin_arm64.tar.gz"
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.3/kustomize_v5.8.3_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kustomize",
-          "tag": "kustomize/v5.8.1",
-          "name": "kustomize_v5.8.1_darwin_arm64.tar.gz"
+          "tag": "kustomize/v5.8.3",
+          "name": "kustomize_v5.8.3_darwin_arm64.tar.gz"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 5252204,
+      "size": 5132020,
       "hash": "blake3",
-      "digest": "dcdcec60d765bea7d2e1bf37757d34c543f5690a26cd6d4da2c0ff8f5ea73d79",
+      "digest": "6a6283c0af5fee262edb1d237df6b4ab3417c39d8a6cc5e3108232156ab01f00",
       "format": "tar.gz",
       "path": "kustomize",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_darwin_amd64.tar.gz"
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.3/kustomize_v5.8.3_darwin_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kustomize",
-          "tag": "kustomize/v5.8.1",
-          "name": "kustomize_v5.8.1_darwin_amd64.tar.gz"
+          "tag": "kustomize/v5.8.3",
+          "name": "kustomize_v5.8.3_darwin_amd64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 4736536,
+      "size": 4550157,
       "hash": "blake3",
-      "digest": "601c0959637ddb57cf1bf3becb9a66771019a4cc631020b8d0138d91716b227c",
+      "digest": "08749f4eff44f86f4ebf0b8128f79cd71f583f89a3fda8c9091ed652b9802c65",
       "format": "tar.gz",
       "path": "kustomize",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_linux_arm64.tar.gz"
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.3/kustomize_v5.8.3_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kustomize",
-          "tag": "kustomize/v5.8.1",
-          "name": "kustomize_v5.8.1_linux_arm64.tar.gz"
+          "tag": "kustomize/v5.8.3",
+          "name": "kustomize_v5.8.3_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 5171673,
+      "size": 5059714,
       "hash": "blake3",
-      "digest": "5317b6aee0830d9b93d7c481b91dc6f2d2ff6e0df9505bcacb9ed976f3cc5b49",
+      "digest": "b40e919d53192019d57c43b1a5d2dd26482198c6d7a696ac8a0eeb00d63fe52f",
       "format": "tar.gz",
       "path": "kustomize",
       "providers": [
         {
-          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz"
+          "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.3/kustomize_v5.8.3_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/kubernetes-sigs/kustomize",
-          "tag": "kustomize/v5.8.1",
-          "name": "kustomize_v5.8.1_linux_amd64.tar.gz"
+          "tag": "kustomize/v5.8.3",
+          "name": "kustomize_v5.8.3_linux_amd64.tar.gz"
         }
       ]
     }

@@ -4,38 +4,38 @@
   "name": "corepack",
   "platforms": {
     "macos-aarch64": {
-      "size": 30222604,
+      "size": 127543,
       "hash": "blake3",
-      "digest": "d36cb0830be306bf654c8c16c5b14c06a1f7373712128315808a2ec7070983bb",
-      "format": "tar.xz",
-      "path": "node-v26.7.0-darwin-arm64/lib/node_modules/corepack/shims/corepack",
+      "digest": "72785a20fc7fbbef0d14832bd478fac7197bf217c3bb55277a12389cfcc66b6e",
+      "format": "tar.gz",
+      "path": "package/dist/corepack.js",
       "providers": [
         {
-          "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-darwin-arm64.tar.xz"
+          "url": "https://registry.npmjs.org/corepack/-/corepack-0.36.0.tgz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 32581212,
+      "size": 127543,
       "hash": "blake3",
-      "digest": "4ce47bde4b7e3fa6086556a096a9d386178aa7d699a3b13fc32025623222a951",
-      "format": "tar.xz",
-      "path": "node-v26.7.0-linux-arm64/bin/corepack",
+      "digest": "72785a20fc7fbbef0d14832bd478fac7197bf217c3bb55277a12389cfcc66b6e",
+      "format": "tar.gz",
+      "path": "package/dist/corepack.js",
       "providers": [
         {
-          "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-linux-arm64.tar.xz"
+          "url": "https://registry.npmjs.org/corepack/-/corepack-0.36.0.tgz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 33539588,
+      "size": 127543,
       "hash": "blake3",
-      "digest": "63c6c654d06963fc229fd9226fcb8a54e90522fb3045a4be7b550be5c8802b86",
-      "format": "tar.xz",
-      "path": "node-v26.7.0-linux-x64/bin/corepack",
+      "digest": "72785a20fc7fbbef0d14832bd478fac7197bf217c3bb55277a12389cfcc66b6e",
+      "format": "tar.gz",
+      "path": "package/dist/corepack.js",
       "providers": [
         {
-          "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-linux-x64.tar.xz"
+          "url": "https://registry.npmjs.org/corepack/-/corepack-0.36.0.tgz"
         }
       ]
     }

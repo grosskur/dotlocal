@@ -4,74 +4,74 @@
   "name": "gh",
   "platforms": {
     "macos-aarch64": {
-      "size": 13845290,
+      "size": 14106091,
       "hash": "blake3",
-      "digest": "4b5186f43b3acb719f1acbfeba9d648f723a6480be4ff9b54e12df6b04811d92",
+      "digest": "5268724952e35144b9ddcb47464064e9a0f5db1754778ed3597df41e390a7b28",
       "format": "zip",
-      "path": "gh_2.97.0_macOS_arm64/bin/gh",
+      "path": "gh_2.103.3_macOS_arm64/bin/gh",
       "providers": [
         {
-          "url": "https://github.com/cli/cli/releases/download/v2.97.0/gh_2.97.0_macOS_arm64.zip"
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_arm64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cli/cli",
-          "tag": "v2.97.0",
-          "name": "gh_2.97.0_macOS_arm64.zip"
+          "tag": "v2.103.3",
+          "name": "gh_2.103.3_macOS_arm64.zip"
         }
       ]
     },
     "macos-x86_64": {
-      "size": 15418698,
+      "size": 15702601,
       "hash": "blake3",
-      "digest": "20d3d40e499741990eb1afa9311608f060d45871cae6f392da5aba52f4c927a7",
+      "digest": "6d77c8061fb45dc2f3562542d2d8934eef6e2f4b58cb3a91c36f0406b75499c1",
       "format": "zip",
-      "path": "gh_2.97.0_macOS_amd64/bin/gh",
+      "path": "gh_2.103.3_macOS_amd64/bin/gh",
       "providers": [
         {
-          "url": "https://github.com/cli/cli/releases/download/v2.97.0/gh_2.97.0_macOS_amd64.zip"
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_amd64.zip"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cli/cli",
-          "tag": "v2.97.0",
-          "name": "gh_2.97.0_macOS_amd64.zip"
+          "tag": "v2.103.3",
+          "name": "gh_2.103.3_macOS_amd64.zip"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 13428558,
+      "size": 13661485,
       "hash": "blake3",
-      "digest": "84c5901f0fd6509c530b41f3d577c9bae11dbd7e4cebeb1bf95562e3a66cbc9a",
+      "digest": "13b616cc44d55a0d8d7f5f5d24f7907ce1873bd9e1c562dfbfd631b974588ed8",
       "format": "tar.gz",
-      "path": "gh_2.97.0_linux_arm64/bin/gh",
+      "path": "gh_2.103.3_linux_arm64/bin/gh",
       "providers": [
         {
-          "url": "https://github.com/cli/cli/releases/download/v2.97.0/gh_2.97.0_linux_arm64.tar.gz"
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cli/cli",
-          "tag": "v2.97.0",
-          "name": "gh_2.97.0_linux_arm64.tar.gz"
+          "tag": "v2.103.3",
+          "name": "gh_2.103.3_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 14770812,
+      "size": 15031972,
       "hash": "blake3",
-      "digest": "9f41328dfe7d5f193f91b3fde9fc91c6c161ffafdd3339f0dbf4f5aa48ca51e1",
+      "digest": "09a8c86c1b3ba32c83c86bf84e58fe3dfeab6aa8fcca5d0489acf638db8ea192",
       "format": "tar.gz",
-      "path": "gh_2.97.0_linux_amd64/bin/gh",
+      "path": "gh_2.103.3_linux_amd64/bin/gh",
       "providers": [
         {
-          "url": "https://github.com/cli/cli/releases/download/v2.97.0/gh_2.97.0_linux_amd64.tar.gz"
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/cli/cli",
-          "tag": "v2.97.0",
-          "name": "gh_2.97.0_linux_amd64.tar.gz"
+          "tag": "v2.103.3",
+          "name": "gh_2.103.3_linux_amd64.tar.gz"
         }
       ]
     }

@@ -4,24 +4,24 @@
   "name": "garage",
   "platforms": {
     "linux-aarch64": {
-      "size": 66349320,
+      "size": 65920568,
       "hash": "blake3",
-      "digest": "d37b8526083330fd073e418510b7ff143cb0a3eee527a02aff90bfa9d59e7fad",
+      "digest": "ee651374dc5af5653db90896309e79025dfadd0e41d436a366de68180e7d0b94",
       "path": "garage",
       "providers": [
         {
-          "url": "https://garagehq.deuxfleurs.fr/_releases/v2.3.0/aarch64-unknown-linux-musl/garage"
+          "url": "https://garagehq.deuxfleurs.fr/_releases/v2.5.0/aarch64-unknown-linux-musl/garage"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 71281456,
+      "size": 69426824,
       "hash": "blake3",
-      "digest": "3c5b7562d8ddb71a45e2daa0fc4e37676ff01e791fb94a53454f91b3745bd596",
+      "digest": "b0adc44695bb3338225abab08ebf93f351fd5ede4488937297071a1d17839e4a",
       "path": "garage",
       "providers": [
         {
-          "url": "https://garagehq.deuxfleurs.fr/_releases/v2.3.0/x86_64-unknown-linux-musl/garage"
+          "url": "https://garagehq.deuxfleurs.fr/_releases/v2.5.0/x86_64-unknown-linux-musl/garage"
         }
       ]
     }

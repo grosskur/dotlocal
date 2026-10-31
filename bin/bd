@@ -4,56 +4,56 @@
   "name": "bd",
   "platforms": {
     "macos-aarch64": {
-      "size": 44838715,
+      "size": 48489548,
       "hash": "blake3",
-      "digest": "ab22253c45d2630c238e5c56215b714372fa1a49985dde6c67ff9f5e9702952a",
+      "digest": "c9f584c9b7757e423f8099e384581fc072d0df5db8f2ea9c32ce7e4ace3843dc",
       "format": "tar.gz",
       "path": "bd",
       "providers": [
         {
-          "url": "https://github.com/steveyegge/beads/releases/download/v1.2.2/beads_1.2.2_darwin_arm64.tar.gz"
+          "url": "https://github.com/gastownhall/beads/releases/download/v1.3.2/beads_1.3.2_darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/steveyegge/beads",
-          "tag": "v1.2.2",
-          "name": "beads_1.2.2_darwin_arm64.tar.gz"
+          "tag": "v1.3.2",
+          "name": "beads_1.3.2_darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 45556402,
+      "size": 49449677,
       "hash": "blake3",
-      "digest": "44d851d4bfcce388f1d7c465360815c698a7525b756f1ae368a2ba47e578c142",
+      "digest": "a7b048ca8f63ecc0ce5ddd9579b8b50edc9fe9997cbeed9570fa5ca14efc868a",
       "format": "tar.gz",
       "path": "bd",
       "providers": [
         {
-          "url": "https://github.com/steveyegge/beads/releases/download/v1.2.2/beads_1.2.2_linux_arm64.tar.gz"
+          "url": "https://github.com/gastownhall/beads/releases/download/v1.3.2/beads_1.3.2_linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/steveyegge/beads",
-          "tag": "v1.2.2",
-          "name": "beads_1.2.2_linux_arm64.tar.gz"
+          "tag": "v1.3.2",
+          "name": "beads_1.3.2_linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 49107375,
+      "size": 53348580,
       "hash": "blake3",
-      "digest": "3eb4a68bd4c891782c8d1b65e3e77fdc41160f439b298dd031b2a35adcd6a5cd",
+      "digest": "c50973eb6b1815fee2dad8b04319c8a176982c14e3e44e82c6da7cf8f0a5791e",
       "format": "tar.gz",
       "path": "bd",
       "providers": [
         {
-          "url": "https://github.com/steveyegge/beads/releases/download/v1.2.2/beads_1.2.2_linux_amd64.tar.gz"
+          "url": "https://github.com/gastownhall/beads/releases/download/v1.3.2/beads_1.3.2_linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/steveyegge/beads",
-          "tag": "v1.2.2",
-          "name": "beads_1.2.2_linux_amd64.tar.gz"
+          "tag": "v1.3.2",
+          "name": "beads_1.3.2_linux_amd64.tar.gz"
         }
       ]
     }

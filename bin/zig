@@ -4,38 +4,38 @@
   "name": "zig",
   "platforms": {
     "macos-aarch64": {
-      "size": 52238004,
+      "size": 53985220,
       "hash": "blake3",
-      "digest": "c121bdcd8b1e7f010af8e65fd720634bb18e3d135fa429e6d8ca496bb44d2af7",
+      "digest": "f56869e4ef8df7b606b332f9fdfd20f723a100991e515057c69bca27f8b55333",
       "format": "tar.xz",
-      "path": "zig-aarch64-macos-0.16.0/zig",
+      "path": "zig-aarch64-macos-0.17.0/zig",
       "providers": [
         {
-          "url": "https://ziglang.org/download/0.16.0/zig-aarch64-macos-0.16.0.tar.xz"
+          "url": "https://ziglang.org/download/0.17.0/zig-aarch64-macos-0.17.0.tar.xz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 51211944,
+      "size": 52877280,
       "hash": "blake3",
-      "digest": "d9a132c528f69ba9e6174cc6cfd3ad082376cb6738999e56bf8975d8977e7492",
+      "digest": "dcea5a3d8817c3c872417315a56345e5745221ebd70b249cd6ada4643c5cc113",
       "format": "tar.xz",
-      "path": "zig-aarch64-linux-0.16.0/zig",
+      "path": "zig-aarch64-linux-0.17.0/zig",
       "providers": [
         {
-          "url": "https://ziglang.org/download/0.16.0/zig-aarch64-linux-0.16.0.tar.xz"
+          "url": "https://ziglang.org/download/0.17.0/zig-aarch64-linux-0.17.0.tar.xz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 55478392,
+      "size": 57332648,
       "hash": "blake3",
-      "digest": "9badfa00469949ac17c681ce80a9b872781a6eb272b51435f8903855ccd9a35e",
+      "digest": "665078f7724c9c694e920423918c08ed3577f92153119f094b5b5afdd1a2b603",
       "format": "tar.xz",
-      "path": "zig-x86_64-linux-0.16.0/zig",
+      "path": "zig-x86_64-linux-0.17.0/zig",
       "providers": [
         {
-          "url": "https://ziglang.org/download/0.16.0/zig-x86_64-linux-0.16.0.tar.xz"
+          "url": "https://ziglang.org/download/0.17.0/zig-x86_64-linux-0.17.0.tar.xz"
         }
       ]
     }

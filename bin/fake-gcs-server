@@ -4,56 +4,56 @@
   "name": "fake-gcs-server",
   "platforms": {
     "macos-aarch64": {
-      "size": 10272215,
+      "size": 10489650,
       "hash": "blake3",
-      "digest": "af8a83abe5ccadf4673e20928da5696b080924d8615e9b7c3e8ce31404cdab3d",
+      "digest": "e901ece85d1ef433745a036d17a9e1d8b09ebfb4cc9a6dae88d76cd11ffb6d41",
       "format": "tar.gz",
       "path": "fake-gcs-server",
       "providers": [
         {
-          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.55.1/fake-gcs-server_1.55.1_Darwin_arm64.tar.gz"
+          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.56.1/fake-gcs-server_1.56.1_Darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/fsouza/fake-gcs-server",
-          "tag": "v1.55.1",
-          "name": "fake-gcs-server_1.55.1_Darwin_arm64.tar.gz"
+          "tag": "v1.56.1",
+          "name": "fake-gcs-server_1.56.1_Darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 10638371,
+      "size": 10891665,
       "hash": "blake3",
-      "digest": "c030007c4f8c73faf121b199b321de4ad70c9e531cfd3e8770f46059c0948c3a",
+      "digest": "22eb953d28e863341236f4cc2351a8d1bb0b1a2878e34c2fb4ccb773e1906949",
       "format": "tar.gz",
       "path": "fake-gcs-server",
       "providers": [
         {
-          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.55.1/fake-gcs-server_1.55.1_Linux_amd64.tar.gz"
+          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.56.1/fake-gcs-server_1.56.1_Linux_amd64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/fsouza/fake-gcs-server",
-          "tag": "v1.55.1",
-          "name": "fake-gcs-server_1.55.1_Linux_amd64.tar.gz"
+          "tag": "v1.56.1",
+          "name": "fake-gcs-server_1.56.1_Linux_amd64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 9683500,
+      "size": 9877027,
       "hash": "blake3",
-      "digest": "9a7f012ed3a4b58aed67152d5335843fff99df3eaeaf380df94f47fd61a21dab",
+      "digest": "44c3454da097b6e58e1da5d461412a3406b88838994f73c8550968841a979271",
       "format": "tar.gz",
       "path": "fake-gcs-server",
       "providers": [
         {
-          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.55.1/fake-gcs-server_1.55.1_Linux_arm64.tar.gz"
+          "url": "https://github.com/fsouza/fake-gcs-server/releases/download/v1.56.1/fake-gcs-server_1.56.1_Linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/fsouza/fake-gcs-server",
-          "tag": "v1.55.1",
-          "name": "fake-gcs-server_1.55.1_Linux_arm64.tar.gz"
+          "tag": "v1.56.1",
+          "name": "fake-gcs-server_1.56.1_Linux_arm64.tar.gz"
         }
       ]
     }

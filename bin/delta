@@ -4,56 +4,56 @@
   "name": "delta",
   "platforms": {
     "macos-aarch64": {
-      "size": 3027429,
+      "size": 3022152,
       "hash": "blake3",
-      "digest": "1b90c10ff76d3c8d6a8978d3dd65005f8e4e52065f50ca21d81e7511c35084a4",
+      "digest": "2173721ed55e89cf20472e0a94a8fa176390cae6b6382b132bc7b8a82733de30",
       "format": "tar.gz",
-      "path": "delta-0.19.2-aarch64-apple-darwin/delta",
+      "path": "delta-0.20.1-aarch64-apple-darwin/delta",
       "providers": [
         {
-          "url": "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-aarch64-apple-darwin.tar.gz"
+          "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-aarch64-apple-darwin.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/dandavison/delta",
-          "tag": "0.19.2",
-          "name": "delta-0.19.2-aarch64-apple-darwin.tar.gz"
+          "tag": "0.20.1",
+          "name": "delta-0.20.1-aarch64-apple-darwin.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 3166854,
+      "size": 3158438,
       "hash": "blake3",
-      "digest": "1fe6af9f57dd38dd64bf0015f0049e870ef99b14baac23cf7e16d5b71ffedc9b",
+      "digest": "ade038c572bc07fba5aeec8add5ba128a4f1867779533709a9bf61cac3060d71",
       "format": "tar.gz",
-      "path": "delta-0.19.2-aarch64-unknown-linux-gnu/delta",
+      "path": "delta-0.20.1-aarch64-unknown-linux-gnu/delta",
       "providers": [
         {
-          "url": "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-aarch64-unknown-linux-gnu.tar.gz"
+          "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-aarch64-unknown-linux-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/dandavison/delta",
-          "tag": "0.19.2",
-          "name": "delta-0.19.2-aarch64-unknown-linux-gnu.tar.gz"
+          "tag": "0.20.1",
+          "name": "delta-0.20.1-aarch64-unknown-linux-gnu.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 3337309,
+      "size": 3338688,
       "hash": "blake3",
-      "digest": "81c660d2b5646cf497e932151522a6226e5ed8c0dd22fae9541a9217fa45e66e",
+      "digest": "c5674460c85df8d04790c0eb936a52b6a6bb6317764fa80732474f058492b39a",
       "format": "tar.gz",
-      "path": "delta-0.19.2-x86_64-unknown-linux-gnu/delta",
+      "path": "delta-0.20.1-x86_64-unknown-linux-gnu/delta",
       "providers": [
         {
-          "url": "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-x86_64-unknown-linux-gnu.tar.gz"
+          "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-unknown-linux-gnu.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/dandavison/delta",
-          "tag": "0.19.2",
-          "name": "delta-0.19.2-x86_64-unknown-linux-gnu.tar.gz"
+          "tag": "0.20.1",
+          "name": "delta-0.20.1-x86_64-unknown-linux-gnu.tar.gz"
         }
       ]
     }

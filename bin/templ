@@ -4,55 +4,55 @@
   "name": "templ",
   "platforms": {
     "macos-aarch64": {
-      "size": 5468222,
+      "size": 5972294,
       "hash": "blake3",
-      "digest": "480220a1078ff5493f54f0ac19992279225b667ca3ab353437c3bc6752573960",
+      "digest": "4e505a83bef07028749d255b36308dbd83a5dc857fd2ad6ee6887f31ba7e473c",
       "format": "tar.gz",
       "path": "templ",
       "providers": [
         {
-          "url": "https://github.com/a-h/templ/releases/download/v0.3.1020/templ_Darwin_arm64.tar.gz"
+          "url": "https://github.com/a-h/templ/releases/download/v0.3.1100/templ_Darwin_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/a-h/templ",
-          "tag": "v0.3.1020",
+          "tag": "v0.3.1100",
           "name": "templ_Darwin_arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 5225435,
+      "size": 5708797,
       "hash": "blake3",
-      "digest": "560f118fbdc7e4487b9c7963902e0dce21e5a040f74c4f295b38465c16261949",
+      "digest": "321fcc806bb38181a33c3048b49022cf92fc6d3fbd2a0a014127a36a117c898e",
       "format": "tar.gz",
       "path": "templ",
       "providers": [
         {
-          "url": "https://github.com/a-h/templ/releases/download/v0.3.1020/templ_Linux_arm64.tar.gz"
+          "url": "https://github.com/a-h/templ/releases/download/v0.3.1100/templ_Linux_arm64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/a-h/templ",
-          "tag": "v0.3.1020",
+          "tag": "v0.3.1100",
           "name": "templ_Linux_arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 5734734,
+      "size": 6282781,
       "hash": "blake3",
-      "digest": "3ac96310cac4b47ccf0106c293f65c1ec21c195b70e06b1ade306cb68f31658e",
+      "digest": "18eba7cc7173322f7fb359575c7db04e02698bad506f19360d03b3fcff8d8b5e",
       "format": "tar.gz",
       "path": "templ",
       "providers": [
         {
-          "url": "https://github.com/a-h/templ/releases/download/v0.3.1020/templ_Linux_x86_64.tar.gz"
+          "url": "https://github.com/a-h/templ/releases/download/v0.3.1100/templ_Linux_x86_64.tar.gz"
         },
         {
           "type": "github-release",
           "repo": "https://github.com/a-h/templ",
-          "tag": "v0.3.1020",
+          "tag": "v0.3.1100",
           "name": "templ_Linux_x86_64.tar.gz"
         }
       ]

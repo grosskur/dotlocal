@@ -4,38 +4,38 @@
   "name": "go",
   "platforms": {
     "macos-aarch64": {
-      "size": 64723756,
+      "size": 68196737,
       "hash": "blake3",
-      "digest": "b78e916f123b0cfe9ff7b961404bad7d569b44f4e7f1013b97ca4dc9413122c4",
+      "digest": "526961c2aa67baf9c8e73a34bf9a7311276812c4b39eec09452d424f3c03452b",
       "format": "tar.gz",
       "path": "go/bin/gofmt",
       "providers": [
         {
-          "url": "https://go.dev/dl/go1.26.4.darwin-arm64.tar.gz"
+          "url": "https://go.dev/dl/go1.27.3.darwin-arm64.tar.gz"
         }
       ]
     },
     "linux-aarch64": {
-      "size": 63740285,
+      "size": 67076044,
       "hash": "blake3",
-      "digest": "97c0e3f08b700bbd632ef4d7e1e3cb1edad26e62efb03c9cfdbd293aaeacba10",
+      "digest": "386ac2e5fd2b8d6e5f8c51d1238074e1d4727305b49133cf4721427f26ea4d6b",
       "format": "tar.gz",
       "path": "go/bin/gofmt",
       "providers": [
         {
-          "url": "https://go.dev/dl/go1.26.4.linux-arm64.tar.gz"
+          "url": "https://go.dev/dl/go1.27.3.linux-arm64.tar.gz"
         }
       ]
     },
     "linux-x86_64": {
-      "size": 66861266,
+      "size": 70588678,
       "hash": "blake3",
-      "digest": "24de2813aea0bdde6174564821b18502fac386b5ebf6f574c1087e530996f1a3",
+      "digest": "f78308ad311bde1f62d18b308675ee4dda9a10b74fa3b1919e946fa675a5753b",
       "format": "tar.gz",
       "path": "go/bin/gofmt",
       "providers": [
         {
-          "url": "https://go.dev/dl/go1.26.4.linux-amd64.tar.gz"
+          "url": "https://go.dev/dl/go1.27.3.linux-amd64.tar.gz"
         }
       ]
     }
