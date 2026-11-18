@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "zls",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 1045676,
+      "hash": "blake3",
+      "digest": "c0dd33c766413174da79127b69e1645f5f6717e2872bbdcf1d45d4235efd25c9",
+      "format": "tar.xz",
+      "path": "zls",
+      "providers": [
+        {
+          "url": "https://github.com/zigtools/zls/releases/download/0.17.0/zls-aarch64-macos.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zigtools/zls",
+          "tag": "0.17.0",
+          "name": "zls-aarch64-macos.tar.xz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 3832280,
+      "hash": "blake3",
+      "digest": "9dc36dbd889ac38b0ac956977f8447d3a96d2c4d7a8c5c37296053e54aa5660b",
+      "format": "tar.xz",
+      "path": "zls",
+      "providers": [
+        {
+          "url": "https://github.com/zigtools/zls/releases/download/0.17.0/zls-aarch64-linux.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zigtools/zls",
+          "tag": "0.17.0",
+          "name": "zls-aarch64-linux.tar.xz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 4070752,
+      "hash": "blake3",
+      "digest": "8313cfe217e0bec88e0ecd135bca105fbe9545bdddd25320d5effe4195c7213d",
+      "format": "tar.xz",
+      "path": "zls",
+      "providers": [
+        {
+          "url": "https://github.com/zigtools/zls/releases/download/0.17.0/zls-x86_64-linux.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zigtools/zls",
+          "tag": "0.17.0",
+          "name": "zls-x86_64-linux.tar.xz"
+        }
+      ]
+    }
+  }
+}
