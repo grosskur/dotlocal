@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "terminal-browser",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 136063815,
+      "hash": "blake3",
+      "digest": "a1bb51f0167a339cd2a8c9ba25f170dd5807155a97899f66c6bc0948bcf7d7d6",
+      "format": "tar.gz",
+      "path": "terminal-browser/bin/terminal-browser",
+      "providers": [
+        {
+          "url": "https://github.com/zenbu-labs/terminal-browser/releases/download/v0.16.3/terminal-browser-darwin-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zenbu-labs/terminal-browser",
+          "tag": "v0.16.3",
+          "name": "terminal-browser-darwin-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 142397812,
+      "hash": "blake3",
+      "digest": "0b7db62dda0327a753e4ebea45f9bc3d8e404e60b8c9277f2e26dbf4fd8285f0",
+      "format": "tar.gz",
+      "path": "terminal-browser/bin/terminal-browser",
+      "providers": [
+        {
+          "url": "https://github.com/zenbu-labs/terminal-browser/releases/download/v0.16.3/terminal-browser-linux-arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zenbu-labs/terminal-browser",
+          "tag": "v0.16.3",
+          "name": "terminal-browser-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 141139788,
+      "hash": "blake3",
+      "digest": "f9c57c1a01babfd95f775cf734c79a3705850022df6b4f978b6b93bfe7688f87",
+      "format": "tar.gz",
+      "path": "terminal-browser/bin/terminal-browser",
+      "providers": [
+        {
+          "url": "https://github.com/zenbu-labs/terminal-browser/releases/download/v0.16.3/terminal-browser-linux-x64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "https://github.com/zenbu-labs/terminal-browser",
+          "tag": "v0.16.3",
+          "name": "terminal-browser-linux-x64.tar.gz"
+        }
+      ]
+    }
+  }
+}
